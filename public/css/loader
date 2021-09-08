@@ -1,0 +1,85 @@
+html
+<div class="loader_main">
+    <div class="loaderBg"></div>
+    <div class="loadingTXt">Loading...</div>
+<div class="loader">Loading...</div>
+</div>
+
+css
+.loader_main {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    /* background: #121212ad; */
+    height: 100%;
+    z-index: 999;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s cubic-bezier(.7,.26,.32,.53);
+}
+
+.loaderBg{
+    opacity: 0.7;
+    background: #302F3A;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.loadingTXt {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-top: 38px;
+    letter-spacing: 1px;
+    font-size: 11px;
+}
+
+.loadingTXt span{
+color: #e40000;
+}
+
+.loader,
+.loader:after {
+  border-radius: 50%;
+  width: 5em;
+  height: 5em;
+}
+.loader {
+  margin: 0px auto;
+  font-size: 10px;
+  position: relative;
+  text-indent: -9999em;
+  border-top: 0.5em solid rgba(255, 255, 255, 0.5);
+  border-right: 0.5em solid rgba(255, 255, 255, 0.5);
+  border-bottom: 0.5em solid rgba(255, 255, 255, 0.5);
+  border-left: 0.5em solid #e40000;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation: load8 1.1s infinite linear;
+  animation: load8 1.1s infinite linear;
+}
+@-webkit-keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
