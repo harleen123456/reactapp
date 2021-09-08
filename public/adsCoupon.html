@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Predict To Win</title>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0, user-scalable='no'">
+
+    <link rel="icon" href="favicon.ico" />
+    <link href="css/reset.css?v=39" rel="stylesheet" />
+    <link href="css/helper.css?v=39" rel="stylesheet" />
+    <link href="css/style.css?v=39" rel="stylesheet" />
+    <link rel="stylesheet" href="css/question.css?v=39">
+
+
+
+    <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+    <script>
+        window.googletag = window.googletag || { cmd: [] };
+        googletag.cmd.push(function () {
+            googletag.defineSlot('/1068322/NDTV_Airtel_IPL_APP_endofgame_320x50', [320, 50], 'div-gpt-ad-1599470843941-0').addService(googletag.pubads());
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+    </script>
+ <script async src="https://www.googletagmanager.com/gtag/js?id=UA-177875138-1"></script>
+ <script async src="https://assets.airtel.in/static-assets/ipl-analytics/aa.ipl.umd.js"></script>
+
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        // gtag('js', new Date());
+    //    gtag('config', 'UA-177875138-1');
+    </script>
+<script>
+    window.onload = function () {
+
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)
+                [0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-177875138-1', 'auto');
+
+        ga('send', 'pageview', "Check Prize");
+        aaTrackPageview("pageview", "Check Prize", "ACB_Check_Prize")
+    }        
+</script>
+   
+
+
+</head>
+<style>
+    .popupContainer {
+        background-color: white;
+        text-align: center;
+        padding: 20px 0;
+        width: 100%;
+        position: relative;
+        bottom: 0;
+        border-radius: 8px;
+        background-image: url(/agames/images/winn.gif);
+        background-position: bottom;
+    }
+
+    .main_adP {
+        height: 82vh;
+    }
+
+    .main_adPcntr {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .popupContainer_overlay {
+        /* // background: 'rgb(48, 47, 58, 0.7)',
+            //width: '100%',
+            //height: '100%',
+            //position: 'fixed',
+            // top: 0,
+            // left: 0,
+            //right: 0,
+            //bottom: 0,
+            //display: 'flex', */
+        align-items: center;
+        /* // zIndex: 99, */
+        padding: 20px;
+        padding-bottom: 0;
+    }
+
+    .ad_div {
+        height: 70px;
+        margin: -20px;
+        margin-bottom: 10px;
+    }
+
+    .ad_div_img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .cong_txt {
+        font-size: 22px;
+        font-weight: 700;
+        text-transform: capitalize;
+        margin-bottom: 15px;
+        margin-top: 30px;
+    }
+
+    .cong_text2 {
+        font-size: 14px;
+        font-weight: 400;
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+
+    .cong_velid {
+        font-size: 10px;
+        font-weight: 400;
+        margin-top: 10px;
+    }
+
+    .cong_benift {
+        font-size: 10px;
+        font-weight: 400;
+        margin-top: 10px;
+        padding: 0 30px;
+    }
+
+    .btn_red {
+        background-color: #f11f24;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 3px 10px;
+        border-radius: 3px;
+        min-width: 170px;
+        color: white;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 600;
+        border: 0;
+        height: 40px;
+        width: '100%';
+        box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.19);
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+
+    .copy_banner1 {
+        background-image: url(/agames/images/red-bg-cpncrd.svg);
+        width: 70px;
+        height: 35px;
+        background-repeat: no-repeat;
+        transform: rotate(270deg);
+        background-size: 100% 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 11px;
+        color: #f9efef;
+        text-transform: uppercase;
+        /* right: -20px;
+            position: relative; */
+    }
+
+    .copy_banner2 {
+        background-image: url(/agames/images/grey-bg-cpncrd.svg);
+        height: 70px;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 180px;
+        padding: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 16px;
+        font-weight: 700;
+        color: #f11f24;
+        /* margin-left: -20px; */
+        left: -20px;
+        position: relative;
+
+    }
+
+    .copy_wrp {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+</style>
+
+<body style="margin:0px">
+    <div>
+        <div class="loader_main ">
+            <div class="loaderBg"></div>
+            <div class="loadingTXt">Loading...</div>
+            <div class="loader">Loading...</div>
+        </div>
+
+
+        <div class="clearfix"></div>
+        <header class="topHdr">
+            <div class="container d-flex jus-s-between al-i-center pd15">
+                <div class="logo-box">
+                    <a href="/agames/" class="bckArw"><img src="images/logo-airtel.png" /></a></div>
+                <div class="user-login-box pos-rel">
+                    <div class="usrNmDp d-flex al-i-center">
+                        <img src="images/user-img.png" />
+                        <span class="usrNm" id="user_name"></span>
+                    </div>
+                    <div class="user-login-box-m of-hdn">
+                        <ul onclick='showPopup()'>
+                            <li class="profile_popup show_profile"><a>Profile</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div>
+            <div class="main_adPcntr">
+                <div id='div-gpt-ad-1599470843941-0' style='width: 320px; height: 50px;'>
+                    <script>
+                        googletag.cmd.push(function () {
+                            googletag.display('div-gpt-ad-1599470843941-0');
+                        });
+                    </script>
+                </div>
+
+            </div>
+
+             <!-- <div class="popupContainer_overlay">
+                <div class="popupContainer">
+                     {/* <div style={style.ad_div}>
+                            <img src="/images/adbanner.png" style={style.ad_div_img} />
+                        </div> */} 
+
+                    <h3 class="cong_txt">congratulations</h3>
+                    <h4 class="cong_text2">You have won a <span id="partner_brand"></span> coupon.
+                    </h4>
+                    <div class="cong_btns_wrp">
+                        <div class="copy_wrp">
+                            <div class="copy_banner1">
+                                Coupon
+                            </div>
+                            <div class="copy_banner2" id="code">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h4 class="cong_velid">Valid till
+                            <span id="agreement_date"></span>
+                        </h4>
+                        <h4 class="cong_benift"><b>Benefits: <span id="benefit"></span></b>
+                        </h4>
+                    </div>
+                    <div class="predictBtn1" id="show_play_again" style="display: none;">
+                        <a href="#" id="play_again" class="btnArea btnStyl1 arwbtncntr">
+                            <span class="btnStyl1 d-inlnblk t-uppercase">play again</span>
+                        </a>
+                    </div>
+                    <div class="predictBtn1">
+                        <a href="/agames/" class="btnArea btnStyl1 arwbtncntr">
+                            <span class="btnStyl1 d-inlnblk t-uppercase">play more games</span>
+                        </a>
+                    </div>
+                </div>
+            </div>  -->
+
+
+            <section>
+                <div class="container2">
+                    <div class="redeemBx pd20 brdr-rad12 mt-20 t-center pos-rel of-hdn winptw">
+                        <div class="confettiBx"></div>
+                        <div class="confettiCnt">
+                        <h2 class="mtb-15 mlr-auto lh-1pt3 ftw-600">Congratulations</h2>
+                        <span class="ft-16 coupn_nm width-80p lh-1pt3">You have won a<br/> <span id="partner_brand"></span> Coupon</span>
+                        <div class="clearfix"></div>
+                        <div class="coupanCrd d-flex al-i-center jus-c-center mt-20 mb-10 pos-rel">
+                                <span class="cpnRd pos-rel d-flex jus-c-center al-i-center t-uppercase">Coupon</span>
+                                <span class="cpngr pos-rel col-red d-flex jus-c-center al-i-center ftw-600" id="code"></span>
+                        </div>
+    
+                        <span class="ft-12 coupn_Txt">Valid till <span id="agreement_date"></span>
+                        <span class="noteTxt d-block mt-10 lh-1pt3"><b>Benefits:</b> <span id="benefit"></span></span>
+                        <div class="predictBtn1" id="show_play_again" style="display: none;">
+                            <a href="#" class="btnArea btnStyl1 arwbtncntr">
+                                <span class="btnStyl1 d-inlnblk t-uppercase">play again</span>
+                            </a>
+                        </div>
+
+                        <div class="predictBtn1">
+                            <a href="/agames/" class="btnArea btnStyl1 arwbtncntr">
+                                <span class="btnStyl1 d-inlnblk t-uppercase">play more games</span>
+                            </a>
+                        </div>
+                       
+        
+                         
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </div>
+
+    <!-- Profile popup -->
+    <div class="couponPopup" id="profilepopup">
+        <div class="couponPopupBg"></div>
+        <div class="couponPopupBx brdr-rad12">
+            <div class="pop_close">
+                <!-- <i class="fa fa-close"></i> -->
+                <span>
+                    <h4 class="skpBtn pd10 ft-14">Close</h4>
+                </span>
+            </div>
+            <h3 class="t-uppercase ft-20 ftw-600 col-blk">Change Username</h3>
+            <h4 class="ft-16 col-blk coupon-txt mtb-10 width-80p mlr-auto lh-1pt3">Enter Your Username</h4>
+            <div class="clearfix"></div>
+            <div class="txtCopyBx inpFld">
+                <input id="userNm" type="text" class="inputFld ft-16 t-center" maxlength="10" name="input_username"
+                    value="" />
+            </div>
+            <span class="usrtkn" id="invalid_username"></span>
+            <span class="usrtkn" id="username_already_taken"></span>
+            <div class="btnArea">
+                <input type="button" class="btnStyl1 playBtn t-uppercase btnred_submit" value="save changes" />
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="./js/jquery.miranda.js?v=39"></script>
+<script src="./js/moment.js?v=13"></script>
+<script src="appcore.js?v=13"></script>
+
+<script>
+    var accessToken = localStorage.getItem("accessToken");
+    if (accessToken == null || accessToken == "") {
+        window.location.href = "/agames/";
+    }
+
+    var points = localStorage.getItem("points");
+    var username = localStorage.getItem("username");
+    var sr_gameInsID = localStorage.getItem("sr_gameInsID");
+    var sr_game_id = localStorage.getItem("sr_game_id");
+    $("#user_name").html(username);
+
+    // For Testing
+    // $("#code").html("bsjhbhjsdf");
+    // $("#partner_brand").html("Ajio");
+    // $("#benefit").html("jhvwejhwjfvjh");
+    function sendEvent(e) {
+        aaTrackACB("acb_predict_to_win_popup_click", "Check Prize Click", "Play More Games", "ACB_Check_Prize")
+        window.location.href = "/agames/adsCoupon.html"
+    }
+    $(function () {
+
+        $(".loader_main").addClass('activeLoader');
+
+        if (sr_gameInsID != "" && sr_game_id != "") {
+            
+            let gameEvent, gameUrl = baseURI;
+            switch (localStorage.getItem('sr_game_id')) {
+                case 'predict_to_win':
+                    gameEvent = 'ptw_game_play'
+                    gameUrl = baseURI + '?screen=predict'
+                    break;
+
+                case 'quizmania':
+                    gameEvent = 'quiz_game_play'
+                    gameUrl = baseURI + '?screen=quizmania'
+                    break;
+            }
+            let payload = {
+                "gameID": sr_game_id,
+                "gameInsID": sr_gameInsID,
+                "gameEvent": gameEvent
+            }
+
+            $.ajax({
+                headers: {
+                    "Content-Type": "application/json",
+                    "accessToken": accessToken
+                },
+                url: base_url + "game/event-update",
+                type: "post",
+                datatype: "json",
+                data: JSON.stringify(payload),
+                success: function (res) {
+                    console.log("res", res)
+
+                    if (res.success) {
+
+                        if (res.coupon != null) {
+                            $("#partner_brand").html(res.coupon.partner_brand);
+                            $("#code").html(res.coupon.code);
+                            // $("#agreement_date").html(moment(res.coupon.agreement_date).format(
+                            //     'LL'));
+                            if(typeof res.coupon.agreement_date !== "undefined"){
+                                $("#agreement_date").html(moment(res.coupon.agreement_date).format('Do MMM,YYYY'));
+                            }else{
+                                $("#agreement_date").html("31st Oct,2020");
+                            }
+                            
+                            $("#benefit").html(res.coupon.benefit);
+                        }
+                        aaTrackACBWithCouponId("acb_predict_to_win_popup_click",  "Check Prize Pop Up", "Congratulation", "ACB_Check_Prize",res.coupon.id)
+                        // delete the game_instance_id and game_id
+                        localStorage.removeItem('sr_gameInsID')
+                        localStorage.removeItem('sr_game_id')
+                        localStorage.removeItem('sr_game')
+
+                        // set the url to play again game 
+
+
+                        $("a#play_again").attr("href", gameUrl)
+
+                        if (sr_game_id == 'quizmania') {
+                            //show div data
+                            $('div#show_play_again').show()
+                        }
+
+
+
+                        $(".loader_main").removeClass('activeLoader');
+                        $('.loader_main').hide();
+                    }
+                },
+                error: function (err) {
+                    //console.log( "error", err)
+                }
+            })
+        } else {
+            window.location.href = baseUrl + '/agames/'
+        }
+    })
+
+
+    // Show popup for update username
+    function showPopup() {
+        aaTrackPageview("pageview", "Check Prize | Profile PopUp", "ACB_Check_Prize")
+        $("#userNm").val(localStorage.getItem("username"));
+        $(".couponPopup").addClass('activePopup');
+    }
+
+    // Hide update username popup 
+    $('.skpBtn').click(function () {
+        $("#username_already_taken").html("");
+        $("#invalid_username").html("");
+        $(".couponPopup").removeClass('activePopup');
+    })
+
+    // Method for update username
+    $('.btnred_submit').click(function () {
+
+
+        let old_username = localStorage.getItem("username")
+        let new_username = $("#userNm").val();
+
+        if (new_username !== "") {
+            if (old_username !== new_username) {
+                $(".loader_main").addClass('activeLoader');
+                let payload = {
+                    username: new_username
+                }
+                $.ajax({
+                    headers: {
+                        "Content-Type": "application/json",
+                        "accessToken": accessToken
+                    },
+                    url: base_url + "user/update",
+                    type: "post",
+                    datatype: "json",
+                    data: JSON.stringify(payload),
+                    success: function (res) {
+                        $(".loader_main").removeClass('activeLoader');
+                        if (res.success) {
+                            localStorage.setItem('username', new_username);
+                            $("#user_name").html(new_username);
+                            $("#username_already_taken").html("");
+                            $("#invalid_username").html("");
+                            $(".couponPopup").removeClass('activePopup');
+                        } else {
+                            if (response.data.message == "username_already_taken") {
+                                $("#username_already_taken").html("Username Already Taken");
+                            }
+                            if (response.data.message == "invalid_userName") {
+                                $("#invalid_username").html("Invalid Username");
+                            }
+                        }
+
+                    }
+                })
+            } else {
+                $(".couponPopup").removeClass('activePopup');
+            }
+        } else {
+            $("#invalid_username").html("Invalid Username");
+            $("#user_name").html(localStorage.getItem("username"));
+        }
+    })
+
+    $(document).ready(function () {
+        $('.usrNmDp').click(function () {
+            $(this).next().stop('false, true').slideToggle('fast', function () {
+                $(this).prev().toggleClass('activeMenu')
+            });
+            return false;
+        });
+
+        function closeDpMenu() {
+            $('.usrNmDp').next().slideUp('fast');
+            $('.usrNmDp').removeClass('activeMenu');
+        }
+
+        $(document.body).click(function (e) {
+            closeDpMenu();
+        });
+        $(this).next('.user-login-box-m').click(function (e) {
+            e.stopPropagation();
+        });
+    });
+
+</script>
+
+</html>

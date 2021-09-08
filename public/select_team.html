@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Predict To Win</title>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0, user-scalable='no'">
+    <link rel="icon" href="favicon.ico" />
+    <link href="css/reset.css?v=39" rel="stylesheet" />
+    <link href="css/helper.css?v=39" rel="stylesheet" />
+    <link href="css/style.css?v=39" rel="stylesheet" />
+    <link rel="stylesheet" href="css/question.css?v=39">
+
+
+    <script async src="https://assets.airtel.in/static-assets/ipl-analytics/aa.ipl.umd.js"></script>
+  
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-177875138-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        //gtag('config', 'UA-177875138-1');
+    </script>
+    <script>
+        window.onload = function () {
+
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                    m = s.getElementsByTagName(o)
+                    [0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+            ga('create', 'UA-177875138-1', 'auto');
+
+            ga('send', 'pageview', "Predict To Win");
+
+        }        
+    </script>
+        
+    <!-- Begin comScore Tag -->
+    <script>
+        var _comscore = _comscore || [];
+        _comscore.push({ c1: "2", c2: "9548033" });
+        (function () {
+            var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+            s.src = "https://sb.scorecardresearch.com/cs/9548033/beacon.js";
+            el.parentNode.insertBefore(s, el);
+        })();
+    </script>
+    <noscript>
+        <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=9548033&amp;cv=3.6.0&amp;cj=1">
+    </noscript>
+    <!-- End comScore Tag -->
+
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-N2R2KQQ');</script>
+    <!-- End Google Tag Manager -->
+</head>
+<style>
+    .loader_main.fixed {
+        top: 0
+    }
+
+    /* .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+} */
+</style>
+
+<body style="margin:0px">
+    <div class="loader_main fixed">
+        <div class="loaderBg"></div>
+        <div class="loadingTXt">Loading...</div>
+        <div class="loader">Loading...</div>
+    </div>
+    <!-- <div class="top-back container_header">
+        <div class=" dflexheader al-i-center">
+            <a class="bckArw" href="/"></a> 
+            
+            <span class="">Airtel Cricket Bonanza</span>
+        </div>
+    </div> -->
+
+    <div class="couponPopup  ">
+        <div class="couponPopupBg"></div>
+        <div class="couponPopupBx brdr_popup spinWheels ">
+
+            <div id="won_mess"></div>
+            <div id="alert_mess"></div>
+            <!-- <div class="btnArea">
+                <a href="#"><input type="button" class="btnStyl1 playBtn t-uppercase"
+                        value="SPIN Again" /></a>
+            </div> -->
+        </div>
+    </div>
+    <div class="predictBg"></div>
+    <div class="predictBg shdw"></div>
+
+    <div class="main_cont">
+        <div class="pridict_to_win_body ">
+
+            <div class="">
+                <div class="prdctWinHedingBox">
+                    <h3>Predict To Win
+                    </h3>
+                    <p>Select the match & start playing</p>
+
+                </div>
+
+                <div style="display: none; cursor: pointer;" id="contest-list">
+                    <div class="predictTeamBox match-class" data-id="[[match_id]]">
+
+                        <!-- <a href="question.html"> -->
+
+                        <div class="game_opt">GAME [[number]]</div>
+                        <div class="teamBox">
+                            <div class="game_schdule">[[venue]]</div>
+                            <div class="">
+                                <div class="team">
+                                    <div class="team1">
+                                        <div class="teamLogo">
+                                            <div class="team_card_circle_ptw team_grd_[[team1]]">
+                                                <img src="/agames/images/city/[[team1]].svg"
+                                                    class="team_card_circle_img">
+                                            </div>
+                                        </div>
+                                        <div class="teamNAme">[[team1]]</div>
+                                    </div>
+
+                                    <div class="vs"><span class="vstxt">VS</span></div>
+
+                                    <div class="team1">
+                                        <div class="teamNAme">[[team2]]</div>
+                                        <div class="teamLogo ml10">
+                                            <div class="team_card_circle_ptw team_grd_[[team2]]"><img
+                                                    src="/agames/images/city/[[team2]].svg"
+                                                    class="team_card_circle_img"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="starts_in">Starts at [[match_time]]</p>
+                        </div>
+
+                        <!-- </a> -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div>
+           <a href="/agames/" class="btn-play-sel-team mt20" id="play_next_btn">PLAY MORE GAMES
+            <img src="/agames/images/svg/right-arrow-white.svg" class="next_wht_arr" /></a>
+        </div> -->
+
+        </div>
+    </div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="./js/jquery.miranda.js?v=39"></script>
+<script src="./js/moment.js?v=39"></script>
+<script src="appcore.js?v=39"></script>
+
+<script>
+    let checkToken = localStorage.getItem("accessToken");
+    
+    if (checkToken == null || checkToken == "") {
+        window.location.href = "/agames/";
+    }
+
+    var contests = []
+    $(function () {
+        let token = 3
+        accessToken = localStorage.getItem("accessToken");
+
+        aaTrackPageview("pageview", "Predict To Win", "ACB_predict_2_win")
+        $(".loader_main").addClass('activeLoader');
+
+        // check the available attempts
+        checkPlay();
+
+        $.ajax({
+            headers: {
+                "Content-Type": "application/json",
+                "accessToken": accessToken
+            },
+            url: base_url + "v1/contest/contest-list",
+            type: "GET",
+            datatype: "json",
+            success: function (res) {
+                contests = res.data ? res.data.item : [];
+//                let submitted_res = res.data ? res.data.submitedId : [];
+                // testing-------
+                // contests = [];
+
+                if (contests.length == 0) {
+                    // no match
+                    showAlert('No Match Found');
+                } else {
+
+
+                    contests_list = contests.map((e, index) => {
+                        // let match_time = moment(Number(e.match_time)).endOf('day').fromNow()
+                        let match_time = moment(Number(e.match_time)).format('MMMM Do YYYY, h:mm a')
+                        return { "number": index + 1, "team1": e.team1, "team2": e.team2, "venue": e.venue, "match_time": match_time, "match_id": e.id }
+                    })
+//                    contests_list = contests_list.filter(e => !submitted_res.includes(e.match_id))
+                    
+                    $("#contest-list").mirandajs(contests_list);
+                    $("#contest-list").show()
+                    $('.match-class').on("click", function () {
+                        aaTrackACB("acb_predict_to_win_click", "Predict to Win Clicks", "Acb_Match_Click", "ACB_predict_2_win")
+                        match_id = $(this).data("id")
+                        //console.log( "hello", match_id);
+                        localStorage.setItem("match_id", match_id);
+                        window.location = "question.html"
+                    })
+
+                }
+                $('.loader_main').hide();
+
+            },
+            error: function (err) {
+
+                //console.log( "error", err)
+            }
+        })
+
+    })
+
+
+    function showAlert(alert) {
+
+        let alert_mess = `<h3 class="t-uppercase ft-24 ftw-600 col-blk">oops!</h3><h4 class="ft-16 col-blk coupon-txt mtb-10 width-80p mlr-auto lh-1pt3">${alert}</h4><div class="clearfix"></div><a class="btnArea btnStyl1" href="/agames/"><span class="btnStyl1 d-inlnblk t-uppercase">play more games <img src="/agames/images/svg/right-arrow-white.svg" class="next_wht_arr"></span></a>`;
+        aaTrackPageview("pageview", "Predict To Win | No Match Found PopUp", "ACB_predict_2_win")
+        aaTrackACB("acb_predict_to_win_popup_click", "Predict to Win Clicks", "No Match Found", "ACB_predict_2_win")
+        $('#play_next_btn').hide();
+        $("#alert_mess").html(alert_mess);
+        $(".couponPopup").addClass('activePopup');
+    }
+
+
+    function checkPlay() {
+        console.log(33);
+        let accessToken = localStorage.getItem("accessToken");
+        let data = JSON.stringify({
+            "game_id": "predict_to_win",
+        });
+        $.ajax({
+            headers: {
+                "Content-Type": "application/json",
+                "accessToken": accessToken
+            },
+            url: base_url + "game/init",
+            type: "post",
+            data: data,
+            dataType: "json",
+            success: function (res) {
+                if (res.success) {
+                    // hide the loader
+                    // alert('success')
+                    $(".loader_main").removeClass('activeLoader');
+                } else {
+                    window.location.href = "/agames/";
+                }
+
+            }
+        })
+
+    }
+</script>
+
+</html>

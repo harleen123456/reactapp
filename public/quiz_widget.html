@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Quiz Mania</title>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0, user-scalable='no'">
+    <link rel="icon" href="favicon.ico" />
+    <link href="css/reset.css" rel="stylesheet" />
+    <link href="css/helper.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/fonts.css" rel="stylesheet" />
+    <!-- Begin comScore Tag -->
+    <script>
+        var _comscore = _comscore || [];
+        _comscore.push({ c1: "2", c2: "9548033" });
+        (function () {
+            var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+            s.src = "https://sb.scorecardresearch.com/cs/9548033/beacon.js";
+            el.parentNode.insertBefore(s, el);
+        })();
+    </script>
+    <noscript>
+        <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=9548033&amp;cv=3.6.0&amp;cj=1">
+    </noscript>
+    <!-- End comScore Tag -->
+</head>
+<body style="margin:0px">
+    <div id="root">
+        <section class="qmBx mt-15"><div class="container2 brdr-rad12 pos-rel play-quiz"><div class="d-flex jus-s-between al-i-center col-wht"><div class="lft"><span class="ttlSty1 ftw-600 pos-rel t-uppercase"><span class="pos-rel">Quiz<i class="col2">mania</i></span></span><span class="ttlSty2 d-block">Challenge your friends to take a quiz</span><span class="btnwht d-flex jus-s-between al-i-center">Click To Play</span></div><div class="ryt"><div class="imgBx"><img class="d-block" src="images/qm-gfx.svg"></div></div></div></div></section>
+    </div>       
+</body>
+
+<script src="js/jquery-3.4.1.js"></script>
+<script src="./js/jquery.miranda.js?v=39"></script>
+<script src="./js/moment.js?v=39"></script>
+<script src="appcore.js?v=39"></script>
+
+<script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const urlParam1 = urlParams.get('constructId');
+    const secret = urlParams.get('secret');
+    const appusername = urlParams.get('appusername');
+    var urlParam2 = localStorage.getItem("token_id");
+    console.log(urlParam1);
+    if (!urlParam2) {
+        urlParam2 = urlParams.get('token_id');
+    }
+    var accessToken = "";
+    const gameID = 'quizmania';
+    $.ajax({
+        headers: {
+            "Content-Type": "application/json"
+        },
+        url: base_url + "user/handshake",
+        type: "POST",
+        datatype: "json",
+        data: JSON.stringify({ "token": urlParam2, "secret": secret, "m": "1111111111", "ip": "10.12.12.12", "dvcid": "111111" }),
+        success: function (res) {
+            console.log(res.data.accessToken);
+            localStorage.setItem("accessToken", res.data.accessToken);
+            accessToken = res.data.accessToken;
+        },
+        error: function (err) {
+            console.log("error", err)
+        }
+    })
+
+
+    $(function () {
+        //aaTrackPageview("pageview", "Predict To Win", "ACB_predict_2_win")
+        parent.postMessage({ "constructId": urlParam1, "tokenId": urlParam2, "gameID": gameID, "eventName": "pageview", "optional": "Predict To Win" }, "*");
+
+
+        $('.play-quiz').on("click", function () {
+            parent.postMessage({ "constructId": urlParam1, "tokenId": urlParam2, "gameID": gameID, "eventName": "start", "optional": "0" }, "*");
+            //window.location = "http://localhost:3000/agames/?screen=quizmania&appusername=" + appusername + "&constructId=" + urlParam1 + "&token_id=" + urlParam2 + "&secret=" + secret;
+            window.location = "https://sports.ndtv.com/agames/?screen=quizmania&appusername=" + appusername + "&constructId=" + urlParam1 + "&token_id=" + urlParam2 + "&secret=" + secret;
+        })
+    })
+
+</script>
+
+</html>
