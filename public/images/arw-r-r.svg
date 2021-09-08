@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="24px" viewBox="0 0 14 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow-point-to-right</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="HOME-Revised-Copy-3" transform="translate(-616.000000, -714.000000)" fill="#D50000" fill-rule="nonzero">
+            <g id="Free-Hit" transform="translate(36.000000, 525.000000)">
+                <g id="Group-15" transform="translate(556.000000, 172.250000)">
+                    <g id="arrow-point-to-right" transform="translate(24.205078, 17.033203)">
+                        <path d="M12.9490392,12.8038437 L2.82257063,22.8224652 C2.17840491,23.4600996 1.13400061,23.4600996 0.49014762,22.8224652 C-0.153757495,22.185398 -0.153757495,21.1521363 0.49014762,20.5151207 L9.45050895,11.6501715 L0.490408226,2.78553166 C-0.153496889,2.14820663 -0.153496889,1.11504806 0.490408226,0.477980875 C1.13431334,-0.159344148 2.17866552,-0.159344148 2.82283124,0.477980875 L12.9492998,10.496757 C13.2712524,10.8154453 13.4320462,11.2326795 13.4320462,11.6501199 C13.4320462,12.0677666 13.2709397,12.4853101 12.9490392,12.8038437 Z" id="Path"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

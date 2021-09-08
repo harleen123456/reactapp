@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Predict To Win</title>
+    <link rel="icon" href="favicon.ico" />
+
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0, user-scalable='no'">
+    <!-- <link rel="stylesheet" href="https://use.typekit.net/yxh5zyq.css"> -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="appcore.js?v=39"></script>
+    <link href="css/resetqu.css" rel="stylesheet" />
+    <link href="css/helperqu.css" rel="stylesheet" />
+    <link href="css/stylequ.css?v=10" rel="stylesheet" />
+    <link href="css/fontsqu.css" rel="stylesheet" />
+
+    <!-- Begin comScore Tag -->
+    <script>
+        var _comscore = _comscore || [];
+        _comscore.push({ c1: "2", c2: "9548033" });
+        (function () {
+            var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+            s.src = "https://sb.scorecardresearch.com/cs/9548033/beacon.js";
+            el.parentNode.insertBefore(s, el);
+        })();
+    </script>
+    <noscript>
+        <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=9548033&amp;cv=3.6.0&amp;cj=1">
+    </noscript>
+    <!-- End comScore Tag -->
+		<script>
+		var cache_buster = Math.floor(Math.random() * 1000000000);
+		var geturl = window.location.href;
+		var url = decodeURIComponent(geturl);
+		var keyToFind = 'token_id';
+		var valueFound;
+		if (url.indexOf(keyToFind) > -1) {
+		if (url.indexOf(keyToFind + '=') > -1) {
+		valueFound = url.substr(url.indexOf(keyToFind + '=') + keyToFind.length +
+		1).split('&')[0];
+		}
+		} else {
+		valueFound = Math.floor(Math.random() * 0x7FFFFFFF) + "." +
+		Math.floor(Date.now() / 1000);
+		}
+		var dl = document.location.href;
+		var dr = document.referrer;
+		var dh = document.location.hostname;
+		var dt = document.title;
+		var baseUrl =
+		'https://www.google-analytics.com/collect?v=1&t=pageview&tid=UA-97665797-1'
+		+'&cid='+valueFound+'&ua=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko)	Chrome/86.0.4240.198 Safari/537.36'
+		+'&dl='+dl
+		+'&dt='+dt
+		+'&dh='+dh
+		+'&dr='+dr
+		+'&cd72=Airtel_Cricket_Bonanza_MP_Hit'
+		+'&z='+cache_buster
+		var finalUrl = encodeURI(baseUrl);
+		var xmlHttp = new XMLHttpRequest();
+		xmlHttp.open("GET", finalUrl, true);
+		xmlHttp.send();
+		</script>
+    <script>
+        var adSlot1 = null;
+        window.googletag = window.googletag || { cmd: [] };
+        googletag.cmd.push(function () {
+            googletag.defineSlot('/1068322/NDTV_Airtel_Game_300x250', [300, 250], 'div-gpt-ad-1616502930389-0').addService(googletag.pubads());
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+    </script>
+</head>
+
+</head>
+
+<body class="p2w__bg2">
+    <div class="pdlr20 z-in_2 pos-rel pb-20 hdrBx pt_50">
+        <div class="hdLn col-wht"><h1 class="ft-24 ftw-600 t-center">Predict & win</h1></div>
+    </div>
+    <div class="z-in_2 pos-rel">
+        <div class="logo styl1 t-center">
+            <div class="lg_Stxt ft-10 col-wht">
+                <div class="txtBx">Powered by</div>
+                <div class="lwrBx bgWht"><img class="d-block" src="images/noise.png" height="13"></div>
+            </div>
+        </div>
+    </div>
+    <div class="pd20 z-in_2 pos-rel">
+        <form>
+            <div class="qs_cards t-center" id="qus">
+            </div>
+        </form>
+    </div>
+    <div class="btm_bg"></div>
+    <div class="sbmt_bgBtnOut">
+        <div class="sbmt_bgBtn pd20 t-center">
+            <button class="brdr-rad8 ftw-600 btn_submit">Submit</button>
+        </div>
+    </div>
+
+    <div class="popup" style="display: none;">
+        <div class="popupBg"></div>
+        <div class="popupCont width-100p t-center col-wht">
+            <span class="tickIcn"></span>
+            <h3 class="ft-16">Prediction Submitted</h3>
+            <button class="btnWht ft-12 mt-25 brdr-rad8 ftw-600 width-100p">Continue playing</button>
+        </div>
+    </div>
+    <div id='div-ad' style="position:absolute;top:0;left:0;overflow:hidden;background:#000;display:none;width:100%;height:100%;" align="center">
+        <div id='div-gpt-ad-1616502930389-0'>
+            <script>
+                googletag.cmd.push(function () { googletag.display('div-gpt-ad-1616502930389-0'); });
+            </script>
+        </div>
+    </div>
+</body>
+<script src="js/jquery-3.4.1.js"></script>
+
+<script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const urlParam1 = urlParams.get('constructId');
+    const secret = urlParams.get('secret');
+    var urlParam2 = localStorage.getItem("token_id");
+    if (!urlParam2) {
+        urlParam2 = urlParams.get('token_id');
+    }
+    var accessToken = localStorage.getItem("accessToken");
+    
+    const gameID = 'predict_to_win';
+    let checkToken = urlParam2;
+
+    // global variable for handle answers
+    var formAnswer;
+
+    /*$(".spinnerlabel").click(function () {
+        console.log("option clicked")
+
+        aaTrackACB("acb_predict_to_win_submit", "Predict to Win Clicks", "Response submitted", "ACB_predict_2_win")
+        $('.spinnerlabel').removeClass('clicked');
+
+        $(this).addClass('clicked');
+
+    });
+    function sendEvent(e) {
+        aaTrackPageview("pageview", "Predict To Win | Check Prize PopUp", "ACB_predict_2_win")
+        aaTrackACB("acb_predict_to_win_popup_click", "Predict to Win Clicks", "Pop Up | Check Prize", "ACB_predict_2_win")
+        window.location.href = "/agames/adsCoupon.html"
+    }*/
+    var questionSet;
+    
+
+    function popupOpn() {
+        $('.popup').css('display', 'flex');
+        $('body').addClass('scrNn');
+    }
+
+
+    $(function () {
+        var adInterval = 5;
+        var tickerID = 0;
+
+            $('#div-ad').fadeIn('slow');
+            $('#div-ad').css('z-index', 9999999999);
+            googletag.cmd.push(function () {
+                googletag.pubads().refresh([adSlot1]);
+            });
+            var w = jQuery(window).width();
+            var h = jQuery(window).height() - 50;
+            var left = (w / 2) - (300 / 2);
+            var top = (h - 250) / 2;
+            var adtop = (h - 275) / 2;
+            $('#div-gpt-ad-1616502930389-0').css({ 'width': '100%', 'height': '100%', 'position': 'relative', 'top': top + 'px' });
+            $('#div-ad').prepend("<p id='lbltitle' style='letter-spacing:3px;font-size:12px;color:#fff;position:relative;top:0;'>Advertisement</p>");
+
+            $('#div-ad').prepend("<p id='lbladticker' style='color:#fff;position:relative;top:0;'></p>");
+            var timeleft = adInterval;
+            tickerID = setInterval(function () {
+                var leftover = 10 - timeleft;
+                if (timeleft == 0) {
+                    clearInterval(tickerID);
+                    $('#div-gpt-ad-1616502930389-0').html('');
+                    $('#lbladticker').remove();
+                    $('#lbltitle').remove();
+                    $('#div-ad').fadeOut('slow');
+
+                    /* PAGE CODE START */
+
+                    let accessToken = localStorage.getItem("accessToken");
+                    $("input[type=radio]").click(function () {
+                        $('.sbmt_bgBtn').addClass('actv');
+                    });
+
+                    $(".bckBtn").click(function () {
+                        window.history.back();
+                    });
+
+                    $(".btnWht").click(function () {
+                        $('.popup').css('display', 'none');
+                        $('body').removeClass('scrNn');
+                        parent.postMessage({ "constructId": urlParam1, "tokenId": urlParam2, "gameID": gameID, "eventName": "Submit", "matchid": match_id }, "*");
+                    });
+
+                    $(".loader_main").addClass('activeLoader');
+                    var token = 3,
+                        showId = 0,
+                        queLength = 0,
+                        match_id = localStorage.getItem("match_id") || '527f1e42-f5fa-420e-a652-a20e2962709a',
+                        userAnswer = [],
+                        answerApp = {},
+                        ques = []
+
+
+
+                    // call the game instance api
+                    getInit();
+                    $.ajax({
+                        headers: {
+                            "Content-Type": "application/json",
+                            "accessToken": accessToken
+                        },
+                        url: base_url + "v1/contest/ques-list?match_id=" + match_id,
+                        type: "get",
+                        // datatype: "json",
+                        // data: JSON.stringify({
+                        //     "token": 3,
+                        //     "match_id": match_id
+                        // }),
+                        success: function (res) {
+                            console.log(res);
+                            ques = res.data ? res.data.item : [];
+                            userAnswer = res.data ? res.data.userAnswer : [];
+                            //console.log( "questions", res)
+
+                            // update it in global;
+                            formAnswer = userAnswer;
+
+                            for (let index in userAnswer) {
+                                answerApp[userAnswer[index].questionId] = userAnswer[index].answer
+                            }
+                            //console.log( "ans", answerApp)
+                            queLength = ques.length;
+                            // if (res.success) {
+                            //     match_id = item[0].match_id;
+                            // }
+
+                            questionSet = ques.map(e => {
+                                let delimiter = e.type == "button" ? ", " : "-"
+                                return {
+                                    "question": e.question,
+                                    "options": (e.options),
+                                    "type": e.type,
+                                    "id": e.id
+                                }
+                            }),
+
+                                questionSetHtml = "";
+                            options = "";
+                            for (let index in questionSet) {
+                                if (questionSet[index].type == 'dropdown') {
+                                    //options = selectOption(index, questionSet[index].id, questionSet[index].options)
+                                    options = radioOption(index, questionSet[index].id, questionSet[index]
+                                        .options)
+                                } else {
+                                    options = radioOption(index, questionSet[index].id, questionSet[index]
+                                        .options)
+                                }
+                                //questionSetHtml +=
+                                //`<div id="dsp-${index}" class="dsp" style="display:none"> <div class="center"> <button class="btngreen">(Question ${parseInt(index) + 1} of ${ques.length})</button> </div><h4 class="spinner_ques">${ques[index].question}</h4> ${options}</div>`
+                                questionSetHtml += `<div class="qs_card">`;
+                                questionSetHtml += `<div class="num_qs"><strong>Question ${parseInt(index) + 1}</strong> of ${ques.length}</div>`;
+                                questionSetHtml += `<div class="qs_ttl">${ques[index].question}</div>`;
+                                questionSetHtml += `<div class="qs_options mt-20">`;
+                                questionSetHtml += `<ul>${options}`;
+                                questionSetHtml += `</ul>`;
+                                questionSetHtml += `</div>`;
+                                questionSetHtml += `</div>`;
+                            }
+
+                            //console.log( questionSet, answerApp, ques);
+
+                            $("#qus").html(questionSetHtml)
+                            /*$(".spinnerlabel").click(function () {
+                                aaTrackACB("acb_predict_to_win_submit", "Predict to Win Clicks", "Response submitted | " + $(this).text(), "ACB_predict_2_win")
+                            });*/
+                            //setListner();
+                            //$("#dsp-" + showId).show()
+                            $(".loader_main").removeClass('activeLoader');
+                            $('.loader_main').hide();
+                        },
+                        error: function (err) {
+                            $(".loader_main").removeClass('activeLoader');
+                            //console.log( "error", err)
+                        }
+                    })
+
+                    $('.toggleClass').click(function () {
+
+                        //console.log('ap', fieldSelected(showId));
+                        // if(!fieldSelected(showId)){
+                        //             return;
+                        //         }
+
+
+                        if (true) {
+                            let type = $(this).data("type");
+                            if (showId >= 0 && showId < queLength) {
+
+                                if (type == "prev") {
+                                    aaTrackACB("acb_predict_to_win_click", "Predict to Win Clicks", "ACB_P2W_Back", "ACB_predict_2_win")
+                                    $(".leftbtn").addClass("inactive arrow_white ").removeClass(" arrow_red");
+                                    if (showId != 0) {
+
+                                        showId != 0 ? showId-- : "";
+                                        //$(".btnred_submit").hide();
+                                        $(".dsp").hide();
+                                        $("#dsp-" + showId).show()
+                                    }
+                                    if (showId == 0) {
+                                        //$(".leftbtn").addClass("arrow_red").removeClass("inactive arrow_white");
+                                        // $("#righttog").addClass("arrow_white").removeClass("arrow_red");
+                                    }
+
+                                    if (showId == queLength - 2) {
+
+                                        $(".leftbtn").addClass("arrow_red ").removeClass(" inactive arrow_white");
+                                        $("#next1").show();
+                                        $(".btn_submit").hide();
+                                    }
+
+
+                                } else {
+                                    showId++;
+                                    aaTrackACB("acb_predict_to_win_click", "Predict to Win Clicks", "ACB_P2W_Next", "ACB_predict_2_win")
+                                    // if (!fieldSelected(showId)) {
+                                    //     $("#righttog").addClass("arrow_white").removeClass("arrow_red");
+                                    // }
+                                    if (showId == 1) {
+                                        //$("#lefttog").toggleClass("arrow_red arrow_white");
+                                        $(".leftbtn").addClass("arrow_red").removeClass("inactive arrow_white");
+                                    }
+                                    if (showId == queLength - 1) {
+                                        $("#next1").hide();
+                                        $(".btn_submit").show();
+                                    }
+
+                                    $(".dsp").hide();
+                                    $("#dsp-" + showId).show()
+                                }
+                            } else {
+                                return
+                            }
+                        }
+
+
+                    })
+
+                    function fieldSelected(showId) {
+                        //console.log( "check", showId)
+                        let que_id = questionSet[showId].id
+
+                        if ($("input[name = '" + que_id + "']").prop("checked")) {
+                            return true;
+                        } else {
+                            return false;
+                        }
+
+
+                    }
+
+                    function nextChar(c) {
+                        return String.fromCharCode(c.charCodeAt(0) + 1);
+                    }
+
+                    function setListner() {
+
+                        for (let index in questionSet) {
+                            let que_id = questionSet[index].id
+
+                            if (questionSet[index].type == 'button') {
+                                $(function () {
+                                    $("input[name = '" + que_id + "']").change(function () {
+                                        //console.log( "Handler for radio called")
+                                        $("#righttog").addClass("arrow_red").removeClass("arrow_white");
+                                    })
+                                })
+
+                            } else if (questionSet[index].type == 'dropdown') {
+                                $(function () {
+                                    $("input[name = '" + que_id + "']").change(function () {
+                                        //console.log("Handler for radio called")
+                                        $("#righttog").addClass("arrow_red").removeClass("arrow_white");
+                                    })
+                                })
+                            }
+                        }
+                    }
+
+                    function radioOption(questionNo, questionId, options) {
+                        var resOptions = "";
+                        var char = "A";
+                        for (index in options) {
+                            if (Object.entries(answerApp).length !== 0) {
+                                resOptions += `<li><label><input type="radio" id="check${questionNo}${index}" name="${questionId}" value="${options[index]}" ${answerApp[questionId].trim() == options[index].trim() ? "checked" : ""}><span class="brdrBg"><span class="insdBg">${options[index]}</span></span></label></li>`
+                                char = nextChar(char)
+                            } else {
+                                resOptions += `<li><label><input type="radio" id="check${questionNo}${index}" name="${questionId}" value="${options[index]}"><span class="brdrBg"><span class="insdBg">${options[index]}</span></span></label></li>`
+                                char = nextChar(char)
+                            }
+
+
+                        }
+
+                        return resOptions;
+                    }
+
+                    function selectOption(questionNo, questionId, options) {
+
+                        var resOptions = "";
+
+                        for (index in options) {
+                            if (Object.entries(answerApp).length !== 0) {
+                                resOptions +=
+                                    `<option value="${options[index]}" ${answerApp[questionId].trim() == options[index].trim() ? "selected" : ""}>${options[index]}</option>`
+                            } else {
+                                resOptions += `<option value="${options[index]}">${options[index]}</option>`
+                            }
+                        }
+
+                        return `<div class="spinnerlabel"> <select class="select_drop" name="${questionId}"> ${resOptions}</select></div>`
+                    }
+
+                    $('.btn_submit').click(function () {
+                        let frmchk = $("form").serializeArray();
+                        if (frmchk.length == questionSet.length) {
+                            // current question id, old answer, tablepkid
+                            let tablepkid;
+                            $(".loader_main").addClass('activeLoader');
+
+                            let ans_for_event = ""
+                            var arr = $("form").serializeArray(),
+                                nuArr = arr.map(e => {
+                                    //console.log("e", e)
+                                    if (formAnswer.length == 0) {
+                                        tablepkid = null
+                                    } else {
+                                        // check and get tablepkid from question_id
+                                        formAnswer.map((data) => {
+                                            if (data.questionId == e.name) {
+                                                ans_for_event = ans_for_event + ", " + data.id
+                                                tablepkid = data.id
+                                            }
+                                        })
+                                    }
+
+                                    return {
+                                        "questionId": e.name,
+                                        "answer": e.value,
+                                        "tablepkid": tablepkid
+                                    }
+                                });
+
+                            //aaTrackACB("acb_predict_to_win_click", "Predict to Win Clicks", "Submit",  "ACB_predict_2_win")
+                            //console.log( "string", nuArr)
+                            let accessToken = localStorage.getItem("accessToken");
+                            $.ajax({
+                                headers: {
+                                    "Content-Type": "application/json",
+                                    "accessToken": accessToken
+                                },
+                                url: base_url + "v1/contest/add-question-answer",
+                                type: "post",
+                                datatype: "json",
+                                data: JSON.stringify({
+                                    matchId: match_id,
+                                    result: nuArr
+                                }),
+                                success: function (res) {
+                                    if (res.success) {
+                                        $(".loader_main").removeClass('activeLoader');
+
+                                        $('.popup').css('display', 'flex');
+                                        $('body').addClass('scrNn');
+                                        //showAlert("Your response has been<br/> submitted")
+                                    } else {
+                                        $(".loader_main").removeClass('activeLoader');
+                                        //showAlert("your response was not submitted")
+                                        $('.popup').css('display', 'flex');
+                                        $('body').addClass('scrNn');
+                                    }
+                                }
+                            });
+                        } else {
+                            console.log('NA');
+                        }
+
+                    });
+
+                    function getInit() {
+                        let accessToken = localStorage.getItem("accessToken");
+                        $.ajax({
+                            headers: {
+                                "Content-Type": "application/json",
+                                "accessToken": accessToken
+                            },
+                            url: base_url + "game/init",
+                            type: "post",
+                            datatype: "json",
+                            data: JSON.stringify({ "game_id": "predict_to_win" }),
+                            success: function (res) {
+                                // save instance in localstorage
+                                if (res.success) {
+                                    localStorage.setItem('sr_gameInsID', res.data.gameInsID)
+                                    localStorage.setItem('sr_game_id', 'predict_to_win')
+                                } else {
+                                    window.location.href = "/agames/";
+                                }
+                            }
+                        })
+
+                    }
+
+                    function showAlert(alert) {
+                        aaTrackPageview("pageview", "Predict To Win | Thank You PopUp", "ACB_predict_2_win")
+                        aaTrackACB("acb_predict_to_win_popup_click", "Predict to Win Clicks", "Pop Up | ACB_Predict_2_Win_Ok", "ACB_predict_2_win")
+                        let alert_mess =
+                            `<h3 class="t-uppercase ft-24 ftw-600 col-blk">THANK YOU!</h3><h4 class="fw400 ft-16 col-blk coupon-txt mtb-10 width-80p mlr-auto lh-1pt3 fslight">${alert}</h4>`;
+                        $("#alert_mess").html(alert_mess);
+                        $(".couponPopup").addClass('activePopup');
+                    }
+
+                    /* PAGE CODE END */
+
+                } else {
+                    // document.getElementById("lbladticker").innerText = 'This Ad will close in '+timeleft+' seconds';  
+                    document.getElementById("lbladticker").innerText = 'The game will start in ' + timeleft + ' seconds';
+
+                }
+                timeleft -= 1;
+            }, 1000);
+         
+    });
+</script>
+
+</html>

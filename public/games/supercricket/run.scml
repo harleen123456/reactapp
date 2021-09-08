@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r10">
+    <folder id="0" name="aus">
+        <file id="0" name="aus/000.png" width="15" height="35" pivot_x="0.5" pivot_y="0"/>
+        <file id="1" name="aus/001.png" width="14" height="33" pivot_x="0.5" pivot_y="0"/>
+        <file id="2" name="aus/002.png" width="17" height="32" pivot_x="0.5" pivot_y="0"/>
+        <file id="3" name="aus/003.png" width="21" height="35" pivot_x="0.5" pivot_y="0"/>
+        <file id="4" name="aus/004.png" width="17" height="36" pivot_x="0.5" pivot_y="0"/>
+        <file id="5" name="aus/005.png" width="18" height="34" pivot_x="0.5" pivot_y="0"/>
+        <file id="6" name="aus/006.png" width="18" height="38" pivot_x="0.5" pivot_y="0"/>
+        <file id="7" name="aus/007.png" width="18" height="39" pivot_x="0.5" pivot_y="0"/>
+        <file id="8" name="aus/008.png" width="14" height="36" pivot_x="0.5" pivot_y="0"/>
+    </folder>
+    <folder id="1" name="africa">
+        <file id="0" name="africa/000.png" width="15" height="35" pivot_x="0.5" pivot_y="0"/>
+        <file id="1" name="africa/001.png" width="14" height="33" pivot_x="0.5" pivot_y="0"/>
+        <file id="2" name="africa/002.png" width="17" height="32" pivot_x="0.5" pivot_y="0"/>
+        <file id="3" name="africa/003.png" width="21" height="35" pivot_x="0.5" pivot_y="0"/>
+        <file id="4" name="africa/004.png" width="17" height="36" pivot_x="0.5" pivot_y="0"/>
+        <file id="5" name="africa/005.png" width="18" height="34" pivot_x="0.5" pivot_y="0"/>
+        <file id="6" name="africa/006.png" width="18" height="38" pivot_x="0.5" pivot_y="0"/>
+        <file id="7" name="africa/007.png" width="18" height="39" pivot_x="0.5" pivot_y="0"/>
+        <file id="8" name="africa/008.png" width="14" height="36" pivot_x="0.5" pivot_y="0"/>
+    </folder>
+    <folder id="2" name="eng">
+        <file id="0" name="eng/000.png" width="15" height="35" pivot_x="0.5" pivot_y="0"/>
+        <file id="1" name="eng/001.png" width="14" height="33" pivot_x="0.5" pivot_y="0"/>
+        <file id="2" name="eng/007.png" width="18" height="39" pivot_x="0.5" pivot_y="0"/>
+        <file id="3" name="eng/006.png" width="18" height="38" pivot_x="0.5" pivot_y="0"/>
+        <file id="4" name="eng/008.png" width="14" height="36" pivot_x="0.5" pivot_y="0"/>
+        <file id="5" name="eng/005.png" width="18" height="34" pivot_x="0.5" pivot_y="0"/>
+        <file id="6" name="eng/004.png" width="17" height="36" pivot_x="0.5" pivot_y="0"/>
+        <file id="7" name="eng/003.png" width="21" height="35" pivot_x="0.5" pivot_y="0"/>
+        <file id="8" name="eng/002.png" width="17" height="32" pivot_x="0.5" pivot_y="0"/>
+    </folder>
+    <folder id="3" name="ind">
+        <file id="0" name="ind/000.png" width="15" height="35" pivot_x="0.5" pivot_y="0"/>
+        <file id="1" name="ind/001.png" width="14" height="33" pivot_x="0.5" pivot_y="0"/>
+        <file id="2" name="ind/002.png" width="17" height="32" pivot_x="0.5" pivot_y="0"/>
+        <file id="3" name="ind/003.png" width="21" height="35" pivot_x="0.5" pivot_y="0"/>
+        <file id="4" name="ind/004.png" width="17" height="36" pivot_x="0.5" pivot_y="0"/>
+        <file id="5" name="ind/006.png" width="18" height="38" pivot_x="0.5" pivot_y="0"/>
+        <file id="6" name="ind/005.png" width="18" height="34" pivot_x="0.5" pivot_y="0"/>
+        <file id="7" name="ind/007.png" width="18" height="39" pivot_x="0.5" pivot_y="0"/>
+        <file id="8" name="ind/008.png" width="14" height="36" pivot_x="0.5" pivot_y="0"/>
+    </folder>
+    <folder id="4" name="pak">
+        <file id="0" name="pak/000.png" width="15" height="35" pivot_x="0.5" pivot_y="0"/>
+        <file id="1" name="pak/001.png" width="14" height="33" pivot_x="0.5" pivot_y="0"/>
+        <file id="2" name="pak/002.png" width="17" height="32" pivot_x="0.5" pivot_y="0"/>
+        <file id="3" name="pak/003.png" width="21" height="35" pivot_x="0.5" pivot_y="0"/>
+        <file id="4" name="pak/004.png" width="17" height="36" pivot_x="0.5" pivot_y="0"/>
+        <file id="5" name="pak/005.png" width="18" height="34" pivot_x="0.5" pivot_y="0"/>
+        <file id="6" name="pak/006.png" width="18" height="38" pivot_x="0.5" pivot_y="0"/>
+        <file id="7" name="pak/007.png" width="18" height="39" pivot_x="0.5" pivot_y="0"/>
+        <file id="8" name="pak/008.png" width="14" height="36" pivot_x="0.5" pivot_y="0"/>
+    </folder>
+    <folder id="5" name="lanka">
+        <file id="0" name="lanka/000.png" width="15" height="35" pivot_x="0.5" pivot_y="0"/>
+        <file id="1" name="lanka/008.png" width="14" height="36" pivot_x="0.5" pivot_y="0"/>
+        <file id="2" name="lanka/007.png" width="18" height="39" pivot_x="0.5" pivot_y="0"/>
+        <file id="3" name="lanka/006.png" width="18" height="38" pivot_x="0.5" pivot_y="0"/>
+        <file id="4" name="lanka/005.png" width="18" height="34" pivot_x="0.5" pivot_y="0"/>
+        <file id="5" name="lanka/001.png" width="14" height="33" pivot_x="0.5" pivot_y="0"/>
+        <file id="6" name="lanka/002.png" width="17" height="32" pivot_x="0.5" pivot_y="0"/>
+        <file id="7" name="lanka/003.png" width="21" height="35" pivot_x="0.5" pivot_y="0"/>
+        <file id="8" name="lanka/004.png" width="17" height="36" pivot_x="0.5" pivot_y="0"/>
+    </folder>
+    <folder id="6" name="wi">
+        <file id="0" name="wi/000.png" width="15" height="35" pivot_x="0.5" pivot_y="0"/>
+        <file id="1" name="wi/001.png" width="14" height="33" pivot_x="0.5" pivot_y="0"/>
+        <file id="2" name="wi/002.png" width="17" height="32" pivot_x="0.5" pivot_y="0"/>
+        <file id="3" name="wi/003.png" width="21" height="35" pivot_x="0.5" pivot_y="0"/>
+        <file id="4" name="wi/004.png" width="17" height="36" pivot_x="0.5" pivot_y="0"/>
+        <file id="5" name="wi/006.png" width="18" height="38" pivot_x="0.5" pivot_y="0"/>
+        <file id="6" name="wi/005.png" width="18" height="34" pivot_x="0.5" pivot_y="0"/>
+        <file id="7" name="wi/007.png" width="18" height="39" pivot_x="0.5" pivot_y="0"/>
+        <file id="8" name="wi/008.png" width="14" height="36" pivot_x="0.5" pivot_y="0"/>
+    </folder>
+    <folder id="7" name="nz">
+        <file id="0" name="nz/000.png" width="15" height="35" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="nz/001.png" width="14" height="33" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="nz/002.png" width="17" height="32" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="nz/003.png" width="21" height="35" pivot_x="0" pivot_y="1"/>
+        <file id="4" name="nz/004.png" width="17" height="36" pivot_x="0" pivot_y="1"/>
+        <file id="5" name="nz/005.png" width="18" height="34" pivot_x="0" pivot_y="1"/>
+        <file id="6" name="nz/008.png" width="14" height="36" pivot_x="0" pivot_y="1"/>
+        <file id="7" name="nz/007.png" width="18" height="39" pivot_x="0" pivot_y="1"/>
+        <file id="8" name="nz/006.png" width="18" height="38" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <folder id="8" name="zim">
+        <file id="0" name="zim/000.png" width="15" height="35" pivot_x="0.5" pivot_y="0"/>
+        <file id="1" name="zim/001.png" width="14" height="33" pivot_x="0.5" pivot_y="0"/>
+        <file id="2" name="zim/002.png" width="17" height="32" pivot_x="0.5" pivot_y="0"/>
+        <file id="3" name="zim/003.png" width="21" height="35" pivot_x="0.5" pivot_y="0"/>
+        <file id="4" name="zim/004.png" width="17" height="36" pivot_x="0.5" pivot_y="0"/>
+        <file id="5" name="zim/005.png" width="18" height="34" pivot_x="0.5" pivot_y="0"/>
+        <file id="6" name="zim/006.png" width="18" height="38" pivot_x="0.5" pivot_y="0"/>
+        <file id="7" name="zim/007.png" width="18" height="39" pivot_x="0.5" pivot_y="0"/>
+        <file id="8" name="zim/008.png" width="14" height="36" pivot_x="0.5" pivot_y="0"/>
+    </folder>
+    <folder id="9" name="bangla">
+        <file id="0" name="bangla/000.png" width="15" height="35" pivot_x="0.5" pivot_y="0"/>
+        <file id="1" name="bangla/001.png" width="14" height="33" pivot_x="0.5" pivot_y="0"/>
+        <file id="2" name="bangla/002.png" width="17" height="32" pivot_x="0.5" pivot_y="0"/>
+        <file id="3" name="bangla/003.png" width="21" height="35" pivot_x="0.5" pivot_y="0"/>
+        <file id="4" name="bangla/004.png" width="17" height="36" pivot_x="0.5" pivot_y="0"/>
+        <file id="5" name="bangla/005.png" width="18" height="34" pivot_x="0.5" pivot_y="0"/>
+        <file id="6" name="bangla/006.png" width="18" height="38" pivot_x="0.5" pivot_y="0"/>
+        <file id="7" name="bangla/007.png" width="18" height="39" pivot_x="0.5" pivot_y="0"/>
+        <file id="8" name="bangla/008.png" width="14" height="36" pivot_x="0.5" pivot_y="0"/>
+    </folder>
+    <folder id="10" name="africa2">
+        <file id="0" name="africa2/000.png" width="17" height="41" pivot_x="0.5" pivot_y="0"/>
+        <file id="1" name="africa2/001.png" width="14" height="38" pivot_x="0.5" pivot_y="0"/>
+        <file id="2" name="africa2/002.png" width="19" height="37" pivot_x="0.5" pivot_y="0"/>
+        <file id="3" name="africa2/003.png" width="18" height="43" pivot_x="0.5" pivot_y="0"/>
+        <file id="4" name="africa2/004.png" width="18" height="43" pivot_x="0.5" pivot_y="0"/>
+        <file id="5" name="africa2/005.png" width="20" height="41" pivot_x="0.5" pivot_y="0"/>
+        <file id="6" name="africa2/006.png" width="19" height="41" pivot_x="0.5" pivot_y="0"/>
+        <file id="7" name="africa2/007.png" width="18" height="39" pivot_x="0.5" pivot_y="0"/>
+    </folder>
+    <folder id="11" name="eng2">
+        <file id="0" name="eng2/000.png" width="17" height="41" pivot_x="0.5" pivot_y="0"/>
+        <file id="1" name="eng2/001.png" width="14" height="38" pivot_x="0.5" pivot_y="0"/>
+        <file id="2" name="eng2/002.png" width="19" height="37" pivot_x="0.5" pivot_y="0"/>
+        <file id="3" name="eng2/003.png" width="18" height="43" pivot_x="0.5" pivot_y="0"/>
+        <file id="4" name="eng2/004.png" width="18" height="43" pivot_x="0.5" pivot_y="0"/>
+        <file id="5" name="eng2/005.png" width="20" height="41" pivot_x="0.5" pivot_y="0"/>
+        <file id="6" name="eng2/006.png" width="19" height="41" pivot_x="0.5" pivot_y="0"/>
+    </folder>
+    <folder id="12" name="ind2">
+        <file id="0" name="ind2/000.png" width="17" height="41" pivot_x="0.5" pivot_y="0"/>
+        <file id="1" name="ind2/001.png" width="14" height="38" pivot_x="0.5" pivot_y="0"/>
+        <file id="2" name="ind2/002.png" width="19" height="37" pivot_x="0.5" pivot_y="0"/>
+        <file id="3" name="ind2/003.png" width="18" height="43" pivot_x="0.5" pivot_y="0"/>
+        <file id="4" name="ind2/004.png" width="18" height="43" pivot_x="0.5" pivot_y="0"/>
+        <file id="5" name="ind2/005.png" width="20" height="41" pivot_x="0.5" pivot_y="0"/>
+        <file id="6" name="ind2/006.png" width="19" height="41" pivot_x="0.5" pivot_y="0"/>
+    </folder>
+    <folder id="13" name="lanka2">
+        <file id="0" name="lanka2/000.png" width="17" height="41" pivot_x="0.5" pivot_y="0"/>
+        <file id="1" name="lanka2/001.png" width="14" height="38" pivot_x="0.5" pivot_y="0"/>
+        <file id="2" name="lanka2/002.png" width="19" height="37" pivot_x="0.5" pivot_y="0"/>
+        <file id="3" name="lanka2/003.png" width="18" height="43" pivot_x="0.5" pivot_y="0"/>
+        <file id="4" name="lanka2/004.png" width="18" height="43" pivot_x="0.5" pivot_y="0"/>
+        <file id="5" name="lanka2/005.png" width="20" height="41" pivot_x="0.5" pivot_y="0"/>
+        <file id="6" name="lanka2/006.png" width="19" height="41" pivot_x="0.5" pivot_y="0"/>
+    </folder>
+    <folder id="14" name="nz2">
+        <file id="0" name="nz2/000.png" width="17" height="41" pivot_x="0.5" pivot_y="0"/>
+        <file id="1" name="nz2/001.png" width="14" height="38" pivot_x="0.5" pivot_y="0"/>
+        <file id="2" name="nz2/002.png" width="19" height="37" pivot_x="0.5" pivot_y="0"/>
+        <file id="3" name="nz2/003.png" width="18" height="43" pivot_x="0.5" pivot_y="0"/>
+        <file id="4" name="nz2/004.png" width="18" height="43" pivot_x="0.5" pivot_y="0"/>
+        <file id="5" name="nz2/005.png" width="20" height="41" pivot_x="0.5" pivot_y="0"/>
+        <file id="6" name="nz2/006.png" width="19" height="41" pivot_x="0.5" pivot_y="0"/>
+    </folder>
+    <folder id="15" name="pak2">
+        <file id="0" name="pak2/000.png" width="17" height="41" pivot_x="0.5" pivot_y="0"/>
+        <file id="1" name="pak2/001.png" width="14" height="38" pivot_x="0.5" pivot_y="0"/>
+        <file id="2" name="pak2/002.png" width="19" height="37" pivot_x="0.5" pivot_y="0"/>
+        <file id="3" name="pak2/003.png" width="18" height="43" pivot_x="0.5" pivot_y="0"/>
+        <file id="4" name="pak2/004.png" width="18" height="43" pivot_x="0.5" pivot_y="0"/>
+        <file id="5" name="pak2/005.png" width="20" height="41" pivot_x="0.5" pivot_y="0"/>
+        <file id="6" name="pak2/006.png" width="19" height="41" pivot_x="0.5" pivot_y="0"/>
+    </folder>
+    <folder id="16" name="wi2">
+        <file id="0" name="wi2/000.png" width="17" height="41" pivot_x="0.5" pivot_y="0"/>
+        <file id="1" name="wi2/001.png" width="14" height="38" pivot_x="0.5" pivot_y="0"/>
+        <file id="2" name="wi2/002.png" width="19" height="37" pivot_x="0.5" pivot_y="0"/>
+        <file id="3" name="wi2/003.png" width="18" height="43" pivot_x="0.5" pivot_y="0"/>
+        <file id="4" name="wi2/004.png" width="18" height="43" pivot_x="0.5" pivot_y="0"/>
+        <file id="5" name="wi2/005.png" width="20" height="41" pivot_x="0.5" pivot_y="0"/>
+        <file id="6" name="wi2/006.png" width="19" height="41" pivot_x="0.5" pivot_y="0"/>
+    </folder>
+    <folder id="17" name="zim2">
+        <file id="0" name="zim2/000.png" width="17" height="41" pivot_x="0.5" pivot_y="0"/>
+        <file id="1" name="zim2/001.png" width="14" height="38" pivot_x="0.5" pivot_y="0"/>
+        <file id="2" name="zim2/002.png" width="18" height="43" pivot_x="0.5" pivot_y="0"/>
+        <file id="3" name="zim2/003.png" width="18" height="43" pivot_x="0.5" pivot_y="0"/>
+        <file id="4" name="zim2/004.png" width="18" height="43" pivot_x="0.5" pivot_y="0"/>
+        <file id="5" name="zim2/005.png" width="20" height="41" pivot_x="0.5" pivot_y="0"/>
+        <file id="6" name="zim2/006.png" width="19" height="41" pivot_x="0.5" pivot_y="0"/>
+    </folder>
+    <folder id="18" name="bangla2">
+        <file id="0" name="bangla2/000.png" width="17" height="41" pivot_x="0.5" pivot_y="0"/>
+        <file id="1" name="bangla2/001.png" width="14" height="38" pivot_x="0.5" pivot_y="0"/>
+        <file id="2" name="bangla2/002.png" width="19" height="37" pivot_x="0.5" pivot_y="0"/>
+        <file id="3" name="bangla2/003.png" width="18" height="43" pivot_x="0.5" pivot_y="0"/>
+        <file id="4" name="bangla2/004.png" width="18" height="43" pivot_x="0.5" pivot_y="0"/>
+        <file id="5" name="bangla2/005.png" width="20" height="41" pivot_x="0.5" pivot_y="0"/>
+        <file id="6" name="bangla2/006.png" width="19" height="41" pivot_x="0.5" pivot_y="0"/>
+        <file id="7" name="bangla2/007.png" width="18" height="39" pivot_x="0.5" pivot_y="0"/>
+        <file id="8" name="bangla2/008.png" width="14" height="36" pivot_x="0.5" pivot_y="0"/>
+    </folder>
+    <folder id="19" name="aus2">
+        <file id="0" name="aus2/000.png" width="36" height="59" pivot_x="0.5" pivot_y="0"/>
+        <file id="1" name="aus2/001.png" width="36" height="59" pivot_x="0.5" pivot_y="0"/>
+        <file id="2" name="aus2/002.png" width="36" height="59" pivot_x="0.5" pivot_y="0"/>
+        <file id="3" name="aus2/003.png" width="36" height="59" pivot_x="0.5" pivot_y="0"/>
+        <file id="4" name="aus2/005.png" width="36" height="59" pivot_x="0.5" pivot_y="0"/>
+        <file id="5" name="aus2/006.png" width="36" height="59" pivot_x="0.5" pivot_y="0"/>
+        <file id="6" name="aus2/007.png" width="36" height="59" pivot_x="0.5" pivot_y="0"/>
+        <file id="7" name="aus2/004.png" width="36" height="59" pivot_x="0.5" pivot_y="0"/>
+        <file id="8" name="aus2/008.png" width="14" height="36" pivot_x="0.5" pivot_y="0"/>
+    </folder>
+    <entity id="0" name="entity_000">
+        <obj_info name="entity_000_000_000" realname="000_000" type="sprite">
+            <frames>
+                <i folder="1" file="0"/>
+                <i folder="2" file="0"/>
+                <i folder="3" file="0"/>
+                <i folder="4" file="0"/>
+                <i folder="5" file="0"/>
+                <i folder="6" file="0"/>
+                <i folder="7" file="0"/>
+                <i folder="8" file="0"/>
+                <i folder="9" file="0"/>
+                <i folder="0" file="0"/>
+            </frames>
+        </obj_info>
+        <obj_info name="entity_000_001" realname="001" type="sprite">
+            <frames>
+                <i folder="1" file="1"/>
+                <i folder="2" file="1"/>
+                <i folder="3" file="1"/>
+                <i folder="4" file="1"/>
+                <i folder="5" file="5"/>
+                <i folder="6" file="1"/>
+                <i folder="7" file="1"/>
+                <i folder="8" file="1"/>
+                <i folder="9" file="1"/>
+                <i folder="0" file="1"/>
+            </frames>
+        </obj_info>
+        <obj_info name="entity_000_002" realname="002" type="sprite">
+            <frames>
+                <i folder="1" file="2"/>
+                <i folder="2" file="8"/>
+                <i folder="3" file="2"/>
+                <i folder="4" file="2"/>
+                <i folder="5" file="6"/>
+                <i folder="6" file="2"/>
+                <i folder="7" file="2"/>
+                <i folder="8" file="2"/>
+                <i folder="9" file="2"/>
+                <i folder="0" file="2"/>
+            </frames>
+        </obj_info>
+        <obj_info name="entity_000_003" realname="003" type="sprite">
+            <frames>
+                <i folder="1" file="3"/>
+                <i folder="2" file="7"/>
+                <i folder="3" file="3"/>
+                <i folder="4" file="3"/>
+                <i folder="5" file="7"/>
+                <i folder="6" file="3"/>
+                <i folder="7" file="3"/>
+                <i folder="8" file="3"/>
+                <i folder="9" file="3"/>
+                <i folder="0" file="3"/>
+            </frames>
+        </obj_info>
+        <obj_info name="entity_000_004" realname="004" type="sprite">
+            <frames>
+                <i folder="1" file="4"/>
+                <i folder="2" file="6"/>
+                <i folder="3" file="4"/>
+                <i folder="4" file="4"/>
+                <i folder="5" file="8"/>
+                <i folder="6" file="4"/>
+                <i folder="7" file="4"/>
+                <i folder="8" file="4"/>
+                <i folder="9" file="4"/>
+                <i folder="0" file="4"/>
+            </frames>
+        </obj_info>
+        <obj_info name="entity_000_005" realname="005" type="sprite">
+            <frames>
+                <i folder="1" file="5"/>
+                <i folder="2" file="5"/>
+                <i folder="3" file="6"/>
+                <i folder="4" file="5"/>
+                <i folder="5" file="4"/>
+                <i folder="6" file="6"/>
+                <i folder="7" file="5"/>
+                <i folder="8" file="5"/>
+                <i folder="9" file="5"/>
+                <i folder="0" file="5"/>
+            </frames>
+        </obj_info>
+        <obj_info name="entity_000_006" realname="006" type="sprite">
+            <frames>
+                <i folder="1" file="6"/>
+                <i folder="2" file="3"/>
+                <i folder="3" file="5"/>
+                <i folder="4" file="6"/>
+                <i folder="5" file="3"/>
+                <i folder="6" file="5"/>
+                <i folder="7" file="8"/>
+                <i folder="8" file="6"/>
+                <i folder="9" file="6"/>
+                <i folder="0" file="6"/>
+            </frames>
+        </obj_info>
+        <obj_info name="entity_000_007" realname="007" type="sprite">
+            <frames>
+                <i folder="1" file="7"/>
+                <i folder="2" file="2"/>
+                <i folder="3" file="7"/>
+                <i folder="4" file="7"/>
+                <i folder="5" file="2"/>
+                <i folder="6" file="7"/>
+                <i folder="7" file="7"/>
+                <i folder="8" file="7"/>
+                <i folder="9" file="7"/>
+                <i folder="0" file="7"/>
+            </frames>
+        </obj_info>
+        <obj_info name="entity_000_008" realname="008" type="sprite">
+            <frames>
+                <i folder="1" file="8"/>
+                <i folder="2" file="4"/>
+                <i folder="4" file="8"/>
+                <i folder="5" file="1"/>
+                <i folder="6" file="8"/>
+                <i folder="7" file="6"/>
+                <i folder="8" file="8"/>
+                <i folder="9" file="8"/>
+                <i folder="0" file="8"/>
+            </frames>
+        </obj_info>
+        <obj_info name="entity_000_000" realname="000" type="sprite">
+            <frames>
+                <i folder="10" file="1"/>
+                <i folder="10" file="0"/>
+                <i folder="10" file="2"/>
+                <i folder="10" file="3"/>
+                <i folder="10" file="4"/>
+                <i folder="10" file="5"/>
+                <i folder="10" file="6"/>
+                <i folder="11" file="1"/>
+                <i folder="12" file="1"/>
+                <i folder="15" file="1"/>
+                <i folder="13" file="1"/>
+                <i folder="16" file="1"/>
+                <i folder="14" file="1"/>
+                <i folder="17" file="1"/>
+                <i folder="18" file="1"/>
+                <i folder="19" file="1"/>
+                <i folder="11" file="0"/>
+                <i folder="12" file="0"/>
+                <i folder="15" file="0"/>
+                <i folder="13" file="0"/>
+                <i folder="16" file="0"/>
+                <i folder="14" file="0"/>
+                <i folder="17" file="0"/>
+                <i folder="18" file="0"/>
+                <i folder="19" file="0"/>
+                <i folder="11" file="2"/>
+                <i folder="12" file="2"/>
+                <i folder="15" file="2"/>
+                <i folder="13" file="2"/>
+                <i folder="16" file="2"/>
+                <i folder="14" file="2"/>
+                <i folder="17" file="2"/>
+                <i folder="18" file="2"/>
+                <i folder="19" file="2"/>
+                <i folder="11" file="3"/>
+                <i folder="12" file="3"/>
+                <i folder="15" file="3"/>
+                <i folder="13" file="3"/>
+                <i folder="16" file="3"/>
+                <i folder="14" file="3"/>
+                <i folder="17" file="3"/>
+                <i folder="18" file="3"/>
+                <i folder="19" file="3"/>
+                <i folder="11" file="4"/>
+                <i folder="12" file="4"/>
+                <i folder="15" file="4"/>
+                <i folder="13" file="4"/>
+                <i folder="16" file="4"/>
+                <i folder="14" file="4"/>
+                <i folder="17" file="4"/>
+                <i folder="18" file="4"/>
+                <i folder="19" file="4"/>
+                <i folder="11" file="5"/>
+                <i folder="12" file="5"/>
+                <i folder="15" file="5"/>
+                <i folder="13" file="5"/>
+                <i folder="16" file="5"/>
+                <i folder="14" file="5"/>
+                <i folder="17" file="5"/>
+                <i folder="18" file="6"/>
+                <i folder="19" file="5"/>
+                <i folder="11" file="6"/>
+                <i folder="12" file="6"/>
+                <i folder="15" file="6"/>
+                <i folder="13" file="6"/>
+                <i folder="16" file="6"/>
+                <i folder="14" file="6"/>
+                <i folder="17" file="6"/>
+                <i folder="19" file="6"/>
+            </frames>
+        </obj_info>
+        <obj_info name="entity_000_box_000" realname="box_000" type="box" w="23.2082" h="7.16724" pivot_x="0" pivot_y="0"/>
+        <character_map id="0" name="eng">
+            <map folder="1" file="0" target_folder="2" target_file="0"/>
+            <map folder="1" file="1" target_folder="2" target_file="1"/>
+            <map folder="1" file="2" target_folder="2" target_file="8"/>
+            <map folder="1" file="3" target_folder="2" target_file="7"/>
+            <map folder="1" file="4" target_folder="2" target_file="6"/>
+            <map folder="1" file="5" target_folder="2" target_file="5"/>
+            <map folder="1" file="6" target_folder="2" target_file="3"/>
+            <map folder="1" file="7" target_folder="2" target_file="2"/>
+            <map folder="1" file="8" target_folder="2" target_file="4"/>
+            <map folder="10" file="0" target_folder="11" target_file="0"/>
+            <map folder="10" file="1" target_folder="11" target_file="1"/>
+            <map folder="10" file="2" target_folder="11" target_file="2"/>
+            <map folder="10" file="3" target_folder="11" target_file="3"/>
+            <map folder="10" file="4" target_folder="11" target_file="4"/>
+            <map folder="10" file="5" target_folder="11" target_file="5"/>
+            <map folder="10" file="6" target_folder="11" target_file="6"/>
+        </character_map>
+        <character_map id="1" name="ind">
+            <map folder="1" file="0" target_folder="3" target_file="0"/>
+            <map folder="1" file="1" target_folder="3" target_file="1"/>
+            <map folder="1" file="2" target_folder="3" target_file="2"/>
+            <map folder="1" file="3" target_folder="3" target_file="3"/>
+            <map folder="1" file="4" target_folder="3" target_file="4"/>
+            <map folder="1" file="5" target_folder="3" target_file="6"/>
+            <map folder="1" file="6" target_folder="3" target_file="5"/>
+            <map folder="1" file="7" target_folder="3" target_file="7"/>
+            <map folder="10" file="0" target_folder="12" target_file="0"/>
+            <map folder="10" file="1" target_folder="12" target_file="1"/>
+            <map folder="10" file="2" target_folder="12" target_file="2"/>
+            <map folder="10" file="3" target_folder="12" target_file="3"/>
+            <map folder="10" file="4" target_folder="12" target_file="4"/>
+            <map folder="10" file="5" target_folder="12" target_file="5"/>
+            <map folder="10" file="6" target_folder="12" target_file="6"/>
+        </character_map>
+        <character_map id="2" name="pak">
+            <map folder="1" file="0" target_folder="4" target_file="0"/>
+            <map folder="1" file="1" target_folder="4" target_file="1"/>
+            <map folder="1" file="2" target_folder="4" target_file="2"/>
+            <map folder="1" file="3" target_folder="4" target_file="3"/>
+            <map folder="1" file="4" target_folder="4" target_file="4"/>
+            <map folder="1" file="5" target_folder="4" target_file="5"/>
+            <map folder="1" file="6" target_folder="4" target_file="6"/>
+            <map folder="1" file="7" target_folder="4" target_file="7"/>
+            <map folder="1" file="8" target_folder="4" target_file="8"/>
+            <map folder="10" file="0" target_folder="15" target_file="0"/>
+            <map folder="10" file="1" target_folder="15" target_file="1"/>
+            <map folder="10" file="2" target_folder="15" target_file="2"/>
+            <map folder="10" file="3" target_folder="15" target_file="3"/>
+            <map folder="10" file="4" target_folder="15" target_file="4"/>
+            <map folder="10" file="5" target_folder="15" target_file="5"/>
+            <map folder="10" file="6" target_folder="15" target_file="6"/>
+        </character_map>
+        <character_map id="3" name="lanka">
+            <map folder="1" file="0" target_folder="5" target_file="0"/>
+            <map folder="1" file="8" target_folder="5" target_file="1"/>
+            <map folder="1" file="7" target_folder="5" target_file="2"/>
+            <map folder="1" file="6" target_folder="5" target_file="3"/>
+            <map folder="1" file="5" target_folder="5" target_file="4"/>
+            <map folder="1" file="1" target_folder="5" target_file="5"/>
+            <map folder="1" file="2" target_folder="5" target_file="6"/>
+            <map folder="1" file="3" target_folder="5" target_file="7"/>
+            <map folder="1" file="4" target_folder="5" target_file="8"/>
+            <map folder="10" file="0" target_folder="13" target_file="0"/>
+            <map folder="10" file="1" target_folder="13" target_file="1"/>
+            <map folder="10" file="2" target_folder="13" target_file="2"/>
+            <map folder="10" file="3" target_folder="13" target_file="3"/>
+            <map folder="10" file="4" target_folder="13" target_file="4"/>
+            <map folder="10" file="5" target_folder="13" target_file="5"/>
+            <map folder="10" file="6" target_folder="13" target_file="6"/>
+        </character_map>
+        <character_map id="4" name="wi">
+            <map folder="1" file="0" target_folder="6" target_file="0"/>
+            <map folder="1" file="1" target_folder="6" target_file="1"/>
+            <map folder="1" file="2" target_folder="6" target_file="2"/>
+            <map folder="1" file="3" target_folder="6" target_file="3"/>
+            <map folder="1" file="4" target_folder="6" target_file="4"/>
+            <map folder="1" file="5" target_folder="6" target_file="6"/>
+            <map folder="1" file="6" target_folder="6" target_file="5"/>
+            <map folder="1" file="7" target_folder="6" target_file="7"/>
+            <map folder="1" file="8" target_folder="6" target_file="8"/>
+            <map folder="10" file="0" target_folder="16" target_file="0"/>
+            <map folder="10" file="1" target_folder="16" target_file="1"/>
+            <map folder="10" file="2" target_folder="16" target_file="2"/>
+            <map folder="10" file="3" target_folder="16" target_file="3"/>
+            <map folder="10" file="4" target_folder="16" target_file="4"/>
+            <map folder="10" file="5" target_folder="16" target_file="5"/>
+            <map folder="10" file="6" target_folder="16" target_file="6"/>
+        </character_map>
+        <character_map id="5" name="nz">
+            <map folder="1" file="0" target_folder="7" target_file="0"/>
+            <map folder="1" file="8" target_folder="7" target_file="6"/>
+            <map folder="1" file="1" target_folder="7" target_file="1"/>
+            <map folder="1" file="7" target_folder="7" target_file="7"/>
+            <map folder="1" file="2" target_folder="7" target_file="2"/>
+            <map folder="1" file="3" target_folder="7" target_file="3"/>
+            <map folder="1" file="4" target_folder="7" target_file="4"/>
+            <map folder="1" file="5" target_folder="7" target_file="5"/>
+            <map folder="1" file="6" target_folder="7" target_file="8"/>
+            <map folder="10" file="0" target_folder="14" target_file="0"/>
+            <map folder="10" file="1" target_folder="14" target_file="1"/>
+            <map folder="10" file="2" target_folder="14" target_file="2"/>
+            <map folder="10" file="3" target_folder="14" target_file="3"/>
+            <map folder="10" file="4" target_folder="14" target_file="4"/>
+            <map folder="10" file="5" target_folder="14" target_file="5"/>
+            <map folder="10" file="6" target_folder="14" target_file="6"/>
+        </character_map>
+        <character_map id="6" name="zim">
+            <map folder="1" file="0" target_folder="8" target_file="0"/>
+            <map folder="1" file="1" target_folder="8" target_file="1"/>
+            <map folder="1" file="2" target_folder="8" target_file="2"/>
+            <map folder="1" file="3" target_folder="8" target_file="3"/>
+            <map folder="1" file="4" target_folder="8" target_file="4"/>
+            <map folder="1" file="5" target_folder="8" target_file="5"/>
+            <map folder="1" file="6" target_folder="8" target_file="6"/>
+            <map folder="1" file="7" target_folder="8" target_file="7"/>
+            <map folder="1" file="8" target_folder="8" target_file="8"/>
+            <map folder="10" file="0" target_folder="17" target_file="0"/>
+            <map folder="10" file="1" target_folder="17" target_file="1"/>
+            <map folder="10" file="2" target_folder="17" target_file="2"/>
+            <map folder="10" file="3" target_folder="17" target_file="3"/>
+            <map folder="10" file="4" target_folder="17" target_file="4"/>
+            <map folder="10" file="5" target_folder="17" target_file="5"/>
+            <map folder="10" file="6" target_folder="17" target_file="6"/>
+        </character_map>
+        <character_map id="7" name="bangla">
+            <map folder="1" file="0" target_folder="9" target_file="0"/>
+            <map folder="1" file="1" target_folder="9" target_file="1"/>
+            <map folder="1" file="2" target_folder="9" target_file="2"/>
+            <map folder="1" file="3" target_folder="9" target_file="3"/>
+            <map folder="1" file="4" target_folder="9" target_file="4"/>
+            <map folder="1" file="5" target_folder="9" target_file="5"/>
+            <map folder="1" file="6" target_folder="9" target_file="6"/>
+            <map folder="1" file="7" target_folder="9" target_file="7"/>
+            <map folder="1" file="8" target_folder="9" target_file="8"/>
+            <map folder="10" file="0" target_folder="18" target_file="0"/>
+            <map folder="10" file="1" target_folder="18" target_file="1"/>
+            <map folder="10" file="2" target_folder="18" target_file="2"/>
+            <map folder="10" file="3" target_folder="18" target_file="3"/>
+            <map folder="10" file="4" target_folder="18" target_file="4"/>
+            <map folder="10" file="5" target_folder="18" target_file="6"/>
+            <map folder="10" file="6" target_folder="18" target_file="6"/>
+        </character_map>
+        <character_map id="8" name="aus">
+            <map folder="1" file="0" target_folder="0" target_file="0"/>
+            <map folder="1" file="1" target_folder="0" target_file="1"/>
+            <map folder="1" file="2" target_folder="0" target_file="2"/>
+            <map folder="1" file="3" target_folder="0" target_file="3"/>
+            <map folder="1" file="4" target_folder="0" target_file="4"/>
+            <map folder="1" file="5" target_folder="0" target_file="5"/>
+            <map folder="1" file="6" target_folder="0" target_file="6"/>
+            <map folder="1" file="7" target_folder="0" target_file="7"/>
+            <map folder="1" file="8" target_folder="0" target_file="8"/>
+            <map folder="10" file="0" target_folder="19" target_file="0"/>
+            <map folder="10" file="1" target_folder="19" target_file="1"/>
+            <map folder="10" file="2" target_folder="19" target_file="2"/>
+            <map folder="10" file="3" target_folder="19" target_file="3"/>
+            <map folder="10" file="4" target_folder="19" target_file="4"/>
+            <map folder="10" file="5" target_folder="19" target_file="5"/>
+            <map folder="10" file="6" target_folder="19" target_file="6"/>
+        </character_map>
+        <animation id="0" name="front" length="700" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="000_000" folder="1" file="0" abs_x="-4.902597" abs_y="33.961039" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="8" key="0" z_index="1"/>
+                </key>
+                <key id="1" time="99">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="8" key="1" z_index="1"/>
+                </key>
+                <key id="2" time="199">
+                    <object_ref id="0" timeline="2" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="8" key="2" z_index="1"/>
+                </key>
+                <key id="3" time="299">
+                    <object_ref id="0" timeline="3" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="8" key="3" z_index="1"/>
+                </key>
+                <key id="4" time="400">
+                    <object_ref id="0" timeline="4" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="8" key="4" z_index="1"/>
+                </key>
+                <key id="5" time="498">
+                    <object_ref id="0" timeline="5" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="8" key="5" z_index="1"/>
+                </key>
+                <key id="6" time="600">
+                    <object_ref id="0" timeline="6" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="8" key="6" z_index="1"/>
+                </key>
+                <key id="7" time="698">
+                    <object_ref id="0" timeline="7" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="8" key="7" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="000_000">
+                <key id="0" spin="0">
+                    <object folder="1" file="0" x="2.597403" y="-1.038961" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="1" name="001">
+                <key id="0" time="99" spin="0">
+                    <object folder="1" file="1" x="0.757712" y="0.81048" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="2" name="002">
+                <key id="0" time="199" spin="0">
+                    <object folder="1" file="2" x="2.261307" y="1.256281" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="3" obj="3" name="003">
+                <key id="0" time="299" spin="0">
+                    <object folder="1" file="3" x="3.433836" y="-1.675042" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="4" obj="4" name="004">
+                <key id="0" time="400" spin="0">
+                    <object folder="1" file="4" x="2.03717" y="-1.931084" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="5" obj="5" name="005">
+                <key id="0" time="498" spin="0">
+                    <object folder="1" file="5" x="0.952381" y="-0.952381" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="6" obj="6" name="006">
+                <key id="0" time="600" spin="0">
+                    <object folder="1" file="6" x="-0.634921" y="-3.968254" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="7" obj="7" name="007">
+                <key id="0" time="698" spin="0">
+                    <object folder="1" file="7" x="-0.31746" y="-4.126984" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="8" obj="10" name="box_000" object_type="box">
+                <key id="0" spin="0">
+                    <object x="-11.149033" y="7.05347" pivot_x="0" pivot_y="1" angle="0"/>
+                </key>
+                <key id="1" time="99" spin="0">
+                    <object x="-11.149033" y="7.05347" pivot_x="0" pivot_y="1" angle="0"/>
+                </key>
+                <key id="2" time="199" spin="0">
+                    <object x="-11.149033" y="7.05347" pivot_x="0" pivot_y="1" angle="0"/>
+                </key>
+                <key id="3" time="299" spin="0">
+                    <object x="-11.149033" y="7.05347" pivot_x="0" pivot_y="1" angle="0"/>
+                </key>
+                <key id="4" time="400" spin="0">
+                    <object x="-11.149033" y="7.05347" pivot_x="0" pivot_y="1" angle="0"/>
+                </key>
+                <key id="5" time="498" spin="0">
+                    <object x="-11.149033" y="7.05347" pivot_x="0" pivot_y="1" angle="0"/>
+                </key>
+                <key id="6" time="600" spin="0">
+                    <object x="-11.149033" y="7.05347" pivot_x="0" pivot_y="1" angle="0"/>
+                </key>
+                <key id="7" time="698" spin="0">
+                    <object x="-11.149033" y="7.05347" pivot_x="0" pivot_y="1" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="stand" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="008" folder="1" file="8" abs_x="-6.210526" abs_y="33.894737" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="8" name="008">
+                <key id="0" spin="0">
+                    <object folder="1" file="8" x="0.789474" y="-2.105263" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="2" name="back" length="699" interval="100">
+            <mainline>
+                <key id="0" curve_type="instant">
+                    <object_ref id="0" name="000" folder="10" file="1" abs_x="-5.342105" abs_y="35.070175" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                </key>
+                <key id="1" time="100" curve_type="instant">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                </key>
+                <key id="2" time="200" curve_type="instant">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="2" z_index="1"/>
+                </key>
+                <key id="3" time="300" curve_type="instant">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="3" z_index="1"/>
+                </key>
+                <key id="4" time="400" curve_type="instant">
+                    <object_ref id="0" timeline="0" key="4" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="4" z_index="1"/>
+                </key>
+                <key id="5" time="500" curve_type="instant">
+                    <object_ref id="0" timeline="0" key="5" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="5" z_index="1"/>
+                </key>
+                <key id="6" time="600" curve_type="instant">
+                    <object_ref id="0" timeline="0" key="6" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="6" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="9" name="000">
+                <key id="0" spin="0">
+                    <object folder="10" file="1" x="1.657895" y="-2.929825" angle="0"/>
+                </key>
+                <key id="1" time="100" spin="0">
+                    <object folder="10" file="0" x="1.657895" y="-2.929825" angle="0"/>
+                </key>
+                <key id="2" time="200" spin="0">
+                    <object folder="10" file="2" x="-0.812529" y="-1.526316" angle="0"/>
+                </key>
+                <key id="3" time="300" spin="0">
+                    <object folder="10" file="3" x="-0.732759" y="-1.701755" angle="0"/>
+                </key>
+                <key id="4" time="400" spin="0">
+                    <object folder="10" file="4" x="1.468173" y="-1.701755" angle="0"/>
+                </key>
+                <key id="5" time="500" spin="0">
+                    <object folder="10" file="5" x="-2.377193" y="-1.701755" angle="0"/>
+                </key>
+                <key id="6" time="600" spin="0">
+                    <object folder="10" file="6" x="-2.092611" y="-2.066915" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="10" name="box_000" object_type="box">
+                <key id="0" spin="0">
+                    <object x="-11.149033" y="7.05347" pivot_x="0" pivot_y="1" angle="0"/>
+                </key>
+                <key id="1" time="100" spin="0">
+                    <object x="-11.149033" y="7.05347" pivot_x="0" pivot_y="1" angle="0"/>
+                </key>
+                <key id="2" time="200" spin="0">
+                    <object x="-11.149033" y="7.05347" pivot_x="0" pivot_y="1" angle="0"/>
+                </key>
+                <key id="3" time="300" spin="0">
+                    <object x="-11.149033" y="7.05347" pivot_x="0" pivot_y="1" angle="0"/>
+                </key>
+                <key id="4" time="400" spin="0">
+                    <object x="-11.149033" y="7.05347" pivot_x="0" pivot_y="1" angle="0"/>
+                </key>
+                <key id="5" time="500" spin="0">
+                    <object x="-11.149033" y="7.05347" pivot_x="0" pivot_y="1" angle="0"/>
+                </key>
+                <key id="6" time="600" spin="0">
+                    <object x="-11.149033" y="7.05347" pivot_x="0" pivot_y="1" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="3" name="stand2" length="699" interval="100" looping="false">
+            <mainline>
+                <key id="0" curve_type="instant">
+                    <object_ref id="0" name="000" folder="10" file="1" abs_x="-5.342105" abs_y="35.070175" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="9" name="000">
+                <key id="0" spin="0">
+                    <object folder="10" file="1" x="1.657895" y="-2.929825" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

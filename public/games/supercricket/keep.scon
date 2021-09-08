@@ -1,0 +1,859 @@
+{
+	"entity": [
+		{
+			"animation": [
+				{
+					"id": 0,
+					"interval": 100,
+					"length": 1000,
+					"looping": "false",
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"curve_type": "instant",
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.5,
+										"abs_pivot_y": 0,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 0,
+										"abs_y": 5.425287,
+										"file": 0,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "000",
+										"timeline": "0",
+										"z_index": "0"
+									}
+								]
+							},
+							{
+								"bone_ref": [],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"timeline": "1",
+										"z_index": "1"
+									}
+								],
+								"time": 199
+							}
+						]
+					},
+					"name": "keep",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 0,
+										"y": -5.425287
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 1,
+										"folder": 0,
+										"x": -2.149425,
+										"y": -6.655172
+									},
+									"spin": 0,
+									"time": 199
+								}
+							],
+							"name": "000",
+							"obj": 0
+						},
+						{
+							"id": 1,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"pivot_x": 0,
+										"pivot_y": 1,
+										"scale_x": 1.54571,
+										"scale_y": 1.699751,
+										"x": -7.225275,
+										"y": 57.678571
+									},
+									"spin": 0,
+									"time": 199
+								}
+							],
+							"name": "box_000",
+							"obj": 1,
+							"object_type": "box"
+						}
+					]
+				},
+				{
+					"id": 1,
+					"interval": 100,
+					"length": 1000,
+					"looping": "false",
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"curve_type": "instant",
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.5,
+										"abs_pivot_y": 0,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 0,
+										"abs_y": 5.425287,
+										"file": 2,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "000",
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"timeline": "1",
+										"z_index": "1"
+									}
+								]
+							}
+						]
+					},
+					"name": "keep_000",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 2,
+										"folder": 0,
+										"y": -5.425287
+									},
+									"spin": 0
+								}
+							],
+							"name": "000",
+							"obj": 0
+						},
+						{
+							"id": 1,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"pivot_x": 0,
+										"pivot_y": 1,
+										"scale_x": 0.504969,
+										"scale_y": 0.627169,
+										"x": -1.868132,
+										"y": 20
+									},
+									"spin": 0
+								}
+							],
+							"name": "box_000",
+							"obj": 1,
+							"object_type": "box"
+						}
+					]
+				}
+			],
+			"character_map": [
+				{
+					"id": 0,
+					"map": [
+						{
+							"file": 0,
+							"folder": 0,
+							"target_file": 0,
+							"target_folder": 4
+						},
+						{
+							"file": 1,
+							"folder": 0,
+							"target_file": 1,
+							"target_folder": 4
+						},
+						{
+							"file": 2,
+							"folder": 0,
+							"target_file": 2,
+							"target_folder": 4
+						}
+					],
+					"name": "lanka"
+				},
+				{
+					"id": 1,
+					"map": [
+						{
+							"file": 0,
+							"folder": 0,
+							"target_file": 0,
+							"target_folder": 1
+						},
+						{
+							"file": 1,
+							"folder": 0,
+							"target_file": 1,
+							"target_folder": 1
+						},
+						{
+							"file": 2,
+							"folder": 0,
+							"target_file": 2,
+							"target_folder": 1
+						}
+					],
+					"name": "aus"
+				},
+				{
+					"id": 2,
+					"map": [
+						{
+							"file": 0,
+							"folder": 0,
+							"target_file": 0,
+							"target_folder": 3
+						},
+						{
+							"file": 1,
+							"folder": 0,
+							"target_file": 1,
+							"target_folder": 3
+						},
+						{
+							"file": 2,
+							"folder": 0,
+							"target_file": 2,
+							"target_folder": 3
+						}
+					],
+					"name": "ind"
+				},
+				{
+					"id": 3,
+					"map": [
+						{
+							"file": 0,
+							"folder": 0,
+							"target_file": 0,
+							"target_folder": 6
+						},
+						{
+							"file": 1,
+							"folder": 0,
+							"target_file": 1,
+							"target_folder": 6
+						},
+						{
+							"file": 2,
+							"folder": 0,
+							"target_file": 2,
+							"target_folder": 6
+						}
+					],
+					"name": "pak"
+				},
+				{
+					"id": 4,
+					"map": [
+						{
+							"file": 0,
+							"folder": 0,
+							"target_file": 0,
+							"target_folder": 9
+						},
+						{
+							"file": 1,
+							"folder": 0,
+							"target_file": 1,
+							"target_folder": 9
+						},
+						{
+							"file": 2,
+							"folder": 0,
+							"target_file": 2,
+							"target_folder": 9
+						}
+					],
+					"name": "bangla"
+				},
+				{
+					"id": 5,
+					"map": [
+						{
+							"file": 0,
+							"folder": 0,
+							"target_file": 0,
+							"target_folder": 8
+						},
+						{
+							"file": 1,
+							"folder": 0,
+							"target_file": 1,
+							"target_folder": 8
+						},
+						{
+							"file": 2,
+							"folder": 0,
+							"target_file": 2,
+							"target_folder": 8
+						}
+					],
+					"name": "eng"
+				},
+				{
+					"id": 6,
+					"map": [
+						{
+							"file": 0,
+							"folder": 0,
+							"target_file": 0,
+							"target_folder": 5
+						},
+						{
+							"file": 1,
+							"folder": 0,
+							"target_file": 1,
+							"target_folder": 5
+						},
+						{
+							"file": 2,
+							"folder": 0,
+							"target_file": 2,
+							"target_folder": 5
+						}
+					],
+					"name": "nz"
+				},
+				{
+					"id": 7,
+					"map": [
+						{
+							"file": 0,
+							"folder": 0,
+							"target_file": 1,
+							"target_folder": 2
+						},
+						{
+							"file": 1,
+							"folder": 0,
+							"target_file": 0,
+							"target_folder": 2
+						},
+						{
+							"file": 2,
+							"folder": 0,
+							"target_file": 2,
+							"target_folder": 2
+						}
+					],
+					"name": "zim"
+				},
+				{
+					"id": 8,
+					"map": [
+						{
+							"file": 0,
+							"folder": 0,
+							"target_file": 0,
+							"target_folder": 7
+						},
+						{
+							"file": 1,
+							"folder": 0,
+							"target_file": 1,
+							"target_folder": 7
+						},
+						{
+							"file": 2,
+							"folder": 0,
+							"target_file": 2,
+							"target_folder": 7
+						}
+					],
+					"name": "wi"
+				}
+			],
+			"id": 0,
+			"name": "entity_000",
+			"obj_info": [
+				{
+					"frames": [
+						{
+							"file": 0,
+							"folder": 0
+						},
+						{
+							"file": 1,
+							"folder": 0
+						},
+						{
+							"file": 2,
+							"folder": 0
+						},
+						{
+							"file": 0,
+							"folder": 4
+						},
+						{
+							"file": 0,
+							"folder": 1
+						},
+						{
+							"file": 0,
+							"folder": 3
+						},
+						{
+							"file": 0,
+							"folder": 6
+						},
+						{
+							"file": 0,
+							"folder": 9
+						},
+						{
+							"file": 0,
+							"folder": 8
+						},
+						{
+							"file": 0,
+							"folder": 5
+						},
+						{
+							"file": 1,
+							"folder": 2
+						},
+						{
+							"file": 0,
+							"folder": 7
+						},
+						{
+							"file": 1,
+							"folder": 4
+						},
+						{
+							"file": 1,
+							"folder": 1
+						},
+						{
+							"file": 1,
+							"folder": 3
+						},
+						{
+							"file": 1,
+							"folder": 6
+						},
+						{
+							"file": 1,
+							"folder": 9
+						},
+						{
+							"file": 1,
+							"folder": 8
+						},
+						{
+							"file": 1,
+							"folder": 5
+						},
+						{
+							"file": 0,
+							"folder": 2
+						},
+						{
+							"file": 1,
+							"folder": 7
+						},
+						{
+							"file": 2,
+							"folder": 4
+						},
+						{
+							"file": 2,
+							"folder": 1
+						},
+						{
+							"file": 2,
+							"folder": 3
+						},
+						{
+							"file": 2,
+							"folder": 6
+						},
+						{
+							"file": 2,
+							"folder": 9
+						},
+						{
+							"file": 2,
+							"folder": 8
+						},
+						{
+							"file": 2,
+							"folder": 5
+						},
+						{
+							"file": 2,
+							"folder": 2
+						},
+						{
+							"file": 2,
+							"folder": 7
+						}
+					],
+					"name": "entity_000_000",
+					"realname": "000",
+					"type": "sprite"
+				},
+				{
+					"h": 9.01099,
+					"name": "entity_000_box_000",
+					"pivot_x": 0,
+					"pivot_y": 0,
+					"realname": "box_000",
+					"type": "box",
+					"w": 10.2198
+				}
+			]
+		}
+	],
+	"folder": [
+		{
+			"file": [
+				{
+					"height": 68,
+					"id": 0,
+					"name": "africa/000.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0,
+					"width": 48
+				},
+				{
+					"height": 103,
+					"id": 1,
+					"name": "africa/001.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0,
+					"width": 44
+				},
+				{
+					"height": 41,
+					"id": 2,
+					"name": "africa/002.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0,
+					"width": 16
+				}
+			],
+			"id": 0,
+			"name": "africa"
+		},
+		{
+			"file": [
+				{
+					"height": 68,
+					"id": 0,
+					"name": "aus/000.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0,
+					"width": 48
+				},
+				{
+					"height": 103,
+					"id": 1,
+					"name": "aus/001.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0,
+					"width": 44
+				},
+				{
+					"height": 41,
+					"id": 2,
+					"name": "aus/002.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0,
+					"width": 16
+				}
+			],
+			"id": 1,
+			"name": "aus"
+		},
+		{
+			"file": [
+				{
+					"height": 103,
+					"id": 0,
+					"name": "zim/001.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0,
+					"width": 44
+				},
+				{
+					"height": 68,
+					"id": 1,
+					"name": "zim/000.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0,
+					"width": 48
+				},
+				{
+					"height": 41,
+					"id": 2,
+					"name": "zim/002.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0,
+					"width": 16
+				}
+			],
+			"id": 2,
+			"name": "zim"
+		},
+		{
+			"file": [
+				{
+					"height": 68,
+					"id": 0,
+					"name": "ind/000.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0,
+					"width": 48
+				},
+				{
+					"height": 103,
+					"id": 1,
+					"name": "ind/001.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0,
+					"width": 44
+				},
+				{
+					"height": 41,
+					"id": 2,
+					"name": "ind/002.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0,
+					"width": 16
+				}
+			],
+			"id": 3,
+			"name": "ind"
+		},
+		{
+			"file": [
+				{
+					"height": 68,
+					"id": 0,
+					"name": "lanka/000.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0,
+					"width": 48
+				},
+				{
+					"height": 103,
+					"id": 1,
+					"name": "lanka/001.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0,
+					"width": 44
+				},
+				{
+					"height": 41,
+					"id": 2,
+					"name": "lanka/002.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0,
+					"width": 16
+				}
+			],
+			"id": 4,
+			"name": "lanka"
+		},
+		{
+			"file": [
+				{
+					"height": 68,
+					"id": 0,
+					"name": "nz/000.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0,
+					"width": 48
+				},
+				{
+					"height": 103,
+					"id": 1,
+					"name": "nz/001.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0,
+					"width": 44
+				},
+				{
+					"height": 41,
+					"id": 2,
+					"name": "nz/002.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0,
+					"width": 16
+				}
+			],
+			"id": 5,
+			"name": "nz"
+		},
+		{
+			"file": [
+				{
+					"height": 69,
+					"id": 0,
+					"name": "pak/000.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0,
+					"width": 48
+				},
+				{
+					"height": 103,
+					"id": 1,
+					"name": "pak/001.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0,
+					"width": 44
+				},
+				{
+					"height": 41,
+					"id": 2,
+					"name": "pak/002.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0,
+					"width": 16
+				}
+			],
+			"id": 6,
+			"name": "pak"
+		},
+		{
+			"file": [
+				{
+					"height": 68,
+					"id": 0,
+					"name": "wi/000.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0,
+					"width": 48
+				},
+				{
+					"height": 103,
+					"id": 1,
+					"name": "wi/001.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0,
+					"width": 44
+				},
+				{
+					"height": 41,
+					"id": 2,
+					"name": "wi/002.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0,
+					"width": 16
+				}
+			],
+			"id": 7,
+			"name": "wi"
+		},
+		{
+			"file": [
+				{
+					"height": 68,
+					"id": 0,
+					"name": "eng/000.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0,
+					"width": 48
+				},
+				{
+					"height": 103,
+					"id": 1,
+					"name": "eng/001.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0,
+					"width": 44
+				},
+				{
+					"height": 41,
+					"id": 2,
+					"name": "eng/002.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0,
+					"width": 16
+				}
+			],
+			"id": 8,
+			"name": "eng"
+		},
+		{
+			"file": [
+				{
+					"height": 68,
+					"id": 0,
+					"name": "bangla/000.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0,
+					"width": 48
+				},
+				{
+					"height": 103,
+					"id": 1,
+					"name": "bangla/001.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0,
+					"width": 44
+				},
+				{
+					"height": 41,
+					"id": 2,
+					"name": "bangla/002.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0,
+					"width": 16
+				}
+			],
+			"id": 9,
+			"name": "bangla"
+		}
+	],
+	"generator": "BrashMonkey Spriter",
+	"generator_version": "r11",
+	"scon_version": "1.0"
+}

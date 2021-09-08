@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Airtel Cricket Bonanza" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/favicon.ico" />
+    <!--
+        manifest.json provides metadata used when your web app is installed on a
+        user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+      -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+        Notice the use of %PUBLIC_URL% in the tags above.
+        It will be replaced with the URL of the `public` folder during the build.
+        Only files inside the `public` folder can be referenced from the HTML.
+        Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+        work correctly both with client-side routing and a non-root public URL.
+        Learn how to configure a non-root public URL by running `npm run build`.
+      -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="%PUBLIC_URL%/css/reset.css?v=39" rel="stylesheet" />
+    <link href="%PUBLIC_URL%/css/helper.css?v=39" rel="stylesheet" />
+    <link href="%PUBLIC_URL%/css/style.css?v=39" rel="stylesheet" />
+    <link href="%PUBLIC_URL%/css/fonts.css?v=39" rel="stylesheet" />
+    <link href="%PUBLIC_URL%/css/resetqm.css" rel="stylesheet" />
+    <link href="%PUBLIC_URL%/css/helperqm.css" rel="stylesheet" />
+    <link href="%PUBLIC_URL%/css/styleqm.css" rel="stylesheet" />
+    <link href="%PUBLIC_URL%/css/fontsqm.css" rel="stylesheet" />
+    <script src="%PUBLIC_URL%/js/jquery-3.4.1.js"></script>
+    <script>
+        var jQuery = $.noConflict();
+    </script>
+    <!-- <link href="%PUBLIC_URL%/css/slider.min.css?v=39" rel="stylesheet" /> -->
+    <!-- <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" /> -->
+    <title>Airtel Cricket Bonanza</title>
+
+    <script async src="https://assets.airtel.in/static-assets/ipl-analytics/aa.ipl.umd.js"></script>
+    <!-- <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script> -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-177875138-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        //gtag('config', 'UA-177875138-1');
+        //gtag('config', 'UA-177ssdfsds875138-1as');
+    </script>
+
+    <!-- <script>
+        window.googletag = window.googletag || { cmd: [] };
+        googletag.cmd.push(function () {
+          googletag.defineSlot('/1068322/NDTV_Airtel_IPL_APP_300x250BTF', [300, 250], 'div-gpt-ad-1599470843941-1').addService(googletag.pubads());
+          googletag.pubads().enableSingleRequest();
+          googletag.enableServices();
+        });
+      </script>
+
+      <script>
+        window.googletag = window.googletag || { cmd: [] };
+        googletag.cmd.push(function () {
+          googletag.defineSlot('/1068322/NDTV_Airtel_IPL_APP_endofgame_320x50', [320, 50], 'div-gpt-ad-1599470843941-0').addService(googletag.pubads());
+          googletag.pubads().enableSingleRequest();
+          googletag.enableServices();
+        });
+      </script>
+    <script>
+      window.googletag = window.googletag || { cmd: [] };
+      googletag.cmd.push(function () {
+        googletag.defineSlot('/1068322/NDTV_Airtel_IPL_APP_300x250ATF', [300, 250], 'div-gpt-ad-1599470843941-2').addService(googletag.pubads());
+        googletag.pubads().enableSingleRequest();
+        googletag.enableServices();
+      });
+    </script> -->
+    <!-- Begin comScore Tag -->
+    <script>
+        var _comscore = _comscore || [];
+        _comscore.push({ c1: "2", c2: "9548033" });
+        (function () {
+            var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+            s.src = "https://sb.scorecardresearch.com/cs/9548033/beacon.js";
+            el.parentNode.insertBefore(s, el);
+        })();
+    </script>
+    <noscript>
+        <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=9548033&amp;cv=3.6.0&amp;cj=1">
+    </noscript>
+    <!-- End comScore Tag -->
+
+    <script>
+        var cache_buster = Math.floor(Math.random() * 1000000000);
+        var geturl = window.location.href;
+        var url = decodeURIComponent(geturl);
+        var keyToFind = 'token_id';
+        var valueFound;
+        if (url.indexOf(keyToFind) > -1) {
+            if (url.indexOf(keyToFind + '=') > -1) {
+                valueFound = url.substr(url.indexOf(keyToFind + '=') + keyToFind.length +
+                    1).split('&')[0];
+            }
+        } else {
+            valueFound = Math.floor(Math.random() * 0x7FFFFFFF) + "." +
+                Math.floor(Date.now() / 1000);
+        }
+        var dl = document.location.href;
+        var dr = document.referrer;
+        var dh = document.location.hostname;
+        var dt = document.title;
+        var baseUrl =
+            'https://www.google-analytics.com/collect?v=1&t=pageview&tid=UA-97665797-1'
+            + '&cid=' + valueFound + '&ua=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko)	Chrome/86.0.4240.198 Safari/537.36'
+            + '&dl=' + dl
+            + '&dt=' + dt
+            + '&dh=' + dh
+            + '&dr=' + dr
+            + '&cd72=Airtel_Cricket_Bonanza_MP_Hit'
+            + '&z=' + cache_buster
+        var finalUrl = encodeURI(baseUrl);
+        var xmlHttp = new XMLHttpRequest();
+        xmlHttp.open("GET", finalUrl, true);
+        xmlHttp.send();
+    </script>
+    <script>
+        var adSlot1 = null;
+        window.googletag = window.googletag || { cmd: [] };
+        googletag.cmd.push(function () {
+            googletag.defineSlot('/1068322/NDTV_Airtel_Quiz_300x250', [300, 250], 'div-gpt-ad-1616503025974-0').addService(googletag.pubads());
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+    </script>
+
+
+    <script>
+
+        function openAirtel(url) {
+
+            let os;
+            let userAgent = navigator.userAgent.toLowerCase();
+
+            if (/android/i.test(navigator.userAgent.toLowerCase())) {
+                os = "ANDROID";
+            }
+
+            if (/ipad|iphone|ipod/.test(userAgent)) {
+                os = "IOS";
+            }
+
+            const prefix = {
+                ANDROID: "myairtel://webview?au=",
+                IOS: "myairtel://webview?ax=",
+            };
+
+            alert(`${prefix[os] + url}`);
+
+            window.open(`${prefix[os] + url}`, option);
+
+        }
+
+        function checkUrl() {
+            if (window.location.protocol == 'myairtel') {
+                // url is hit from myairtel
+                console.log('user hit url contains airtel as protocol')
+            } else {
+                if (window.location.hostname == 'localhost') {
+                    // dev url is hit, so ok---
+                    console.log('user hit dev url')
+                    // openAirtel(window.location.href);
+                } else {
+                    // need to open in myairtel
+                    openAirtel(window.location.href);
+                }
+            }
+        }
+        // window.onload = checkUrl;
+
+    </script>
+
+</head>
+
+<body class="clearfix">
+
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+        This HTML file is a template.
+        If you open it directly in the browser, you will see an empty page.
+
+        You can add webfonts, meta tags, or analytics to this file.
+        The build step will place the bundled scripts into the <body> tag.
+
+        To begin the development, run `npm start` or `yarn start`.
+        To create a production bundle, use `npm run build` or `yarn build`.
+      -->
+    
+    <div id='div-ad' align="center">
+        <div id='div-gpt-ad-1616503025974-0' style='width: 300px; height: 250px;'>
+            <script>
+                googletag.cmd.push(function () { googletag.display('div-gpt-ad-1616503025974-0'); });
+            </script>
+        </div>
+    </div>
+
+    <script>
+        let adInterval = 5;
+        let tickerID = 0;
+        var timeleft = adInterval;
+        let ad = document.querySelector('#div-ad');
+        ad.style.width = '100%';
+        ad.style.height = '100%';
+        ad.style.position = 'absolute';
+        ad.style.top = '0';
+        ad.style.left = '0';
+        ad.style.overflow = 'hidden';
+        ad.style.background = '#000';
+        ad.style.display = 'block';
+        ad.style.zIndex = '9999999999';
+        
+        window.googletag.cmd.push(function () {
+            window.googletag.pubads().refresh([window.adSlot1]);
+        });
+        var w = window.screen.width;
+        var h = window.screen.height - 50;
+        var left = (w / 2) - (300 / 2);
+        var top = (h - 250) / 2;
+        var adtop = (h - 275) / 2;
+        var para = document.createElement("P");
+        para.setAttribute("id", "lbltitle");
+        para.style.letterSpacing = "3px";
+        para.style.fontSize = "12px";
+        para.style.color = "#fff";
+        para.style.position = "absolute";
+        para.style.top = "10px";
+        para.style.width = "100%";
+        para.innerText = "Advertisement";
+        ad.appendChild(para);
+
+
+        var paratic = document.createElement("P");
+        paratic.setAttribute("id", "lbladticker");
+        paratic.style.color = "#fff";
+        paratic.style.position = "absolute";
+        paratic.style.top = "30px";
+        paratic.style.width = "100%";
+        ad.appendChild(paratic);
+
+        document.getElementById("div-gpt-ad-1616503025974-0").style.width = '100%';
+        document.getElementById("div-gpt-ad-1616503025974-0").style.height = '100%';
+        document.getElementById("div-gpt-ad-1616503025974-0").style.position = 'absolute';
+        document.getElementById("div-gpt-ad-1616503025974-0").style.top = '100px';
+        var timeleft = adInterval;
+        tickerID = setInterval(function () {
+            if (timeleft == 0) {
+                document.getElementById("div-gpt-ad-1616503025974-0").style.display = "none";
+                var adObj = document.getElementById("lbltitle");
+                adObj.remove();
+                var adObj = document.getElementById("lbladticker");
+                adObj.remove();
+                ad.style.display = 'none';
+                ad.style.zIndex = '0';
+                clearInterval(tickerID);
+            } else {
+                document.getElementById("lbladticker").innerText = 'The game will start in ' + timeleft + ' seconds';
+            }
+            timeleft -= 1;
+        }, 1000);
+    </script>
+</body>
+<!-- <script src="js/counter.js"></script> -->
+
+</html>

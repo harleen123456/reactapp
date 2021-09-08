@@ -1,0 +1,1535 @@
+{
+	"entity": [
+		{
+			"animation": [
+				{
+					"gline": [],
+					"id": 0,
+					"length": 1800,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.5,
+										"abs_pivot_y": 0.5,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 0,
+										"abs_y": 0,
+										"file": 2,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "coin_a_side",
+										"timeline": "1",
+										"z_index": "0"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.5,
+										"abs_pivot_y": 0.5,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -7.8,
+										"abs_y": 0,
+										"file": 15,
+										"folder": 0,
+										"id": 1,
+										"key": 0,
+										"name": "coin_a_sides",
+										"timeline": "2",
+										"z_index": "1"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.5,
+										"abs_pivot_y": 0.5,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 0,
+										"abs_y": 0,
+										"file": 0,
+										"folder": 0,
+										"id": 2,
+										"key": 0,
+										"name": "coin_a_face_000",
+										"timeline": "0",
+										"z_index": "2"
+									}
+								]
+							},
+							{
+								"bone_ref": [],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": "1",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"timeline": "2",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 0,
+										"timeline": "0",
+										"z_index": "2"
+									}
+								],
+								"time": 222
+							},
+							{
+								"bone_ref": [],
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 2,
+										"timeline": "1",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 2,
+										"timeline": "2",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 0,
+										"timeline": "3",
+										"z_index": "3"
+									}
+								],
+								"time": 448
+							},
+							{
+								"bone_ref": [],
+								"id": 3,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 3,
+										"timeline": "1",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"timeline": "4",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 1,
+										"timeline": "3",
+										"z_index": "2"
+									}
+								],
+								"time": 454
+							},
+							{
+								"bone_ref": [],
+								"id": 4,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 4,
+										"timeline": "1",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 1,
+										"timeline": "4",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 2,
+										"timeline": "3",
+										"z_index": "3"
+									},
+									{
+										"id": 4,
+										"key": 0,
+										"timeline": "6",
+										"z_index": "4"
+									}
+								],
+								"time": 672
+							},
+							{
+								"bone_ref": [],
+								"id": 5,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 4,
+										"timeline": "1",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 1,
+										"timeline": "4",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 2,
+										"timeline": "3",
+										"z_index": "3"
+									},
+									{
+										"id": 4,
+										"key": 1,
+										"timeline": "6",
+										"z_index": "4"
+									}
+								],
+								"time": 740
+							},
+							{
+								"bone_ref": [],
+								"id": 6,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 4,
+										"timeline": "1",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 1,
+										"timeline": "4",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 2,
+										"timeline": "3",
+										"z_index": "3"
+									},
+									{
+										"id": 4,
+										"key": 2,
+										"timeline": "6",
+										"z_index": "4"
+									}
+								],
+								"time": 800
+							},
+							{
+								"bone_ref": [],
+								"id": 7,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 3,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 4,
+										"timeline": "1",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 1,
+										"timeline": "4",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 2,
+										"timeline": "3",
+										"z_index": "3"
+									},
+									{
+										"id": 4,
+										"key": 3,
+										"timeline": "6",
+										"z_index": "4"
+									}
+								],
+								"time": 852
+							},
+							{
+								"bone_ref": [],
+								"id": 8,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 5,
+										"timeline": "1",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 2,
+										"timeline": "4",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 3,
+										"timeline": "3",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 4,
+										"timeline": "6",
+										"z_index": "3"
+									}
+								],
+								"time": 898
+							},
+							{
+								"bone_ref": [],
+								"id": 9,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 6,
+										"timeline": "1",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 3,
+										"timeline": "4",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 3,
+										"timeline": "3",
+										"z_index": "2"
+									}
+								],
+								"time": 902
+							},
+							{
+								"bone_ref": [],
+								"id": 10,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 7,
+										"timeline": "1",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 4,
+										"timeline": "4",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 3,
+										"timeline": "3",
+										"z_index": "2"
+									}
+								],
+								"time": 1122
+							},
+							{
+								"bone_ref": [],
+								"id": 11,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 4,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 8,
+										"timeline": "1",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 5,
+										"timeline": "4",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 4,
+										"timeline": "3",
+										"z_index": "3"
+									}
+								],
+								"time": 1344
+							},
+							{
+								"bone_ref": [],
+								"id": 12,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 9,
+										"timeline": "1",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 6,
+										"timeline": "4",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 5,
+										"timeline": "0",
+										"z_index": "2"
+									}
+								],
+								"time": 1350
+							},
+							{
+								"bone_ref": [],
+								"id": 13,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 10,
+										"timeline": "1",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 7,
+										"timeline": "4",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 6,
+										"timeline": "0",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 0,
+										"timeline": "5",
+										"z_index": "3"
+									}
+								],
+								"time": 1570
+							},
+							{
+								"bone_ref": [],
+								"id": 14,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 10,
+										"timeline": "1",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 7,
+										"timeline": "4",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 6,
+										"timeline": "0",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 1,
+										"timeline": "5",
+										"z_index": "3"
+									}
+								],
+								"time": 1631
+							},
+							{
+								"bone_ref": [],
+								"id": 15,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 10,
+										"timeline": "1",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 7,
+										"timeline": "4",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 6,
+										"timeline": "0",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 2,
+										"timeline": "5",
+										"z_index": "3"
+									}
+								],
+								"time": 1695
+							},
+							{
+								"bone_ref": [],
+								"id": 16,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 10,
+										"timeline": "1",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 7,
+										"timeline": "4",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 6,
+										"timeline": "0",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 3,
+										"timeline": "5",
+										"z_index": "3"
+									}
+								],
+								"time": 1749
+							},
+							{
+								"bone_ref": [],
+								"id": 17,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 11,
+										"timeline": "1",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 8,
+										"timeline": "4",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 7,
+										"timeline": "0",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 4,
+										"timeline": "5",
+										"z_index": "3"
+									}
+								],
+								"time": 1800
+							}
+						]
+					},
+					"name": "coin_1",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 0,
+										"pivot_x": 0.5,
+										"pivot_y": 0.5
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 0,
+										"pivot_x": 0.5,
+										"pivot_y": 0.5,
+										"scale_x": 0.041667,
+										"x": 4.8
+									},
+									"spin": 0,
+									"time": 448
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 0,
+										"pivot_x": 0.5,
+										"pivot_y": 0.5,
+										"scale_x": 0.505251,
+										"x": 2.478049
+									},
+									"spin": 0,
+									"time": 672
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 0,
+										"pivot_x": 0.5,
+										"pivot_y": 0.5,
+										"scale_x": 0.372594,
+										"x": 1.812115
+									},
+									"spin": 0,
+									"time": 852
+								},
+								{
+									"id": 4,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 0,
+										"pivot_x": 0.5,
+										"pivot_y": 0.5,
+										"scale_x": 0.01,
+										"x": -0.008105
+									},
+									"spin": 0,
+									"time": 1344
+								},
+								{
+									"id": 5,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 0,
+										"pivot_x": 0.5,
+										"pivot_y": 0.5,
+										"scale_x": 0.01,
+										"x": -4.808105
+									},
+									"spin": 0,
+									"time": 1350
+								},
+								{
+									"id": 6,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 0,
+										"pivot_x": 0.5,
+										"pivot_y": 0.5,
+										"scale_x": 0.4949,
+										"x": -4.90624
+									},
+									"spin": 0,
+									"time": 1570
+								},
+								{
+									"id": 7,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 0,
+										"pivot_x": 0.5,
+										"pivot_y": 0.5
+									},
+									"spin": 0,
+									"time": 1800
+								}
+							],
+							"name": "coin_a_face_000",
+							"obj": 0
+						},
+						{
+							"id": 1,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 2,
+										"folder": 0,
+										"pivot_x": 0.5,
+										"pivot_y": 0.5
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 2,
+										"folder": 0,
+										"pivot_x": 0.5,
+										"pivot_y": 0.5
+									},
+									"spin": 0,
+									"time": 222
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 2,
+										"folder": 0,
+										"pivot_x": 0.5,
+										"pivot_y": 0.5
+									},
+									"spin": 0,
+									"time": 448
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 0,
+										"file": 2,
+										"folder": 0,
+										"pivot_x": 0.5,
+										"pivot_y": 0.5
+									},
+									"spin": 0,
+									"time": 454
+								},
+								{
+									"id": 4,
+									"object": {
+										"angle": 0,
+										"file": 2,
+										"folder": 0,
+										"pivot_x": 0.5,
+										"pivot_y": 0.5
+									},
+									"spin": 0,
+									"time": 672
+								},
+								{
+									"id": 5,
+									"object": {
+										"angle": 0,
+										"file": 2,
+										"folder": 0,
+										"pivot_x": 0.5,
+										"pivot_y": 0.5
+									},
+									"spin": 0,
+									"time": 898
+								},
+								{
+									"id": 6,
+									"object": {
+										"angle": 0,
+										"file": 2,
+										"folder": 0,
+										"pivot_x": 0.5,
+										"pivot_y": 0.5
+									},
+									"spin": 0,
+									"time": 902
+								},
+								{
+									"id": 7,
+									"object": {
+										"angle": 0,
+										"file": 2,
+										"folder": 0,
+										"pivot_x": 0.5,
+										"pivot_y": 0.5
+									},
+									"spin": 0,
+									"time": 1122
+								},
+								{
+									"id": 8,
+									"object": {
+										"angle": 0,
+										"file": 2,
+										"folder": 0,
+										"pivot_x": 0.5,
+										"pivot_y": 0.5
+									},
+									"spin": 0,
+									"time": 1344
+								},
+								{
+									"id": 9,
+									"object": {
+										"angle": 0,
+										"file": 2,
+										"folder": 0,
+										"pivot_x": 0.5,
+										"pivot_y": 0.5
+									},
+									"spin": 0,
+									"time": 1350
+								},
+								{
+									"id": 10,
+									"object": {
+										"angle": 0,
+										"file": 2,
+										"folder": 0,
+										"pivot_x": 0.5,
+										"pivot_y": 0.5
+									},
+									"spin": 0,
+									"time": 1570
+								},
+								{
+									"id": 11,
+									"object": {
+										"angle": 0,
+										"file": 2,
+										"folder": 0,
+										"pivot_x": 0.5,
+										"pivot_y": 0.5
+									},
+									"spin": 0,
+									"time": 1800
+								}
+							],
+							"name": "coin_a_side",
+							"obj": 1
+						},
+						{
+							"id": 2,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 15,
+										"folder": 0,
+										"pivot_x": 0.5,
+										"pivot_y": 0.5,
+										"x": -7.8
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 15,
+										"folder": 0,
+										"pivot_x": 0.5,
+										"pivot_y": 0.5,
+										"scale_x": 0.506098,
+										"x": -9.548148
+									},
+									"spin": 0,
+									"time": 222
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 15,
+										"folder": 0,
+										"pivot_x": 0.5,
+										"pivot_y": 0.5,
+										"scale_x": 0.039855,
+										"x": -4.2
+									},
+									"spin": 0,
+									"time": 448
+								}
+							],
+							"name": "coin_a_sides",
+							"obj": 2
+						},
+						{
+							"id": 3,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 1,
+										"folder": 0,
+										"pivot_x": 0.5,
+										"pivot_y": 0.5,
+										"scale_x": 0.01,
+										"x": -4.8
+									},
+									"spin": 0,
+									"time": 448
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 1,
+										"folder": 0,
+										"pivot_x": 0.5,
+										"pivot_y": 0.5,
+										"scale_x": 0.023424,
+										"x": -6.126973
+									},
+									"spin": 0,
+									"time": 454
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 1,
+										"folder": 0,
+										"pivot_x": 0.5,
+										"pivot_y": 0.5,
+										"scale_x": 0.50332,
+										"x": -6.232235
+									},
+									"spin": 0,
+									"time": 672
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 0,
+										"file": 1,
+										"folder": 0,
+										"pivot_x": 0.5,
+										"pivot_y": 0.5
+									},
+									"spin": 0,
+									"time": 898
+								},
+								{
+									"id": 4,
+									"object": {
+										"angle": 0,
+										"file": 1,
+										"folder": 0,
+										"pivot_x": 0.5,
+										"pivot_y": 0.5,
+										"scale_x": 0.01,
+										"x": 4.8
+									},
+									"spin": 0,
+									"time": 1344
+								}
+							],
+							"name": "coin_a_back",
+							"obj": 3
+						},
+						{
+							"id": 4,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 15,
+										"folder": 0,
+										"pivot_x": 0.5,
+										"pivot_y": 0.5,
+										"scale_x": -0.042017,
+										"x": 5.057143
+									},
+									"spin": 0,
+									"time": 454
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 15,
+										"folder": 0,
+										"pivot_x": 0.5,
+										"pivot_y": 0.5,
+										"scale_x": -0.499326,
+										"x": 6.685644
+									},
+									"spin": 0,
+									"time": 672
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 15,
+										"folder": 0,
+										"pivot_x": 0.5,
+										"pivot_y": 0.5,
+										"scale_x": -1,
+										"x": 8.468572
+									},
+									"spin": 0,
+									"time": 898
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 0,
+										"file": 15,
+										"folder": 0,
+										"pivot_x": 0.5,
+										"pivot_y": 0.5,
+										"x": -7.131428
+									},
+									"spin": 0,
+									"time": 902
+								},
+								{
+									"id": 4,
+									"object": {
+										"angle": 0,
+										"file": 15,
+										"folder": 0,
+										"pivot_x": 0.5,
+										"pivot_y": 0.5,
+										"scale_x": 0.514841,
+										"x": -8.336367
+									},
+									"spin": 0,
+									"time": 1122
+								},
+								{
+									"id": 5,
+									"object": {
+										"angle": 0,
+										"file": 15,
+										"folder": 0,
+										"pivot_x": 0.5,
+										"pivot_y": 0.5,
+										"scale_x": 0.025673,
+										"x": -4.731428
+									},
+									"spin": 0,
+									"time": 1344
+								},
+								{
+									"id": 6,
+									"object": {
+										"angle": 0,
+										"file": 15,
+										"folder": 0,
+										"pivot_x": 0.5,
+										"pivot_y": 0.5,
+										"scale_x": 0.025673,
+										"x": 4.8
+									},
+									"spin": 0,
+									"time": 1350
+								},
+								{
+									"id": 7,
+									"object": {
+										"angle": 0,
+										"file": 15,
+										"folder": 0,
+										"pivot_x": 0.5,
+										"pivot_y": 0.5,
+										"scale_x": -0.446215,
+										"x": 8.4
+									},
+									"spin": 0,
+									"time": 1570
+								},
+								{
+									"id": 8,
+									"object": {
+										"angle": 0,
+										"file": 15,
+										"folder": 0,
+										"pivot_x": 0.5,
+										"pivot_y": 0.5,
+										"scale_x": -1,
+										"x": 7.731426
+									},
+									"spin": 0,
+									"time": 1800
+								}
+							],
+							"name": "coin_a_sides_000",
+							"obj": 4
+						},
+						{
+							"id": 5,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 3,
+										"folder": 0,
+										"pivot_x": 0.5,
+										"pivot_y": 0.5,
+										"scale_x": 0.4949,
+										"x": -4.906242
+									},
+									"spin": 0,
+									"time": 1570
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 4,
+										"folder": 0,
+										"pivot_x": 0.5,
+										"pivot_y": 0.5,
+										"scale_x": 0.64643,
+										"x": -3.434369
+									},
+									"spin": 0,
+									"time": 1631
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 5,
+										"folder": 0,
+										"pivot_x": 0.5,
+										"pivot_y": 0.5,
+										"scale_x": 0.794593,
+										"x": -1.995205
+									},
+									"spin": 0,
+									"time": 1695
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 0,
+										"file": 6,
+										"folder": 0,
+										"pivot_x": 0.5,
+										"pivot_y": 0.5,
+										"scale_x": 0.902347,
+										"x": -0.94854
+									},
+									"spin": 0,
+									"time": 1749
+								},
+								{
+									"id": 4,
+									"object": {
+										"angle": 0,
+										"file": 7,
+										"folder": 0,
+										"pivot_x": 0.5,
+										"pivot_y": 0.5
+									},
+									"spin": 0,
+									"time": 1800
+								}
+							],
+							"name": "coin_shine_4",
+							"obj": 5
+						},
+						{
+							"id": 6,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 3,
+										"folder": 0,
+										"pivot_x": 0.5,
+										"pivot_y": 0.5,
+										"scale_x": 0.50332,
+										"x": -6.232236
+									},
+									"spin": 0,
+									"time": 672
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 4,
+										"folder": 0,
+										"pivot_x": 0.5,
+										"pivot_y": 0.5,
+										"scale_x": 0.654338,
+										"x": -4.337299
+									},
+									"spin": 0,
+									"time": 740
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 5,
+										"folder": 0,
+										"pivot_x": 0.5,
+										"pivot_y": 0.5,
+										"scale_x": 0.785219,
+										"x": -2.695021
+									},
+									"spin": 0,
+									"time": 800
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 0,
+										"file": 6,
+										"folder": 0,
+										"pivot_x": 0.5,
+										"pivot_y": 0.5,
+										"scale_x": 0.899322,
+										"x": -1.263291
+									},
+									"spin": 0,
+									"time": 852
+								},
+								{
+									"id": 4,
+									"object": {
+										"angle": 0,
+										"file": 7,
+										"folder": 0,
+										"pivot_x": 0.5,
+										"pivot_y": 0.5
+									},
+									"spin": 0,
+									"time": 898
+								}
+							],
+							"name": "coin_shine_4_000",
+							"obj": 6
+						}
+					]
+				}
+			],
+			"character_map": [],
+			"id": 0,
+			"name": "pick_ups",
+			"obj_info": [
+				{
+					"frames": [
+						{
+							"file": 0,
+							"folder": 0
+						}
+					],
+					"name": "pick_ups_coin_a_face_000",
+					"realname": "coin_a_face_000",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 2,
+							"folder": 0
+						}
+					],
+					"name": "pick_ups_coin_a_side",
+					"realname": "coin_a_side",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 15,
+							"folder": 0
+						}
+					],
+					"name": "pick_ups_coin_a_sides",
+					"realname": "coin_a_sides",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 1,
+							"folder": 0
+						}
+					],
+					"name": "pick_ups_coin_a_back",
+					"realname": "coin_a_back",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 15,
+							"folder": 0
+						}
+					],
+					"name": "pick_ups_coin_a_sides_000",
+					"realname": "coin_a_sides_000",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 3,
+							"folder": 0
+						},
+						{
+							"file": 4,
+							"folder": 0
+						},
+						{
+							"file": 5,
+							"folder": 0
+						},
+						{
+							"file": 6,
+							"folder": 0
+						},
+						{
+							"file": 7,
+							"folder": 0
+						}
+					],
+					"name": "pick_ups_coin_shine_4",
+					"realname": "coin_shine_4",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 3,
+							"folder": 0
+						},
+						{
+							"file": 4,
+							"folder": 0
+						},
+						{
+							"file": 5,
+							"folder": 0
+						},
+						{
+							"file": 6,
+							"folder": 0
+						},
+						{
+							"file": 7,
+							"folder": 0
+						}
+					],
+					"name": "pick_ups_coin_shine_4_000",
+					"realname": "coin_shine_4_000",
+					"type": "sprite"
+				}
+			]
+		}
+	],
+	"folder": [
+		{
+			"file": [
+				{
+					"height": 58,
+					"id": 0,
+					"name": "pick_ups/coin_a_face.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 57
+				},
+				{
+					"height": 58,
+					"id": 1,
+					"name": "pick_ups/coin_a_back.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 57
+				},
+				{
+					"height": 58,
+					"id": 2,
+					"name": "pick_ups/coin_a_side.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 12
+				},
+				{
+					"height": 58,
+					"id": 3,
+					"name": "pick_ups/coin_shine_4.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 57
+				},
+				{
+					"height": 58,
+					"id": 4,
+					"name": "pick_ups/coin_shine_3.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 57
+				},
+				{
+					"height": 58,
+					"id": 5,
+					"name": "pick_ups/coin_shine_2.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 57
+				},
+				{
+					"height": 58,
+					"id": 6,
+					"name": "pick_ups/coin_shine_1.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 57
+				},
+				{
+					"height": 58,
+					"id": 7,
+					"name": "pick_ups/coin_shine_0.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 57
+				},
+				{
+					"height": 55,
+					"id": 8,
+					"name": "pick_ups/box_front.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 55
+				},
+				{
+					"height": 55,
+					"id": 9,
+					"name": "pick_ups/box_back.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 55
+				},
+				{
+					"height": 55,
+					"id": 10,
+					"name": "pick_ups/box_shine_4.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 58
+				},
+				{
+					"height": 55,
+					"id": 11,
+					"name": "pick_ups/box_shine_3.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 58
+				},
+				{
+					"height": 55,
+					"id": 12,
+					"name": "pick_ups/box_shine_2.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 58
+				},
+				{
+					"height": 55,
+					"id": 13,
+					"name": "pick_ups/box_shine_1.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 58
+				},
+				{
+					"height": 55,
+					"id": 14,
+					"name": "pick_ups/box_shine_0.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 58
+				},
+				{
+					"height": 58,
+					"id": 15,
+					"name": "pick_ups/coin_a_sides.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 40
+				},
+				{
+					"height": 55,
+					"id": 16,
+					"name": "pick_ups/box_side_a.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 26
+				},
+				{
+					"height": 55,
+					"id": 17,
+					"name": "pick_ups/box-sides.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 15
+				}
+			],
+			"id": 0,
+			"name": "pick_ups"
+		}
+	],
+	"generator": "BrashMonkey Spriter",
+	"generator_version": "b10",
+	"scon_version": "1.0"
+}

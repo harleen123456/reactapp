@@ -1,0 +1,892 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Free Hit</title>
+    <link rel="icon" href="favicon.ico" />
+
+    <link href="css/reset.css?v=39" rel="stylesheet" />
+    <link href="css/helper.css?v=39" rel="stylesheet" />
+    <link href="css/style.css?v=39" rel="stylesheet" />
+
+    <link rel="stylesheet" href="spin_files/main.css?v=39" type="text/css" />
+    <link rel="stylesheet" href="spin_files/media.css?v=39" type="text/css" />
+    <script type="text/javascript" src="spin_files/Winwheel.js?v=39"></script>
+    <script src="spin_files/TweenMax.min.js?v=39"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-177875138-1"></script>
+    <script async src="https://assets.airtel.in/static-assets/ipl-analytics/aa.ipl.umd.js"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        // gtag('js', new Date());
+    //    gtag('config', 'UA-177875138-1');
+    </script>
+    <script>
+        window.onload = function () {
+
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                    m = s.getElementsByTagName(o)
+                    [0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+            ga('create', 'UA-177875138-1', 'auto');
+
+            ga('send', 'pageview', "Free Hit");
+            aaTrackPageview("pageview", "Free Hit", "ACB_free_hit")
+        }        
+    </script>
+
+
+
+
+
+    <!-- Begin comScore Tag -->
+    <script>
+        var _comscore = _comscore || [];
+        _comscore.push({ c1: "2", c2: "9548033" });
+        (function () {
+            var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+            s.src = "https://sb.scorecardresearch.com/cs/9548033/beacon.js";
+            el.parentNode.insertBefore(s, el);
+        })();
+    </script>
+    <noscript>
+        <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=9548033&amp;cv=3.6.0&amp;cj=1">
+    </noscript>
+    <!-- End comScore Tag -->
+
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-N2R2KQQ');</script>
+    <!-- End Google Tag Manager -->
+
+    <script src="appcore.js?v=39"></script>
+    <style>
+        /* Loader */
+
+        .loader_main {
+            position: fixed;
+            /* display: none; */
+            width: 100%;
+            background: #121212ad;
+            height: 100%;
+            z-index: 99999999999;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.4s cubic-bezier(.7, .26, .32, .53);
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .loader_main.activeLoader {
+            opacity: 1;
+            visibility: visible;
+            display: flex;
+        }
+
+        .loaderBg {
+            opacity: 0.7;
+            background: #302f3a;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+        }
+
+        .loadingTXt {
+            display: flex;
+            flex-direction: column;
+            color: white;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            margin-top: 40px;
+            letter-spacing: 1px;
+            font-size: 11px;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            top: 61%;
+        }
+
+        .loadingTXt span {
+            color: #e40000;
+        }
+
+        .loader,
+        .loader:after {
+            border-radius: 50%;
+            width: 5em;
+            height: 5em;
+        }
+
+        .loader {
+            margin: 0px auto;
+            font-size: 6px;
+            position: relative;
+            text-indent: -9999em;
+            border-top: 0.2em solid rgba(124, 57, 57, 1);
+            border-right: 0.2em solid rgba(255, 255, 255, 1);
+            border-bottom: 0.2em solid rgba(255, 255, 255, 1);
+            border-left: 0.2em solid #e40000;
+            -webkit-transform: translateZ(0);
+            -ms-transform: translateZ(0);
+            transform: translateZ(0);
+            -webkit-animation: load8 1.1s infinite linear;
+            animation: load8 1.1s infinite linear;
+            top: 50%;
+        }
+
+        @-webkit-keyframes load8 {
+            0% {
+                -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+            }
+
+            100% {
+                -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes load8 {
+            0% {
+                -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+            }
+
+            100% {
+                -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="landscape">Please Rotate your device</div>
+    <div class="loader_main" id="loader_main">
+        <div class="loaderBg"></div>
+        <div class="loadingTXt">Loading...</div>
+        <div class="loader">Loading...</div>
+    </div>
+    <!-- <div class="coupon_modalBox">
+    
+                <div class="couponBox_Content">
+                    <h3>congratulations</h3>
+                    <div class="wonCoupn_Txt">You've Won Myntra <br>Coupon Worth <span>500</span></div>
+                    <div class="couponBox">OGx87tjj <img src="copy@2x.png" /></div>
+                    <div class="coupon_btmtext">You can also view your coupon code later in your my rewards section</div>
+                    <a class="btnred">Play More Games
+                        <div class="btnred2">
+                            <img src="right-arrow.png">
+                        </div>
+                    </a>
+                </div>
+    
+            </div> -->
+    <!-- <div class="loader_main">
+            <div class="loaderBg"></div>
+            <div class="loadingTXt">Loading...</div>
+            <div class="loader">Loading...</div>
+        </div> -->
+
+    <!-- <div class="top-back container_header">
+            <div class=" dflexheader al-i-center">
+                <a class="bckArw" href="/"></a> 
+                
+                <span class="">Airtel Cricket Bonanza</span>
+            </div>
+        </div> -->
+    <div class="couponPopup ">
+        <div class="couponPopupBg"></div>
+        <div class="couponPopupBx brdr_popup spinWheels ">
+
+            <div id="won_mess"></div>
+            <div id="alert_mess"></div>
+            <!-- <div class="btnArea">
+                    <a href="#"><input type="button" class="btnStyl1 playBtn t-uppercase"
+                            value="SPIN Again" /></a>
+                </div> -->
+        </div>
+    </div>
+
+    <div class="main-container">
+
+        <div class="headingtop">Free Hit</div>
+        <div class="subheadingtop">Today is your lucky day! Spin the wheel to win exciting coupons.</div>
+        <div class="canvas-container">
+            <img src="spin_img/triangle.png" id="triangle" onclick="audio.pause();" />
+            <canvas id="canvas" width="360" data-responsiveMinWidth="180" data-responsiveScaleHeight="true"
+                data-responsiveMargin="50">
+                <p style="color: white" align="center">Sorry, your browser doesn't support canvas. Please try another.
+                </p>
+
+            </canvas>
+            <!-- <a class="spinmeBtn" id="spin_button"  onClick="startSpin();">SPIN ME</a> -->
+            <img id="spin_button" class="spinmeBtn" src="img/spinme.png" alt="Spin" />
+            <img src="spin_img/bat.png" id="batball" />
+        </div>
+        <!-- <div class="more_button">
+                <a href="/">PLAY MORE GAMES <i><img src="spin_img/right-arrow.png" /></i></a>
+            </div> -->
+
+        <!-- <div class="moreGames">Play more games to win great prizes!</div> -->
+
+        <!-- <a href="/agames/"><button type="button" class="btnred_rel">Play More Games <img src="/agames/images/svg/right-arrow-white.svg" class="next_wht_arr">
+                 
+            </button></a>
+    <h4 class="plymore_disc">Play more to win more fun prizes!</h4>
+            -->
+    </div>
+
+    <script>
+        var rewardObj;
+        let checkToken = localStorage.getItem("accessToken");
+        let username = localStorage.getItem("username")
+
+
+
+        if (checkToken == null || checkToken == "") {
+            window.location.href = "/";
+        }
+
+        let theWheel;
+        (function () {
+
+            let id1 = "",
+                id2 = "",
+                won = "",
+                rewards = "",
+                gameInstanceInitId = "",
+                accessToken = localStorage.getItem("accessToken"),
+                token = 3;
+
+
+            $("#spin_button").click(function () {
+                startSpin()
+            })
+            let data = JSON.stringify({
+                "game_id": "spin_wheel",
+            });
+            if (accessToken) {
+
+                $.ajax({
+                    headers: {
+                        "Content-Type": "application/json",
+                        "accessToken": accessToken
+                    },
+                    url: base_url + "spin/init",
+                    type: "post",
+                    data: data,
+                    dataType: "json",
+                    success: function (res) {
+
+                        if (res.success) {
+                            $('.loader_main').hide()
+                            //console.log( "res", res)
+                            rewardObj = res.data.reward;
+                            let segments = [], items = res.data.item,
+                                colors = ['#e06d06', '#ffc53a', '#e2e856', '#161032', '#b23800', '#b26700'];
+                            gameInstanceInitId = res.data.gameInstanceInitId, title = [];
+
+                            // console.log( gameInstanceInitId);
+
+                            title = items.map(e => {
+                                return {
+                                    title: e.partner_brand,
+                                    popup: e.partner_brand,
+                                    value: e.id,
+                                    code: e.code
+                                }
+                            })
+
+
+                            // -------------------------------------------------------------------------------------------
+
+
+                            // title[title.length] = {
+                            //     title: 'Try again',
+                            //     popup: 'a chance to spin the wheel again ',
+                            //     value: 'try_again',
+                            //     code: 'try_again'
+                            // }
+                            // title[title.length] = {
+                            //     title: 'Try again',
+                            //     popup: 'a chance to spin the wheel again ',
+                            //     value: 'try_again',
+                            //     code: 'try_again'
+                            // }
+                            // title[title.length] = {
+                            //     title: 'Try again',
+                            //     popup: 'a chance to spin the wheel again ',
+                            //     value: 'try_again',
+                            //     code: 'try_again'
+                            // }
+
+                            // title[title.length] = {
+                            //     title: 'phone',
+                            //     popup: 'a chance to win an ' + res.data.reward,
+                            //     value: 'phone',
+                            //     code: res.data.reward
+                            // }
+
+                            // title[title.length] = {
+                            //     title: 'phone',
+                            //     popup: 'a chance to win an ' + res.data.reward,
+                            //     value: 'phone',
+                            //     code: res.data.reward
+                            // }
+
+                            // title[title.length] = {
+                            //     title: 'phone',
+                            //     popup: 'a chance to win an ' + res.data.reward,
+                            //     value: 'phone',
+                            //     code: res.data.reward
+                            // }
+
+                            // title[title.length] = {
+                            //     // title: res.data.reward,
+                            //     title: 'Phone',
+                            //     popup: 'a chance to win an ' + res.data.reward,
+                            //     value: res.data.reward,                            
+                            //     code: res.data.reward
+                            // }
+                            // title[title.length] = {
+                            //     // title: res.data.reward,
+                            //     title: 'Phone',
+                            //     popup: 'a chance to win an ' + res.data.reward,
+                            //     value: res.data.reward,                            
+                            //     code: res.data.reward
+                            // }
+                            // title[title.length] = {
+                            //     // title: res.data.reward,
+                            //     title: 'Phone',
+                            //     popup: 'a chance to win an ' + res.data.reward,
+                            //     value: res.data.reward,                            
+                            //     code: res.data.reward
+                            // }
+
+                            // title[title.length] = {
+                            //     // title: res.data.reward,
+                            //     title: 'Phone',
+                            //     popup: 'a chance to win an ' + res.data.reward,
+                            //     value: res.data.reward,                            
+                            //     code: res.data.reward
+                            // }
+                            // title[title.length] = {
+                            //     // title: res.data.reward,
+                            //     title: 'Phone',
+                            //     popup: 'a chance to win an ' + res.data.reward,
+                            //     value: res.data.reward,                            
+                            //     code: res.data.reward
+                            // }
+                            // title[title.length] = {
+                            //     // title: res.data.reward,
+                            //     title: 'Phone',
+                            //     popup: 'a chance to win an ' + res.data.reward,
+                            //     value: res.data.reward,                            
+                            //     code: res.data.reward
+                            // }
+                            // ------------------------------------------------------------------------------------------
+
+
+                            title[title.length] = {
+                                title: 'Try again',
+                                popup: 'a chance to spin the wheel again ',
+                                value: 'try_again',
+                                code: 'try_again'
+                            }
+
+                            if (rewardObj !== null) {
+                                title[title.length] = {
+                                    // title: rewardObj.description,
+                                    title: 'Samsung M01',
+                                    popup: 'a chance to win an ' + rewardObj.title,
+                                    value: rewardObj.id,
+                                    code: rewardObj.id
+                                }
+                                title[title.length] = {
+                                    title: 'Try again',
+                                    popup: 'a chance to spin the wheel again ',
+                                    value: 'try_again',
+                                    code: 'try_again'
+                                }
+                            } else {
+                                title[title.length] = {
+                                    title: 'Try again',
+                                    popup: 'a chance to spin the wheel again ',
+                                    value: 'try_again',
+                                    code: 'try_again'
+                                }
+                                let temp = title[5]
+                                title[5] = title[1]
+                                title[1] = temp
+                            }
+
+
+
+                            console.log("title", title)
+                            rewards = rewardObj != null ? rewardObj.id : "";
+
+                            for (let index in title) {
+                                segments[index] = {
+                                    'fillStyle': colors[index],
+                                    'strokeStyle': 'rgba(0, 0, 0, 0)',
+                                    'text': title[index].title,
+                                    'popup': title[index].popup,
+                                    'value': title[index].value,
+                                    'code': title[index].code,
+                                    'textFontSize': 14,
+                                    'textFontWeight': 400,
+                                    'textFontFamily': '"Tondo", "Roboto", "Arial", "Helvetica"',
+                                    'textFillStyle': '#ffffff'
+                                }
+                            }
+                            // Create new wheel object specifying the parameters at creation time.
+                            theWheel = new Winwheel({
+
+                                'numSegments': 6, // Specify number of segments.
+                                'outerRadius': 170, // Set outer radius so wheel fits inside the background.
+                                'textFontSize': 28,
+                                'responsive': true, // Set font size as desired.
+                                'segments': // Define segments including colour and text.
+                                    segments,
+                                'animation': // Specify the animation to use.
+                                {
+                                    'type': 'spinToStop',
+                                    'duration': 5, // Duration in seconds.
+                                    'spins': 15, // Number of complete spins.
+                                    'callbackSound': playSound,
+                                    'callbackFinished': alertPrize
+                                }
+                            });
+                        } else {
+                            showAlert("Already Played")
+                        }
+
+                    }
+                })
+            } else {
+                showAlert("Something Went Wrong")
+            }
+
+            function showAlert(alert) {
+                window.location.href = '/agames/'
+                let alert_mess = `<h3 class="t-uppercase ft-24 ftw-600 col-blk">oops!</h3><h4 class="ft-16 col-blk coupon-txt mtb-10 width-80p mlr-auto lh-1pt3">${alert}</h4><div class="clearfix"></div>`;
+
+                $("#alert_mess").html(alert_mess);
+                $(".couponPopup").addClass('activePopup');
+
+                // Create new wheel object specifying the parameters at creation time.
+                theWheel = new Winwheel({
+
+                    'numSegments': 6, // Specify number of segments.
+                    'outerRadius': 170, // Set outer radius so wheel fits inside the background.
+                    'textFontSize': 16,
+                    'responsive': true, // Set font size as desired.
+                    'segments': // Define segments including colour and text.
+                        [{
+                            'fillStyle': '#e06d06',
+                            'textFontFamily': 'Tondo',
+                            'strokeStyle': 'rgba(0, 0, 0, 0)',
+                            'text': 'Try again',
+                            'textFontSize': 9,
+                            'textFillStyle': '#ffffff'
+                        }, {
+                            'fillStyle': '#ffc53a',
+                            'textFontFamily': 'Tondo',
+                            'strokeStyle': 'rgba(0, 0, 0, 0)',
+                            'text': 'Prize 2',
+                            'textFontSize': 16,
+                            'textFillStyle': '#ffffff'
+                        }, {
+                            'fillStyle': '#e2e856',
+                            'textFontFamily': 'Tondo',
+                            'strokeStyle': 'rgba(0, 0, 0, 0)',
+                            'text': 'Prize 3',
+                            'textFontSize': 16,
+                            'textFillStyle': '#ffffff'
+                        }, {
+                            'fillStyle': '#161032',
+                            'textFontFamily': 'Tondo',
+                            'strokeStyle': 'rgba(0, 0, 0, 0)',
+                            'text': 'Try again',
+                            'textFontSize': 16,
+                            'textFillStyle': '#ffffff'
+                        }, {
+                            'fillStyle': '#b23800',
+                            'textFontFamily': 'Tondo',
+                            'strokeStyle': 'rgba(0, 0, 0, 0)',
+                            'text': 'Prize 5',
+                            'textFontSize': 16,
+                            'textFillStyle': '#ffffff'
+                        }, {
+                            'fillStyle': '#b26700',
+                            'textFontFamily': 'Tondo',
+                            'strokeStyle': 'rgba(0, 0, 0, 0)',
+                            'text': 'Prize 6',
+                            'textFontSize': 16,
+                            'textFillStyle': '#ffffff'
+                        },
+                        ],
+                    'animation': // Specify the animation to use.
+                    {
+                        'type': 'spinToStop',
+                        'duration': 5, // Duration in seconds.
+                        'spins': 15, // Number of complete spins.
+                        'callbackSound': playSound,
+                        'callbackFinished': alertPrize
+                    }
+                });
+            }
+
+            var
+                // Obtain a reference to the canvas element using its id.
+                htmlCanvas = document.getElementById('canvas'),
+                // Obtain a graphics context on the canvas element for drawing.
+                context = htmlCanvas.getContext('2d');
+
+            // Start listening to resize events and draw canvas.
+            initialize();
+
+            function initialize() {
+                $('.loader_main').show()
+                // Register an event listener to call the resizeCanvas() function 
+                // each time the window is resized.
+                window.addEventListener('resize', resizeCanvas, false);
+                // Draw canvas border for the first time.
+                resizeCanvas();
+            }
+
+            // Display custom canvas. In this case it's a blue, 5 pixel 
+            // border that resizes along with the browser window.
+            function redraw() {
+                context.strokeStyle = 'blue';
+                context.lineWidth = '0';
+                context.strokeRect(0, 0, window.innerWidth, window.innerHeight);
+            }
+
+            // Runs each time the DOM window resize event fires.
+            // Resets the canvas dimensions to match window,
+            // then draws the new borders accordingly.
+            //  window.innerWidth)
+            function resizeCanvas() {
+                htmlCanvas.width = window.innerWidth;
+                htmlCanvas.height = window.innerHeight;
+
+                redraw();
+            }
+
+
+            // Vars used by the code in this page to do power controls.
+            let wheelPower = 0;
+            let wheelSpinning = false;
+
+            // -------------------------------------------------------
+            // Function to handle the onClick on the power buttons.
+            // -------------------------------------------------------
+            function powerSelected(powerLevel) {
+                // Ensure that power can't be changed while wheel is spinning.
+                if (wheelSpinning == false) {
+                    // Reset all to grey incase this is not the first time the user has selected the power.
+                    // document.getElementById('pw1').className = "";
+                    // document.getElementById('pw2').className = "";
+                    // document.getElementById('pw3').className = "";
+
+                    // Now light up all cells below-and-including the one selected by changing the class.
+                    // if (powerLevel >= 1) {
+                    //     document.getElementById('pw1').className = "pw1";
+                    // }
+
+                    // if (powerLevel >= 2) {
+                    //     document.getElementById('pw2').className = "pw2";
+                    // }
+
+                    // if (powerLevel >= 3) {
+                    //     document.getElementById('pw3').className = "pw3";
+                    // }
+
+                    // Set wheelPower var used when spin button is clicked.
+                    wheelPower = powerLevel;
+
+                    // Light up the spin button by changing it's source image and adding a clickable class to it.
+                    document.getElementById('spin_button').src = "spinme.png";
+                    document.getElementById('spin_button').className = "clickable";
+                }
+            }
+
+            // -------------------------------------------------------
+            // Click handler for spin button.
+            // -------------------------------------------------------
+            function startSpin() {
+                let username = localStorage.getItem("username")
+                let token = localStorage.getItem("token_id")
+
+                aaTrackACB("acb_free_hit_click", "Free Hit Clicks", "SPIN ME", "ACB_free_hit")
+
+                playedSound = 0;
+                // Ensure that spinning can't be clicked again while already running.
+                if (wheelSpinning == false) {
+                    id1 = $.now();
+                    // Based on the power level selected adjust the number of spins for the wheel, the more times is has
+                    // to rotate with the duration of the animation the quicker the wheel spins.
+                    if (wheelPower == 1) {
+                        theWheel.animation.spins = 3;
+                    } else if (wheelPower == 2) {
+                        theWheel.animation.spins = 8;
+                    } else if (wheelPower == 3) {
+                        theWheel.animation.spins = 15;
+                    }
+
+                    // Disable the spin button so can't click again while wheel is spinning.
+                    document.getElementById('spin_button').src = "spinme.png";
+                    document.getElementById('spin_button').className = "";
+
+                    // Begin the spin animation by calling startAnimation on the wheel object.
+                    theWheel.startAnimation();
+
+                    // Set to true so that power can't be changed and spin button re-enabled during
+                    // the current animation. The user will have to reset before spinning again.
+                    wheelSpinning = true;
+                }
+            }
+
+            // Loads the tick audio sound in to an audio object.
+            // let audio = new Audio('tick.mp3');
+            let audio = new Audio('tick1.mp3');
+
+            // This function is called when the sound is to be played.
+            let playedSound = 0;
+            function playSound() {
+                if (playedSound == 0) {
+                    playedSound = 1;
+                    // Stop and rewind the sound if it already happens to be playing.
+                    audio.pause();
+                    audio.currentTime = 1;
+
+                    // Play the sound.
+                    audio.play();
+                }
+            }
+
+            // -------------------------------------------------------
+            // Function for reset button.
+            // -------------------------------------------------------
+            function resetWheel() {
+                theWheel.stopAnimation(false); // Stop the animation, false as param so does not call callback function.
+                theWheel.rotationAngle = 0; // Re-set the wheel angle to 0 degrees.
+                theWheel.draw(); // Call draw to render changes to the wheel.
+
+                // document.getElementById('pw1').className = "";  // Remove all colours from the power level indicators.
+                // document.getElementById('pw2').className = "";
+                // document.getElementById('pw3').className = "";
+
+                wheelSpinning = false; // Reset to false to power buttons and spin can be clicked again.
+            }
+
+            // -------------------------------------------------------
+            // Called when the spin animation has finished by the callback feature of the wheel because I specified callback in the parameters
+            // note the indicated segment is passed in as a parmeter as 99% of the time you will want to know this to inform the user of their prize.
+            // -------------------------------------------------------
+
+            function skipSpinGT() {
+                // ACB_Free_hit_Skip
+                aaTrackACB("acb_free_hit_click", "Free Hit Clicks", "ACB_Free_hit_Skip", "ACB_free_hit")
+
+            }
+
+
+            function spinAgainGT() {
+                // ACB_Free_hit_Skip
+                aaTrackACB("acb_free_hit_click", "Free Hit Clicks", "ACB_Free_hit_Skip", "ACB_free_hit")
+
+            }
+
+            function spinPlayMoreGT() {
+                // ACB_Free_hit_Skip
+                aaTrackACB("acb_free_hit_click", "Free Hit Clicks", "ACB_free_hit_Play_more_games", "ACB_free_hit")
+
+            }
+
+            function alertPrize(indicatedSegment) {
+                // Do basic alert of the segment text. You would probably want to do something more interesting with this information.
+                //alert("You have won " + indicatedSegment.text);
+                //$("#test").html("You have won " + indicatedSegment.text);
+
+
+                won = {
+                    text: indicatedSegment.text,
+                    value: indicatedSegment.value,
+                    coupon_code: indicatedSegment.code,
+                    popup: indicatedSegment.popup,
+                }
+
+                if (indicatedSegment.code == 'try_again') {
+                    // POPUP TRY AGAIN IN SPIN RESULT
+                    aaTrackPageview("pageview", "Sorry Pop Up", "ACB_free_hit_popup")
+                    id2 = $.now(),
+                        copyToClipboard = rewards !== won.text ? `<div class="txtCopyBx pos-rel" id="cpnCd" ><span  class="ftw-600 t-center copy_wrp">${won.coupon_code}</span><div class="copyContnr"><input type="button" class="copyIcn"></div></div><div class="copySts width-100p mb-10 d-none" >Copied</div>` : ""
+                    let won_mess = `<a href='/agames/' id="play_moregt_4" onclick="skipSpinGT()"><h4 class="skpBtn pd10 ft-14">Close</h4></a><h3 class="t-uppercase ft-24 ftw-600 col-red">Oops!</h3><h4 class="ft-16 col-blk coupon-txt mtb-10 width-80p mlr-auto lh-1pt3">It's a miss.</h4> <div class="clearfix"></div>
+                <div class="predictBtn">
+                    <a class="btnArea btnStyl1" id="play_moregt_4" href="showad.html" onclick="spinAgainGT()">
+                        <span class="btnStyl1 d-inlnblk t-uppercase">Get another Spin</span>
+                    </a>
+                </div></div>`;
+
+                    $("#won_mess").html(won_mess);
+                    $("#play_moregt_5").click(function () {
+                        skipSpinGT();
+                    })
+                    $("#play_moregt_4").click(function () {
+                        spinAgainGT();
+                    })
+                    $(".couponPopup").addClass('activePopup');
+
+                    // api to submit
+                    sendCouponId()
+
+
+
+                } else {
+                    // POPUP COUPON IN SPIN RESULT
+                    if (rewardObj != null && won.value == window.rewardObj.id) {
+                        // won mobile
+                        id2 = $.now();
+                        aaTrackPageview("pageview", "Prize Pop Up", "ACB_free_hit_popup")
+                        let won_mess = `
+                <div class="imgBx">
+                    <img src=${rewardObj.image}>
+                </div>
+                <h4 class="ft-16 col-blk coupon-txt mt-20 mb-20 mlr-auto lh-1pt4">You are eligible for the lucky draw of <br> ${rewardObj.title}</h4>
+                <div class="clearfix"></div>
+                <span class="noteTxt d-block mb-20 lh-1pt3">Check My Prizes on ${rewardObj.validity}</span>
+                <a class="btnArea btnStyl1" id="play_moregt_2" href="/agames/">
+                    <span class="btnStyl1 d-inlnblk t-uppercase">play more games <img src="/agames/images/svg/right-arrow-white.svg" class="next_wht_arr"></span>
+                </a>
+            `;
+                        $("#won_mess").html(won_mess);
+                        $("#play_moregt_2").click(function () {
+                            spinPlayMoreGT();
+                        })
+                        $(".couponPopup").addClass('activePopup');
+                        $('#cpnCd').on("click", function () {
+                            var $temp = $("<input>");
+                            $("body").append($temp);
+                            $temp.val($('#cpnCd').text()).select();
+                            document.execCommand("copy");
+                            $temp.remove();
+                            $('.copySts').slideDown().css("display", "block").delay(3000).slideUp('fast');
+                        })
+
+
+
+                    } else {
+                        aaTrackACBWithCouponId("acb_free_hit_click", "Coupon Pop Up", "Congratulation", "ACB_free_hit", won.coupon_code)
+                        // won coupon
+                        id2 = $.now(),
+                            copyToClipboard = rewards !== won.text ? `<div class="txtCopyBx pos-rel" id="cpnCd" ><span  class="ftw-600 t-center copy_wrp">${won.coupon_code}</span><div class="copyContnr"><input type="button" class="copyIcn"></div></div><div class="copySts width-100p mb-10 d-none"  >Copied</div><span class="noteTxt width-80p lh-1pt3">You can view your coupon code later in My Prizes section.</span>` : ""
+                        let won_mess = `<h3 class="t-uppercase ft-24 ftw-600 col-blk">congratulations</h3><h4 class="ft-16 col-blk coupon-txt mtb-10 width-80p mlr-auto lh-1pt3">You have won a <b class="col-red">${won.popup}</b> coupon</h4><div class="clearfix">${copyToClipboard}</div> <div class="clearfix"></div>
+                <div class="mt-20 predictBtn">
+                    <a class="btnArea btnStyl1 spnbtn" id="play_moregt" href="/agames/">
+                        <span class=" d-inlnblk arwbtncntr t-uppercase">Play more games <img src="/agames/images/svg/right-arrow-white.svg" class="next_wht_arr"></span>
+                    </a>
+                </div>`;
+                        $("#won_mess").html(won_mess);
+                        $("#play_moregt").click(function () {
+                            spinPlayMoreGT();
+                        })
+                        $(".couponPopup").addClass('activePopup');
+                        $('#cpnCd').on("click", function () {
+                            var $temp = $("<input>");
+                            $("body").append($temp);
+                            $temp.val($('#cpnCd').text()).select();
+                            document.execCommand("copy");
+                            $temp.remove();
+                            $('.copySts').slideDown().css("display", "block").delay(3000).slideUp('fast');
+                        })
+
+                    }
+
+
+                    // api to submit
+                    sendCouponId()
+
+                }
+
+            }
+
+
+            var deviceW = $(window).width();
+            //alert(deviceW)
+
+
+            function sendCouponId() {
+                let data = JSON.stringify({
+                    "game_id": "spin_wheel",
+                    "gameInsID": gameInstanceInitId,
+                    "spinRes": won.value,
+                    // "id1": id1,
+                    // "id2": id2
+                }),
+                    url = base_url + "spin/submit";
+                //console.log( 'spin res', data);
+                //console.log('spin res', url);
+                $.ajax({
+                    headers: {
+                        "Content-Type": "application/json",
+                        "accessToken": accessToken
+                    },
+                    url: url,
+                    type: "post",
+                    data: data,
+                    dataType: "json",
+                    success: function (res) {
+                        console.log("submit", res);
+                        if (res.success) {
+                            //console.log(   "spin response")
+
+                        }
+                    },
+                    error: function (res) {
+
+                    }
+                });
+
+            }
+
+            function copyToClipboard(element) {
+
+                let username = localStorage.getItem("username")
+
+
+                aaTrackACB("acb_free_hit_click", "Copy", "ACB_Spin_me", "ACB_free_hit")
+                var $temp = $("<input>");
+                $("body").append($temp);
+                $temp.val($(element).text()).select();
+                document.execCommand("copy");
+                $temp.remove();
+                $('.copySts').slideDown().css("display", "block").delay(3000).slideUp('fast');
+            }
+
+        })();
+    </script>
+</body>
+
+</html>

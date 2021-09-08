@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Predict To Win</title>
+    <link rel="icon" href="favicon.ico" />
+
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0, user-scalable='no'">
+    <!-- <link rel="stylesheet" href="https://use.typekit.net/yxh5zyq.css"> -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/question.css?v=39" rel="stylesheet">
+
+    <script src="appcore.js?v=39"></script>
+
+    <link href="css/reset.css?v=39" rel="stylesheet" />
+    <link href="css/helper.css?v=39" rel="stylesheet" />
+    <link href="css/style.css?v=39" rel="stylesheet" />
+    <link href="css/fonts.css?v=39" rel="stylesheet" />
+    <link href="css/question.css?v=39" rel="stylesheet">
+    <script async src="https://assets.airtel.in/static-assets/ipl-analytics/aa.ipl.umd.js"></script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-177875138-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        //gtag('config', 'UA-177875138-1');
+
+        window.onload = function () {
+            console.log("dsdsdd")
+            aaTrackPageview("pageview", "Predict To Win Question 1", "ACB_predict_2_win")
+        }
+    </script>
+
+    <!-- Begin comScore Tag -->
+    <script>
+        var _comscore = _comscore || [];
+        _comscore.push({ c1: "2", c2: "9548033" });
+        (function () {
+            var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+            s.src = "https://sb.scorecardresearch.com/cs/9548033/beacon.js";
+            el.parentNode.insertBefore(s, el);
+        })();
+    </script>
+    <noscript>
+        <img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=9548033&amp;cv=3.6.0&amp;cj=1">
+    </noscript>
+    <!-- End comScore Tag -->
+
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-N2R2KQQ');</script>
+    <!-- End Google Tag Manager -->
+</head>
+
+</head>
+
+<body style="font-family: var(--ff-one);">
+    <!-- <div class="top-back container_header">
+        <div class=" dflexheader al-i-center">
+            <a class="bckArw" href="/"></a> 
+            
+            <span class="">Airtel Cricket Bonanza</span>
+        </div>
+    </div> -->
+
+    <div class="predictBg shdw"></div>
+    <div class="main_cont">
+        <div class="pridict_to_win_body ">
+            <div>
+                <h4 class="ptowin mt20">Predict To Win</h4>
+                <!-- <img src='img1.png' class="body_head_img" /> -->
+                <div class="loader_main fixed">
+                    <div class="loaderBg"></div>
+                    <div class="loadingTXt">Loading...</div>
+                    <div class="loader">Loading...</div>
+                </div>
+
+                <div class="couponPopup">
+                    <div class="couponPopupBg"></div>
+                    <div class="couponPopupBx brdr-rad12">
+
+                        <div id="won_mess"></div>
+                        <div id="alert_mess"></div>
+                        <div class="btnArea">
+                            <!-- <a href="/agames/show-reward"> <button class="btn_red_lg mb10">Check Prize
+                        <img src="/agames/images/svg/right-arrow-white.svg" class="ml10 next_wht_arr" />
+                    </button></a> -->
+                            <a onclick="sendEvent()"> <button class="btn_red_lg mb10">Check Prize
+                                    <img src="/agames/images/svg/right-arrow-white.svg" class="ml10 next_wht_arr" />
+                                </button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="spinnerForm">
+                    <form>
+                        <div id="qus">
+                        </div>
+                    </form>
+
+                    <div class="footerbtns_wrp ldrboard">
+                        <a id="prev1" class="toggleClass" data-type="prev">
+                            <div class="leftbtn arrow_white inactive">
+                                <i id="lefttog" class="fa fa-angle-left "></i>
+                            </div>
+                        </a>
+                        <a id="next1" class="toggleClass" data-type="next">
+                            <div class="rightbtn arrow_red">
+                                <i id="righttog" class="fa fa-angle-right "></i>
+                            </div>
+                        </a>
+                        <button style="display: none;" class="btn_submit btnRyt pdng">Submit </button>
+
+                        <!-- <button style="display: none;" class="btnred_submit ptb7">Submit
+                    <div class="btnred2">
+                        <img src="img/right-arrow.png" />
+                    </div>
+                </button> -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div style="padding:10px">
+            <a href="/" class="wd100 mt20">
+     
+             <button class="btn_red_lg mb10">PLAY MORE GAMES
+                 <img src="/images/svg/right-arrow-white.svg" class="next_wht_arr" />
+             </button>
+             <button class="btnred">Play More Games
+                 <div class="btnred2">
+                     <img src="img/right-arrow.png" />
+                 </div>
+             </button>
+         </a>
+         <h4 class="plymore_disc">Play more games and win exciting prizes! </h4>
+
+         </div> -->
+
+        </div>
+
+
+</body>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+<script>
+    let checkToken = localStorage.getItem("accessToken");
+    if (checkToken == null || checkToken == "") {
+        window.location.href = "/agames/";
+    }
+    // global variable for handle answers
+    var formAnswer;
+
+    $(".spinnerlabel").click(function () {
+        console.log("option clicked")
+
+        aaTrackACB("acb_predict_to_win_submit", "Predict to Win Clicks", "Response submitted", "ACB_predict_2_win")
+        $('.spinnerlabel').removeClass('clicked');
+
+        $(this).addClass('clicked');
+
+    });
+    function sendEvent(e) {
+        aaTrackPageview("pageview", "Predict To Win | Check Prize PopUp", "ACB_predict_2_win")
+        aaTrackACB("acb_predict_to_win_popup_click", "Predict to Win Clicks", "Pop Up | Check Prize", "ACB_predict_2_win")
+        window.location.href = "/agames/adsCoupon.html"
+    }
+    var questionSet;
+
+    $(function () {
+
+        $(".loader_main").addClass('activeLoader');
+        var token = 3,
+            accessToken = localStorage.getItem("accessToken"),
+            showId = 0,
+            queLength = 0,
+            match_id = localStorage.getItem("match_id") || '527f1e42-f5fa-420e-a652-a20e2962709a',
+            userAnswer = [],
+            answerApp = {},
+            ques = []
+
+
+
+        // call the game instance api
+        getInit();
+
+        $.ajax({
+            headers: {
+                "Content-Type": "application/json",
+                "accessToken": accessToken
+            },
+            url: base_url + "v1/contest/ques-list?match_id=" + match_id,
+            type: "get",
+            // datatype: "json",
+            // data: JSON.stringify({
+            //     "token": 3,
+            //     "match_id": match_id
+            // }),
+            success: function (res) {
+                ques = res.data ? res.data.item : [];
+                userAnswer = res.data ? res.data.userAnswer : [];
+                //console.log( "questions", res)
+
+                // update it in global;
+                formAnswer = userAnswer;
+
+                for (let index in userAnswer) {
+                    answerApp[userAnswer[index].questionId] = userAnswer[index].answer
+                }
+                //console.log( "ans", answerApp)
+                queLength = ques.length;
+                // if (res.success) {
+                //     match_id = item[0].match_id;
+                // }
+
+                questionSet = ques.map(e => {
+                    let delimiter = e.type == "button" ? ", " : "-"
+                    return {
+                        "question": e.question,
+                        "options": (e.options),
+                        "type": e.type,
+                        "id": e.id
+                    }
+                }),
+
+                    questionSetHtml = "";
+                options = "";
+                for (let index in questionSet) {
+                    if (questionSet[index].type == 'dropdown') {
+                        options = selectOption(index, questionSet[index].id, questionSet[index]
+                            .options)
+                    } else {
+                        options = radioOption(index, questionSet[index].id, questionSet[index]
+                            .options)
+                    }
+                    questionSetHtml +=
+                        `<div id="dsp-${index}" class="dsp" style="display:none"> <div class="center"> <button class="btngreen">(Question ${parseInt(index) + 1} of ${ques.length})</button> </div><h4 class="spinner_ques">${ques[index].question}</h4> ${options}</div>`
+                }
+
+                //console.log( questionSet, answerApp, ques);
+
+                $("#qus").html(questionSetHtml)
+                $(".spinnerlabel").click(function () {
+                    aaTrackACB("acb_predict_to_win_submit", "Predict to Win Clicks", "Response submitted | " + $(this).text(), "ACB_predict_2_win")
+                });
+                //setListner();
+                $("#dsp-" + showId).show()
+                $(".loader_main").removeClass('activeLoader');
+                $('.loader_main').hide();
+            },
+            error: function (err) {
+                $(".loader_main").removeClass('activeLoader');
+                //console.log( "error", err)
+            }
+        })
+
+        $('.toggleClass').click(function () {
+
+            console.log('ap', fieldSelected(showId));
+            // if(!fieldSelected(showId)){
+            //             return;
+            //         }
+
+
+            if (true) {
+                let type = $(this).data("type");
+                if (showId >= 0 && showId < queLength) {
+
+                    if (type == "prev") {
+                        aaTrackACB("acb_predict_to_win_click", "Predict to Win Clicks", "ACB_P2W_Back", "ACB_predict_2_win")
+                        $(".leftbtn").addClass("inactive arrow_white ").removeClass(" arrow_red");
+                        if (showId != 0) {
+
+                            showId != 0 ? showId-- : "";
+                            //$(".btnred_submit").hide();
+                            $(".dsp").hide();
+                            $("#dsp-" + showId).show()
+                        }
+                        if (showId == 0) {
+                            //$(".leftbtn").addClass("arrow_red").removeClass("inactive arrow_white");
+                            // $("#righttog").addClass("arrow_white").removeClass("arrow_red");
+                        }
+
+                        if (showId == queLength - 2) {
+
+                            $(".leftbtn").addClass("arrow_red ").removeClass(" inactive arrow_white");
+                            $("#next1").show();
+                            $(".btn_submit").hide();
+                        }
+
+
+                    } else {
+                        showId++;
+                        aaTrackACB("acb_predict_to_win_click", "Predict to Win Clicks", "ACB_P2W_Next", "ACB_predict_2_win")
+                        // if (!fieldSelected(showId)) {
+                        //     $("#righttog").addClass("arrow_white").removeClass("arrow_red");
+                        // }
+                        if (showId == 1) {
+                            //$("#lefttog").toggleClass("arrow_red arrow_white");
+                            $(".leftbtn").addClass("arrow_red").removeClass("inactive arrow_white");
+                        }
+                        if (showId == queLength - 1) {
+                            $("#next1").hide();
+                            $(".btn_submit").show();
+                        }
+
+                        $(".dsp").hide();
+                        $("#dsp-" + showId).show()
+                    }
+                } else {
+                    return
+                }
+            }
+
+
+        })
+
+        function fieldSelected(showId) {
+            //console.log( "check", showId)
+            let que_id = questionSet[showId].id
+
+            if ($("input[name = '" + que_id + "']").prop("checked")) {
+                return true;
+            } else {
+                return false;
+            }
+
+
+        }
+
+        function nextChar(c) {
+            return String.fromCharCode(c.charCodeAt(0) + 1);
+        }
+
+        function setListner() {
+
+            for (let index in questionSet) {
+                let que_id = questionSet[index].id
+
+                if (questionSet[index].type == 'button') {
+                    $(function () {
+                        $("input[name = '" + que_id + "']").change(function () {
+                            //console.log( "Handler for radio called")
+                            $("#righttog").addClass("arrow_red").removeClass("arrow_white");
+                        })
+                    })
+
+                } else if (questionSet[index].type == 'dropdown') {
+                    $(function () {
+                        $("input[name = '" + que_id + "']").change(function () {
+                            //console.log("Handler for radio called")
+                            $("#righttog").addClass("arrow_red").removeClass("arrow_white");
+                        })
+                    })
+                }
+            }
+        }
+
+        function radioOption(questionNo, questionId, options) {
+            var resOptions = "";
+            var char = "A";
+            for (index in options) {
+                if (Object.entries(answerApp).length !== 0) {
+                    resOptions +=
+                        `<div class="pos_rel"> <input type="radio" id="check${questionNo}${index}" name="${questionId}" value="${options[index]}" ${answerApp[questionId].trim() == options[index].trim() ? "checked" : ""} class="radio_opacity check"/> <div class="spinnerlabel" for="check${questionNo}${index}">${char}.&nbsp; <label class="spanclr" for="check${questionNo}${index}">${options[index]}</label></div></div>`
+                    char = nextChar(char)
+                } else {
+                    resOptions +=
+                        `<div class="pos_rel"> <input type="radio" id="check${questionNo}${index}" name="${questionId}" value="${options[index]}" class="radio_opacity check"/> <div class="spinnerlabel" for="check${questionNo}${index}">${char}.&nbsp; <label class="spanclr" for="check${questionNo}${index}">${options[index]}</label></div></div>`
+                    char = nextChar(char)
+                }
+
+
+            }
+
+            return resOptions;
+        }
+
+        function selectOption(questionNo, questionId, options) {
+
+            var resOptions = "";
+
+            for (index in options) {
+                if (Object.entries(answerApp).length !== 0) {
+                    resOptions +=
+                        `<option value="${options[index]}" ${answerApp[questionId].trim() == options[index].trim() ? "selected" : ""}>${options[index]}</option>`
+                } else {
+                    resOptions += `<option value="${options[index]}">${options[index]}</option>`
+                }
+            }
+
+            return `<div class="spinnerlabel"> <select class="select_drop" name="${questionId}"> ${resOptions}</select></div>`
+        }
+
+        $('.btn_submit').click(function () {
+            console.log(formAnswer);
+
+
+            // current question id, old answer, tablepkid
+            let tablepkid;
+            $(".loader_main").addClass('activeLoader');
+
+            let ans_for_event = ""
+            var arr = $("form").serializeArray(),
+                nuArr = arr.map(e => {
+                    console.log("e", e)
+                    if (formAnswer.length == 0) {
+                        tablepkid = null
+                    } else {
+                        // check and get tablepkid from question_id
+                        formAnswer.map((data) => {
+                            if (data.questionId == e.name) {
+                                ans_for_event = ans_for_event + ", " + data.id
+                                tablepkid = data.id
+                            }
+                        })
+                    }
+
+                    return {
+                        "questionId": e.name,
+                        "answer": e.value,
+                        "tablepkid": tablepkid
+                    }
+                });
+            aaTrackACB("acb_predict_to_win_click", "Predict to Win Clicks", "Submit",  "ACB_predict_2_win")
+            //console.log( "string", nuArr)
+
+            $.ajax({
+                headers: {
+                    "Content-Type": "application/json",
+                    "accessToken": accessToken
+                },
+                url: base_url + "v1/contest/add-question-answer",
+                type: "post",
+                datatype: "json",
+                data: JSON.stringify({
+                    matchId: match_id,
+                    result: nuArr
+                }),
+                success: function (res) {
+                    //console.log("%c " + res, "color: green;")
+                    if (res.success) {
+                        // window.location = "index.html"
+                        // alert("your response has been submitted successfully")
+                        $(".loader_main").removeClass('activeLoader');
+
+                        showAlert("Your response has been<br/> submitted")
+                    } else {
+                        //window.location = "index.html"
+                        $(".loader_main").removeClass('activeLoader');
+                        showAlert("your response was not submitted")
+                    }
+
+                }
+            })
+
+        })
+
+        function getInit() {
+            // alert('call init');
+            $.ajax({
+                headers: {
+                    "Content-Type": "application/json",
+                    "accessToken": accessToken
+                },
+                url: base_url + "game/init",
+                type: "post",
+                datatype: "json",
+                data: JSON.stringify({ "game_id": "predict_to_win" }),
+                success: function (res) {
+                    // save instance in localstorage
+                    if (res.success) {
+                        localStorage.setItem('sr_gameInsID', res.data.gameInsID)
+                        localStorage.setItem('sr_game_id', 'predict_to_win')
+                    } else {
+                        window.location.href = "/agames/";
+                    }
+                }
+            })
+
+        }
+
+        function showAlert(alert) {
+            aaTrackPageview("pageview", "Predict To Win | Thank You PopUp", "ACB_predict_2_win")
+            aaTrackACB("acb_predict_to_win_popup_click", "Predict to Win Clicks", "Pop Up | ACB_Predict_2_Win_Ok", "ACB_predict_2_win")
+            let alert_mess =
+                `<h3 class="t-uppercase ft-24 ftw-600 col-blk">THANK YOU!</h3><h4 class="fw400 ft-16 col-blk coupon-txt mtb-10 width-80p mlr-auto lh-1pt3 fslight">${alert}</h4>`;
+            $("#alert_mess").html(alert_mess);
+            $(".couponPopup").addClass('activePopup');
+        }
+
+    });
+</script>
+
+</html>

@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="b10">
+    <folder id="0" name="pick_ups">
+        <file id="0" name="pick_ups/coin_a_face.png" width="95" height="98" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="1" name="pick_ups/coin_a_back.png" width="95" height="98" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="2" name="pick_ups/coin_a_side.png" width="21" height="98" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="3" name="pick_ups/coin_shine_4.png" width="95" height="98" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="4" name="pick_ups/coin_shine_3.png" width="95" height="98" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="5" name="pick_ups/coin_shine_2.png" width="95" height="98" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="6" name="pick_ups/coin_shine_1.png" width="95" height="98" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="7" name="pick_ups/coin_shine_0.png" width="95" height="98" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="8" name="pick_ups/box_front.png" width="93" height="92" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="9" name="pick_ups/box_back.png" width="93" height="92" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="10" name="pick_ups/box_shine_4.png" width="97" height="93" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="11" name="pick_ups/box_shine_3.png" width="97" height="93" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="12" name="pick_ups/box_shine_2.png" width="97" height="93" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="13" name="pick_ups/box_shine_1.png" width="97" height="93" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="14" name="pick_ups/box_shine_0.png" width="97" height="93" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="15" name="pick_ups/coin_a_sides.png" width="67" height="98" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="16" name="pick_ups/box_side_a.png" width="44" height="92" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="17" name="pick_ups/box-sides.png" width="25" height="92" pivot_x="0.5" pivot_y="0.5"/>
+    </folder>
+    <entity id="0" name="pick_ups">
+        <obj_info name="pick_ups_coin_a_face_000" realname="coin_a_face_000" type="sprite">
+            <frames>
+                <i folder="0" file="0"/>
+            </frames>
+        </obj_info>
+        <obj_info name="pick_ups_coin_a_side" realname="coin_a_side" type="sprite">
+            <frames>
+                <i folder="0" file="2"/>
+            </frames>
+        </obj_info>
+        <obj_info name="pick_ups_coin_a_sides" realname="coin_a_sides" type="sprite">
+            <frames>
+                <i folder="0" file="15"/>
+            </frames>
+        </obj_info>
+        <obj_info name="pick_ups_coin_a_back" realname="coin_a_back" type="sprite">
+            <frames>
+                <i folder="0" file="1"/>
+            </frames>
+        </obj_info>
+        <obj_info name="pick_ups_coin_a_sides_000" realname="coin_a_sides_000" type="sprite">
+            <frames>
+                <i folder="0" file="15"/>
+            </frames>
+        </obj_info>
+        <obj_info name="pick_ups_coin_shine_4" realname="coin_shine_4" type="sprite">
+            <frames>
+                <i folder="0" file="3"/>
+                <i folder="0" file="4"/>
+                <i folder="0" file="5"/>
+                <i folder="0" file="6"/>
+                <i folder="0" file="7"/>
+            </frames>
+        </obj_info>
+        <obj_info name="pick_ups_coin_shine_4_000" realname="coin_shine_4_000" type="sprite">
+            <frames>
+                <i folder="0" file="3"/>
+                <i folder="0" file="4"/>
+                <i folder="0" file="5"/>
+                <i folder="0" file="6"/>
+                <i folder="0" file="7"/>
+            </frames>
+        </obj_info>
+        <animation id="0" name="coin_1" length="1800">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="coin_a_side" folder="0" file="2" abs_x="-10.5" abs_y="49" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" name="coin_a_sides" folder="0" file="15" abs_x="-41.3" abs_y="49" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="2" key="0" z_index="1"/>
+                    <object_ref id="2" name="coin_a_face_000" folder="0" file="0" abs_x="-47.5" abs_y="49" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="2"/>
+                </key>
+                <key id="1" time="222">
+                    <object_ref id="0" timeline="1" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="2" key="1" z_index="1"/>
+                    <object_ref id="2" timeline="0" key="0" z_index="2"/>
+                </key>
+                <key id="2" time="448">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="2" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="2" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="0" z_index="3"/>
+                </key>
+                <key id="3" time="454">
+                    <object_ref id="0" timeline="1" key="3" z_index="0"/>
+                    <object_ref id="1" timeline="4" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="3" key="1" z_index="2"/>
+                </key>
+                <key id="4" time="672">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="4" z_index="1"/>
+                    <object_ref id="2" timeline="4" key="1" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="2" z_index="3"/>
+                    <object_ref id="4" timeline="6" key="0" z_index="4"/>
+                </key>
+                <key id="5" time="740">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="4" z_index="1"/>
+                    <object_ref id="2" timeline="4" key="1" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="2" z_index="3"/>
+                    <object_ref id="4" timeline="6" key="1" z_index="4"/>
+                </key>
+                <key id="6" time="800">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="4" z_index="1"/>
+                    <object_ref id="2" timeline="4" key="1" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="2" z_index="3"/>
+                    <object_ref id="4" timeline="6" key="2" z_index="4"/>
+                </key>
+                <key id="7" time="852">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="4" z_index="1"/>
+                    <object_ref id="2" timeline="4" key="1" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="2" z_index="3"/>
+                    <object_ref id="4" timeline="6" key="3" z_index="4"/>
+                </key>
+                <key id="8" time="898">
+                    <object_ref id="0" timeline="1" key="5" z_index="0"/>
+                    <object_ref id="1" timeline="4" key="2" z_index="1"/>
+                    <object_ref id="2" timeline="3" key="3" z_index="2"/>
+                    <object_ref id="3" timeline="6" key="4" z_index="3"/>
+                </key>
+                <key id="9" time="902">
+                    <object_ref id="0" timeline="1" key="6" z_index="0"/>
+                    <object_ref id="1" timeline="4" key="3" z_index="1"/>
+                    <object_ref id="2" timeline="3" key="3" z_index="2"/>
+                </key>
+                <key id="10" time="1122">
+                    <object_ref id="0" timeline="1" key="7" z_index="0"/>
+                    <object_ref id="1" timeline="4" key="4" z_index="1"/>
+                    <object_ref id="2" timeline="3" key="3" z_index="2"/>
+                </key>
+                <key id="11" time="1344">
+                    <object_ref id="0" timeline="0" key="4" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="8" z_index="1"/>
+                    <object_ref id="2" timeline="4" key="5" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="4" z_index="3"/>
+                </key>
+                <key id="12" time="1350">
+                    <object_ref id="0" timeline="1" key="9" z_index="0"/>
+                    <object_ref id="1" timeline="4" key="6" z_index="1"/>
+                    <object_ref id="2" timeline="0" key="5" z_index="2"/>
+                </key>
+                <key id="13" time="1570">
+                    <object_ref id="0" timeline="1" key="10" z_index="0"/>
+                    <object_ref id="1" timeline="4" key="7" z_index="1"/>
+                    <object_ref id="2" timeline="0" key="6" z_index="2"/>
+                    <object_ref id="3" timeline="5" key="0" z_index="3"/>
+                </key>
+                <key id="14" time="1631">
+                    <object_ref id="0" timeline="1" key="10" z_index="0"/>
+                    <object_ref id="1" timeline="4" key="7" z_index="1"/>
+                    <object_ref id="2" timeline="0" key="6" z_index="2"/>
+                    <object_ref id="3" timeline="5" key="1" z_index="3"/>
+                </key>
+                <key id="15" time="1695">
+                    <object_ref id="0" timeline="1" key="10" z_index="0"/>
+                    <object_ref id="1" timeline="4" key="7" z_index="1"/>
+                    <object_ref id="2" timeline="0" key="6" z_index="2"/>
+                    <object_ref id="3" timeline="5" key="2" z_index="3"/>
+                </key>
+                <key id="16" time="1749">
+                    <object_ref id="0" timeline="1" key="10" z_index="0"/>
+                    <object_ref id="1" timeline="4" key="7" z_index="1"/>
+                    <object_ref id="2" timeline="0" key="6" z_index="2"/>
+                    <object_ref id="3" timeline="5" key="3" z_index="3"/>
+                </key>
+                <key id="17" time="1800">
+                    <object_ref id="0" timeline="1" key="11" z_index="0"/>
+                    <object_ref id="1" timeline="4" key="8" z_index="1"/>
+                    <object_ref id="2" timeline="0" key="7" z_index="2"/>
+                    <object_ref id="3" timeline="5" key="4" z_index="3"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="coin_a_face_000">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" pivot_x="0.5" pivot_y="0.5" angle="0"/>
+                </key>
+                <key id="1" time="448" spin="0">
+                    <object folder="0" file="0" x="4.8" pivot_x="0.5" pivot_y="0.5" angle="0" scale_x="0.041667"/>
+                </key>
+                <key id="2" time="672" spin="0">
+                    <object folder="0" file="0" x="2.478049" pivot_x="0.5" pivot_y="0.5" angle="0" scale_x="0.505251"/>
+                </key>
+                <key id="3" time="852" spin="0">
+                    <object folder="0" file="0" x="1.812115" pivot_x="0.5" pivot_y="0.5" angle="0" scale_x="0.372594"/>
+                </key>
+                <key id="4" time="1344" spin="0">
+                    <object folder="0" file="0" x="-0.008105" pivot_x="0.5" pivot_y="0.5" angle="0" scale_x="0.01"/>
+                </key>
+                <key id="5" time="1350" spin="0">
+                    <object folder="0" file="0" x="-4.808105" pivot_x="0.5" pivot_y="0.5" angle="0" scale_x="0.01"/>
+                </key>
+                <key id="6" time="1570" spin="0">
+                    <object folder="0" file="0" x="-4.90624" pivot_x="0.5" pivot_y="0.5" angle="0" scale_x="0.4949"/>
+                </key>
+                <key id="7" time="1800" spin="0">
+                    <object folder="0" file="0" pivot_x="0.5" pivot_y="0.5" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="1" name="coin_a_side">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" pivot_x="0.5" pivot_y="0.5" angle="0"/>
+                </key>
+                <key id="1" time="222" spin="0">
+                    <object folder="0" file="2" pivot_x="0.5" pivot_y="0.5" angle="0"/>
+                </key>
+                <key id="2" time="448" spin="0">
+                    <object folder="0" file="2" pivot_x="0.5" pivot_y="0.5" angle="0"/>
+                </key>
+                <key id="3" time="454" spin="0">
+                    <object folder="0" file="2" pivot_x="0.5" pivot_y="0.5" angle="0"/>
+                </key>
+                <key id="4" time="672" spin="0">
+                    <object folder="0" file="2" pivot_x="0.5" pivot_y="0.5" angle="0"/>
+                </key>
+                <key id="5" time="898" spin="0">
+                    <object folder="0" file="2" pivot_x="0.5" pivot_y="0.5" angle="0"/>
+                </key>
+                <key id="6" time="902" spin="0">
+                    <object folder="0" file="2" pivot_x="0.5" pivot_y="0.5" angle="0"/>
+                </key>
+                <key id="7" time="1122" spin="0">
+                    <object folder="0" file="2" pivot_x="0.5" pivot_y="0.5" angle="0"/>
+                </key>
+                <key id="8" time="1344" spin="0">
+                    <object folder="0" file="2" pivot_x="0.5" pivot_y="0.5" angle="0"/>
+                </key>
+                <key id="9" time="1350" spin="0">
+                    <object folder="0" file="2" pivot_x="0.5" pivot_y="0.5" angle="0"/>
+                </key>
+                <key id="10" time="1570" spin="0">
+                    <object folder="0" file="2" pivot_x="0.5" pivot_y="0.5" angle="0"/>
+                </key>
+                <key id="11" time="1800" spin="0">
+                    <object folder="0" file="2" pivot_x="0.5" pivot_y="0.5" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="2" name="coin_a_sides">
+                <key id="0" spin="0">
+                    <object folder="0" file="15" x="-7.8" pivot_x="0.5" pivot_y="0.5" angle="0"/>
+                </key>
+                <key id="1" time="222" spin="0">
+                    <object folder="0" file="15" x="-9.548148" pivot_x="0.5" pivot_y="0.5" angle="0" scale_x="0.506098"/>
+                </key>
+                <key id="2" time="448" spin="0">
+                    <object folder="0" file="15" x="-4.2" pivot_x="0.5" pivot_y="0.5" angle="0" scale_x="0.039855"/>
+                </key>
+            </timeline>
+            <timeline id="3" obj="3" name="coin_a_back">
+                <key id="0" time="448" spin="0">
+                    <object folder="0" file="1" x="-4.8" pivot_x="0.5" pivot_y="0.5" angle="0" scale_x="0.01"/>
+                </key>
+                <key id="1" time="454" spin="0">
+                    <object folder="0" file="1" x="-6.126973" pivot_x="0.5" pivot_y="0.5" angle="0" scale_x="0.023424"/>
+                </key>
+                <key id="2" time="672" spin="0">
+                    <object folder="0" file="1" x="-6.232235" pivot_x="0.5" pivot_y="0.5" angle="0" scale_x="0.50332"/>
+                </key>
+                <key id="3" time="898" spin="0">
+                    <object folder="0" file="1" pivot_x="0.5" pivot_y="0.5" angle="0"/>
+                </key>
+                <key id="4" time="1344" spin="0">
+                    <object folder="0" file="1" x="4.8" pivot_x="0.5" pivot_y="0.5" angle="0" scale_x="0.01"/>
+                </key>
+            </timeline>
+            <timeline id="4" obj="4" name="coin_a_sides_000">
+                <key id="0" time="454" spin="0">
+                    <object folder="0" file="15" x="5.057143" pivot_x="0.5" pivot_y="0.5" angle="0" scale_x="-0.042017"/>
+                </key>
+                <key id="1" time="672" spin="0">
+                    <object folder="0" file="15" x="6.685644" pivot_x="0.5" pivot_y="0.5" angle="0" scale_x="-0.499326"/>
+                </key>
+                <key id="2" time="898" spin="0">
+                    <object folder="0" file="15" x="8.468572" pivot_x="0.5" pivot_y="0.5" angle="0" scale_x="-1"/>
+                </key>
+                <key id="3" time="902" spin="0">
+                    <object folder="0" file="15" x="-7.131428" pivot_x="0.5" pivot_y="0.5" angle="0"/>
+                </key>
+                <key id="4" time="1122" spin="0">
+                    <object folder="0" file="15" x="-8.336367" pivot_x="0.5" pivot_y="0.5" angle="0" scale_x="0.514841"/>
+                </key>
+                <key id="5" time="1344" spin="0">
+                    <object folder="0" file="15" x="-4.731428" pivot_x="0.5" pivot_y="0.5" angle="0" scale_x="0.025673"/>
+                </key>
+                <key id="6" time="1350" spin="0">
+                    <object folder="0" file="15" x="4.8" pivot_x="0.5" pivot_y="0.5" angle="0" scale_x="0.025673"/>
+                </key>
+                <key id="7" time="1570" spin="0">
+                    <object folder="0" file="15" x="8.4" pivot_x="0.5" pivot_y="0.5" angle="0" scale_x="-0.446215"/>
+                </key>
+                <key id="8" time="1800" spin="0">
+                    <object folder="0" file="15" x="7.731426" pivot_x="0.5" pivot_y="0.5" angle="0" scale_x="-1"/>
+                </key>
+            </timeline>
+            <timeline id="5" obj="5" name="coin_shine_4">
+                <key id="0" time="1570" spin="0">
+                    <object folder="0" file="3" x="-4.906242" pivot_x="0.5" pivot_y="0.5" angle="0" scale_x="0.4949"/>
+                </key>
+                <key id="1" time="1631" spin="0">
+                    <object folder="0" file="4" x="-3.434369" pivot_x="0.5" pivot_y="0.5" angle="0" scale_x="0.64643"/>
+                </key>
+                <key id="2" time="1695" spin="0">
+                    <object folder="0" file="5" x="-1.995205" pivot_x="0.5" pivot_y="0.5" angle="0" scale_x="0.794593"/>
+                </key>
+                <key id="3" time="1749" spin="0">
+                    <object folder="0" file="6" x="-0.94854" pivot_x="0.5" pivot_y="0.5" angle="0" scale_x="0.902347"/>
+                </key>
+                <key id="4" time="1800" spin="0">
+                    <object folder="0" file="7" pivot_x="0.5" pivot_y="0.5" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="6" obj="6" name="coin_shine_4_000">
+                <key id="0" time="672" spin="0">
+                    <object folder="0" file="3" x="-6.232236" pivot_x="0.5" pivot_y="0.5" angle="0" scale_x="0.50332"/>
+                </key>
+                <key id="1" time="740" spin="0">
+                    <object folder="0" file="4" x="-4.337299" pivot_x="0.5" pivot_y="0.5" angle="0" scale_x="0.654338"/>
+                </key>
+                <key id="2" time="800" spin="0">
+                    <object folder="0" file="5" x="-2.695021" pivot_x="0.5" pivot_y="0.5" angle="0" scale_x="0.785219"/>
+                </key>
+                <key id="3" time="852" spin="0">
+                    <object folder="0" file="6" x="-1.263291" pivot_x="0.5" pivot_y="0.5" angle="0" scale_x="0.899322"/>
+                </key>
+                <key id="4" time="898" spin="0">
+                    <object folder="0" file="7" pivot_x="0.5" pivot_y="0.5" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

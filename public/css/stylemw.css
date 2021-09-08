@@ -1,0 +1,97 @@
+:root {
+    --ff-one: 'Tondo', 'Roboto', Arial, Helvetica;
+    --fw-300:'300';
+    --fw-normal:'normal';
+    --fw-600:'600';
+    --ff-two: '-apple-system', 'Roboto', Arial, Helvetica;
+    --bg-nrpt: no-repeat;
+    --c1: #FF5B5B;
+}
+
+.clearfix:after { content: "\00A0"; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;width:0;font-size: 0px}
+.clearfix{ display: inline-block;}
+html[xmlns] 
+.clearfix { display: block;}
+* html .clearfix{ height: 1%;}
+.clearfix {display: block}
+html{font-size: 16px;}
+button, input,select,textarea{font-family: var(--ff-one);}
+
+body{font-family:var(--ff-one); font-size:0.875rem; background-color: #F3F3F3; -webkit-text-size-adjust: 100%;}
+.noBg{background-color: transparent;}
+
+.crd__scrl1 .crd__scrl1-inr{display: flex; flex-wrap: nowrap; width: 100%; padding-left: 1.25rem; overflow-x: auto; -webkit-overflow-scrolling: touch;}
+.crd__scrl1 .crd__scrl1-inr::-webkit-scrollbar{display: none;}
+.crd__scrl1 .crd__scrl1-inr::after{content: ''; display: inline-block; padding: 0.5em;}
+.crd__scrl1 .crd-bx{background: linear-gradient(114.07deg, #26356A 9.02%, #3E7BB4 119.53%); border-radius: 16px; margin-left: 15px; flex:calc(100% - 1.25rem) 0 0; overflow: hidden; padding: 10px 9%;}
+.crd__scrl1 .crd-bx:first-child{margin-left: 0;}
+.crd__scrl1 .crd-bx .hdr{background: rgba(0, 0, 0, 0.29); border-radius:6px;padding:0s 10px; color:white; display: flex; align-items: center; font-size: 10px; justify-content: center;}
+.crd__scrl1 .crd-bx .crd-cn{display: flex; justify-content: space-between; margin: 10px 0 20px;}
+.crd__scrl1 .crd-bx .tm-sp{margin-top: 25px; color: #ffffff; font-weight: 600; text-transform: uppercase;}
+.crd__scrl1 .crd-bx .tm-lg{border: 2px solid rgba(255, 255, 255, 1); position: relative; overflow: hidden; border-radius: 50%; width: 70px; height: 70px;}
+.crd__scrl1 .crd-bx .tm-lg img{position: absolute; height: 100%; left:0;}
+.crd__scrl1 .crd-bx .tm-nm{color:#FAFAFB; font-size: 16px; color: white; margin-top: 5px; font-weight: bold;}
+.crd__scrl1 .b_st1{background-color: white; padding: 8px; text-align: center; display: block; border-radius: 8px; color:#292C31; font-weight: bold; font-size: 12px;}
+.crd__scrl1 .b_st1.btnBg2{ background: #4983C1; color:#FAFAFB}
+.crd__scrl1 .b_st1.predicted{background: rgba(3, 3, 3, 0.28); color:white}
+.crd__scrl1 .b_st1.predicted::before{display: inline-block; width: 11px; height: 8px; background: url(../images/tick.svg) center center no-repeat; content: ''; margin-right: 5px; background-size: 100%;}
+.crd-pnts{position: absolute; top:6px; left: 6px; background: rgba(0,0,0,0.8);padding:2px 5px; display: flex; border-radius: 14px; align-items: center; font-size: 10px; color: white;}
+.crd-img{display: block; height: 120px; overflow: hidden;}
+.crd-img img{display: block; min-width: 100%}
+.crd__scrl1 .crd-bx .tm-lg.dd,.scrBrd_dtl .tm_lg.dd{background-color: #ef7c36;}
+.crd__scrl1 .crd-bx .tm-lg.csk,.scrBrd_dtl .tm_lg.csk{background-color: #f0b065;}
+.crd__scrl1 .crd-bx .tm-lg.rcb,.scrBrd_dtl .tm_lg.rcb{background-color: #3ba0d9;}
+.crd__scrl1 .crd-bx .tm-lg.kkr,.scrBrd_dtl .tm_lg.kkr{background-color: #7126df;}
+.crd__scrl1 .crd-bx .tm-lg.mi,.scrBrd_dtl .tm_lg.mi{background-color: #da5d41;}
+.crd__scrl1 .crd-bx .tm-lg.rr,.scrBrd_dtl .tm_lg.rr{background-color: #d73983;}
+.crd__scrl1 .crd-bx .tm-lg.pbks,.scrBrd_dtl .tm_lg.pbks{background-color: #59e070;}
+.crd__scrl1 .crd-bx .tm-lg.srh,.scrBrd_dtl .tm_lg.srh{background-color: #2c6fd4;}
+.ovl_wrp {
+    position: relative;
+}
+
+.h_play_wrp {
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 0;
+    z-index: 9;
+    margin: 0;
+    top: 10px;
+}
+
+    .h_play_wrp .crd-bx {
+        background: linear-gradient(114.07deg, #1F263E 9.02%, #34618A 119.53%), linear-gradient(116.91deg, #3C2285 8.92%, #5075D5 105.51%);
+        border-radius: 12px;
+        margin-left: 0;
+        flex: calc(100% - 1.25rem) 0 0;
+        overflow: hidden;
+        padding: 30px 6% 30px 13px;
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        height: 104px;
+    }
+
+    .h_play_wrp p {
+        color: #FDFDFF;
+        mix-blend-mode: overlay;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 700;
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+.horn_icon {
+    mix-blend-mode: overlay;
+    transform: rotate(11.3deg);
+    content: '';
+    position: relative;
+    width: 70px;
+    height: 50px;
+    background: url(../images/horn.svg) center center no-repeat;
+    opacity: 100%;
+    display: table-cell;
+    top: 3px;
+}

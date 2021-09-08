@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r11">
+    <folder id="0" name="africa">
+        <file id="0" name="africa/000.png" width="48" height="68" pivot_x="0.5" pivot_y="0"/>
+        <file id="1" name="africa/001.png" width="44" height="103" pivot_x="0.5" pivot_y="0"/>
+        <file id="2" name="africa/002.png" width="16" height="41" pivot_x="0.5" pivot_y="0"/>
+    </folder>
+    <folder id="1" name="aus">
+        <file id="0" name="aus/000.png" width="48" height="68" pivot_x="0.5" pivot_y="0"/>
+        <file id="1" name="aus/001.png" width="44" height="103" pivot_x="0.5" pivot_y="0"/>
+        <file id="2" name="aus/002.png" width="16" height="41" pivot_x="0.5" pivot_y="0"/>
+    </folder>
+    <folder id="2" name="zim">
+        <file id="0" name="zim/001.png" width="44" height="103" pivot_x="0.5" pivot_y="0"/>
+        <file id="1" name="zim/000.png" width="48" height="68" pivot_x="0.5" pivot_y="0"/>
+        <file id="2" name="zim/002.png" width="16" height="41" pivot_x="0.5" pivot_y="0"/>
+    </folder>
+    <folder id="3" name="ind">
+        <file id="0" name="ind/000.png" width="48" height="68" pivot_x="0.5" pivot_y="0"/>
+        <file id="1" name="ind/001.png" width="44" height="103" pivot_x="0.5" pivot_y="0"/>
+        <file id="2" name="ind/002.png" width="16" height="41" pivot_x="0.5" pivot_y="0"/>
+    </folder>
+    <folder id="4" name="lanka">
+        <file id="0" name="lanka/000.png" width="48" height="68" pivot_x="0.5" pivot_y="0"/>
+        <file id="1" name="lanka/001.png" width="44" height="103" pivot_x="0.5" pivot_y="0"/>
+        <file id="2" name="lanka/002.png" width="16" height="41" pivot_x="0.5" pivot_y="0"/>
+    </folder>
+    <folder id="5" name="nz">
+        <file id="0" name="nz/000.png" width="48" height="68" pivot_x="0.5" pivot_y="0"/>
+        <file id="1" name="nz/001.png" width="44" height="103" pivot_x="0.5" pivot_y="0"/>
+        <file id="2" name="nz/002.png" width="16" height="41" pivot_x="0.5" pivot_y="0"/>
+    </folder>
+    <folder id="6" name="pak">
+        <file id="0" name="pak/000.png" width="48" height="69" pivot_x="0.5" pivot_y="0"/>
+        <file id="1" name="pak/001.png" width="44" height="103" pivot_x="0.5" pivot_y="0"/>
+        <file id="2" name="pak/002.png" width="16" height="41" pivot_x="0.5" pivot_y="0"/>
+    </folder>
+    <folder id="7" name="wi">
+        <file id="0" name="wi/000.png" width="48" height="68" pivot_x="0.5" pivot_y="0"/>
+        <file id="1" name="wi/001.png" width="44" height="103" pivot_x="0.5" pivot_y="0"/>
+        <file id="2" name="wi/002.png" width="16" height="41" pivot_x="0.5" pivot_y="0"/>
+    </folder>
+    <folder id="8" name="eng">
+        <file id="0" name="eng/000.png" width="48" height="68" pivot_x="0.5" pivot_y="0"/>
+        <file id="1" name="eng/001.png" width="44" height="103" pivot_x="0.5" pivot_y="0"/>
+        <file id="2" name="eng/002.png" width="16" height="41" pivot_x="0.5" pivot_y="0"/>
+    </folder>
+    <folder id="9" name="bangla">
+        <file id="0" name="bangla/000.png" width="48" height="68" pivot_x="0.5" pivot_y="0"/>
+        <file id="1" name="bangla/001.png" width="44" height="103" pivot_x="0.5" pivot_y="0"/>
+        <file id="2" name="bangla/002.png" width="16" height="41" pivot_x="0.5" pivot_y="0"/>
+    </folder>
+    <entity id="0" name="entity_000">
+        <obj_info name="entity_000_000" realname="000" type="sprite">
+            <frames>
+                <i folder="0" file="0"/>
+                <i folder="0" file="1"/>
+                <i folder="0" file="2"/>
+                <i folder="4" file="0"/>
+                <i folder="1" file="0"/>
+                <i folder="3" file="0"/>
+                <i folder="6" file="0"/>
+                <i folder="9" file="0"/>
+                <i folder="8" file="0"/>
+                <i folder="5" file="0"/>
+                <i folder="2" file="1"/>
+                <i folder="7" file="0"/>
+                <i folder="4" file="1"/>
+                <i folder="1" file="1"/>
+                <i folder="3" file="1"/>
+                <i folder="6" file="1"/>
+                <i folder="9" file="1"/>
+                <i folder="8" file="1"/>
+                <i folder="5" file="1"/>
+                <i folder="2" file="0"/>
+                <i folder="7" file="1"/>
+                <i folder="4" file="2"/>
+                <i folder="1" file="2"/>
+                <i folder="3" file="2"/>
+                <i folder="6" file="2"/>
+                <i folder="9" file="2"/>
+                <i folder="8" file="2"/>
+                <i folder="5" file="2"/>
+                <i folder="2" file="2"/>
+                <i folder="7" file="2"/>
+            </frames>
+        </obj_info>
+        <obj_info name="entity_000_box_000" realname="box_000" type="box" w="10.2198" h="9.01099" pivot_x="0" pivot_y="0"/>
+        <character_map id="0" name="lanka">
+            <map folder="0" file="0" target_folder="4" target_file="0"/>
+            <map folder="0" file="1" target_folder="4" target_file="1"/>
+            <map folder="0" file="2" target_folder="4" target_file="2"/>
+        </character_map>
+        <character_map id="1" name="aus">
+            <map folder="0" file="0" target_folder="1" target_file="0"/>
+            <map folder="0" file="1" target_folder="1" target_file="1"/>
+            <map folder="0" file="2" target_folder="1" target_file="2"/>
+        </character_map>
+        <character_map id="2" name="ind">
+            <map folder="0" file="0" target_folder="3" target_file="0"/>
+            <map folder="0" file="1" target_folder="3" target_file="1"/>
+            <map folder="0" file="2" target_folder="3" target_file="2"/>
+        </character_map>
+        <character_map id="3" name="pak">
+            <map folder="0" file="0" target_folder="6" target_file="0"/>
+            <map folder="0" file="1" target_folder="6" target_file="1"/>
+            <map folder="0" file="2" target_folder="6" target_file="2"/>
+        </character_map>
+        <character_map id="4" name="bangla">
+            <map folder="0" file="0" target_folder="9" target_file="0"/>
+            <map folder="0" file="1" target_folder="9" target_file="1"/>
+            <map folder="0" file="2" target_folder="9" target_file="2"/>
+        </character_map>
+        <character_map id="5" name="eng">
+            <map folder="0" file="0" target_folder="8" target_file="0"/>
+            <map folder="0" file="1" target_folder="8" target_file="1"/>
+            <map folder="0" file="2" target_folder="8" target_file="2"/>
+        </character_map>
+        <character_map id="6" name="nz">
+            <map folder="0" file="0" target_folder="5" target_file="0"/>
+            <map folder="0" file="1" target_folder="5" target_file="1"/>
+            <map folder="0" file="2" target_folder="5" target_file="2"/>
+        </character_map>
+        <character_map id="7" name="zim">
+            <map folder="0" file="0" target_folder="2" target_file="1"/>
+            <map folder="0" file="1" target_folder="2" target_file="0"/>
+            <map folder="0" file="2" target_folder="2" target_file="2"/>
+        </character_map>
+        <character_map id="8" name="wi">
+            <map folder="0" file="0" target_folder="7" target_file="0"/>
+            <map folder="0" file="1" target_folder="7" target_file="1"/>
+            <map folder="0" file="2" target_folder="7" target_file="2"/>
+        </character_map>
+        <animation id="0" name="keep" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0" curve_type="instant">
+                    <object_ref id="0" name="000" folder="0" file="0" abs_x="-24" abs_y="62.574713" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="199">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="000">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" y="-5.425287" angle="0"/>
+                </key>
+                <key id="1" time="199" spin="0">
+                    <object folder="0" file="1" x="-2.149425" y="-6.655172" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="1" name="box_000" object_type="box">
+                <key id="0" time="199" spin="0">
+                    <object x="-7.225275" y="57.678571" pivot_x="0" pivot_y="1" angle="0" scale_x="1.54571" scale_y="1.699751"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="keep_000" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0" curve_type="instant">
+                    <object_ref id="0" name="000" folder="0" file="2" abs_x="-8" abs_y="35.574713" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="000">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" y="-5.425287" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="1" name="box_000" object_type="box">
+                <key id="0" spin="0">
+                    <object x="-1.868132" y="20" pivot_x="0" pivot_y="1" angle="0" scale_x="0.504969" scale_y="0.627169"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

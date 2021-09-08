@@ -1,0 +1,51 @@
+@media only screen and (max-width: 414px) {
+    .canvas-container {
+        margin-top: -100px;
+        padding: 0 0;
+    }
+  }
+
+  @media only screen and (max-width: 375px) {
+    .canvas-container {
+         padding: 0 10px;
+         margin-top: -30px;
+         margin-bottom:0;
+    }
+    img#triangle{
+        top: 14.8%;
+    }
+    img#batball {
+        position: absolute;
+        bottom: 10px;
+        left: 40px;
+        width: 100px;
+        /* display: none; */
+    }
+  }
+
+@media only screen and (max-width: 360px) {
+    .canvas-container {
+        margin-top: -50px;
+        padding: 0 15px;
+    }
+
+    img#triangle{
+        top: 18.8%;
+    }
+  }
+
+   
+  /* @media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .canvas-container {
+        margin-top: -30px;
+        padding: 0 15px;
+    }
+
+    img#triangle {
+        top: 13.8%;
+    }
+} */

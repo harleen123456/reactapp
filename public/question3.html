@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Predict To Win</title>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0, user-scalable='no'">
+    <link rel="stylesheet" href="css/question.css?v=15">
+
+</head>
+
+<body>
+    <div class="spinner_body_wrp">
+        <img src='img/img1.png' class="body_head_img" />
+        <div class="spinnerForm">
+
+            <div class="center">
+                <button class="btngreen">(Question 3 of 3)</button>
+            </div>
+            <h4 class="spinner_ques">Who will be the highest wicket taker?</h4>
+            <div class="spinnerlabel">A. <span>Jasprit Bumrah </span></div>
+
+            <div class="spinnerlabel">B. <span>Umesh Yadav </span></div>
+
+            <div class="spinnerlabel">C. <span>Hardik Pandya </span></div>
+
+            <div class="spinnerlabel">D. <span>Irfan Pathan </span></div>
+
+            <div class="footerbtns_wrp">
+                <a href="question2.html">
+                    <div class="rightbtn left_rotate">
+                        <img src="img/right-arrow.png" />
+                    </div>
+                </a>
+                <button class="btnred_submit ptb7">Submit
+                    <div class="btnred2">
+                        <img src="img/right-arrow.png" />
+                    </div>
+                </button>
+            </div>
+
+        </div>
+        <button class="btnred">Play More Games
+            <div class="btnred2">
+                <img src="img/right-arrow.png" />
+            </div>
+        </button>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script>
+ let checkToken = localStorage.getItem("accessToken");
+        if(checkToken==null || checkToken==""){
+            window.location.href = "index.html"; 
+        }
+
+    $(".spinnerlabel").click(function () {
+
+        $('.spinnerlabel').removeClass('clicked');
+
+        $(this).addClass('clicked');
+
+
+
+    });
+</script>
+</html>

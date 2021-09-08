@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="262.046" height="290.34" viewBox="0 0 262.046 290.34">
+  <g id="Group_94" data-name="Group 94" transform="translate(-15402.978 -7271.66)">
+    <g id="play-button" transform="translate(15393.914 7305.161) rotate(-17)">
+      <path id="Path_82" data-name="Path 82" d="M215.982,182.863H203.327V68.966h12.655V31H0V68.966H12.656v113.9H0v37.966H215.982ZM203.327,56.31H181.813V43.655h21.514Zm-156.5,0V43.655H67.916V56.31ZM80.572,43.655h21.092V56.31H80.572Zm33.747,0h21.092V56.31H114.319Zm33.747,0h21.092V56.31H148.066Zm-135.411,0H34.169V56.31H12.655ZM25.31,68.966H190.672v113.9H25.31ZM67.916,195.518v12.655H46.824V195.518Zm12.655,0h21.092v12.655H80.572Zm33.747,0h21.092v12.655H114.319Zm33.747,0h21.092v12.655H148.066Zm-135.411,0H34.169v12.655H12.655Zm190.672,12.655H181.813V195.518h21.514Z" fill="#fff"/>
+      <path id="Path_83" data-name="Path 83" d="M211,167.972V242.24l55.7-37.134Zm12.655,23.647,20.231,13.487-20.231,13.487Z" transform="translate(-121.992 -79.192)" fill="#fff"/>
+    </g>
+    <text id="AD" transform="translate(15552 7547)" fill="#fff" font-size="70" font-family="Lato-Heavy, Lato" font-weight="800"><tspan x="0" y="0">AD</tspan></text>
+    <path id="Path_84" data-name="Path 84" d="M15516.7,7372.089c.247.989,41.3,14.837,41.3,14.837l-27.943,35.609S15516.453,7371.1,15516.7,7372.089Z" fill="#fff"/>
+  </g>
+</svg>
